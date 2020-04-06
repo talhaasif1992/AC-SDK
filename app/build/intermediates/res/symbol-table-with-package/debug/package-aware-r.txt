@@ -6061,6 +6061,7 @@ layout activity_chat
 layout activity_claim_image
 layout activity_enter_shipping_info
 layout activity_home_screen
+layout activity_initialize_a_c
 layout activity_medicine_home
 layout activity_my_current_plan
 layout activity_my_dashboard

@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: io.intercom.android:intercom-sdk-fcm:4.1.9@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6879a694e56c5f600403d2f56b4f1c0a/intercom-sdk-fcm-4.1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6879a694e56c5f600403d2f56b4f1c0a/intercom-sdk-fcm-4.1.9/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

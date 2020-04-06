@@ -17,44 +17,44 @@
 15        <uses-permission android:name="android.permission.RECEIVE_SMS" />
 16    -->
 17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-17-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:12:5-82
-17-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:12:22-79
+17-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:11:1-78
+17-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:11:18-75
 18    <uses-permission android:name="android.permission.WAKE_LOCK" />
-18-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:13:5-68
-18-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:13:22-65
+18-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:12:1-64
+18-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:12:18-61
 19    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
-19-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:14:5-75
-19-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:14:22-72
+19-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:13:1-71
+19-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:13:18-68
 20    <uses-permission android:name="android.permission.INTERNET" />
-20-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:15:5-67
-20-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:15:22-64
+20-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:14:1-63
+20-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:14:18-60
 21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-21-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:16:5-79
-21-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:16:22-76
+21-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:15:1-75
+21-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:15:18-72
 22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-22-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:17:5-81
-22-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:17:22-78
+22-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:16:1-77
+22-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:16:18-74
 23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-23-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:18:5-80
-23-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:18:22-77
+23-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:17:1-76
+23-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:17:18-73
 24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-24-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:19:5-79
-24-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:19:22-76
+24-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:18:1-75
+24-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:18:18-72
 25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-25-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:20:5-76
-25-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:20:22-73
+25-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:19:1-72
+25-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:19:18-69
 26    <uses-permission android:name="android.permission.VIBRATE" />
-26-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:21:5-65
-26-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:21:22-63
+26-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:20:1-62
+26-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:20:18-59
 27    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-27-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:22:5-77
-27-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:22:22-75
+27-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:21:1-74
+27-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:21:18-71
 28    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-28-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:23:5-76
-28-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:23:22-74
+28-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:22:1-73
+28-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:22:18-70
 29    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
-29-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:24:5-80
-29-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:24:22-78
+29-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:23:1-77
+29-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:23:18-74
 30    <uses-permission android:name="android.permission.CAMERA" />
 30-->[com.opentok.android:opentok-android-sdk:2.16.6] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/12e4534d0a39748670e635a52ee30bb0/opentok-android-sdk-2.16.6/AndroidManifest.xml:9:5-65
 30-->[com.opentok.android:opentok-android-sdk:2.16.6] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/12e4534d0a39748670e635a52ee30bb0/opentok-android-sdk-2.16.6/AndroidManifest.xml:9:22-62
@@ -95,970 +95,979 @@
 45-->[com.android.installreferrer:installreferrer:1.1.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/b9d39139f8042878fc40c24361c24b9b/installreferrer-1.1.1/AndroidManifest.xml:5:22-107
 46
 47    <application
-47-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:26:5-238:19
+47-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:25:1-237:15
 48        android:name="com.augmentcare.patient.MyApp"
-48-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:27:9-30
+48-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:26:5-26
 49        android:allowBackup="false"
-49-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:28:9-36
+49-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:27:5-32
 50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 50-->[androidx.core:core:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/8900fc9413b523a4d57fbc4443be86a3/core-1.1.0/AndroidManifest.xml:24:18-86
 51        android:debuggable="true"
 52        android:icon="@mipmap/ic_launcher"
-52-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:29:9-43
+52-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:28:5-39
 53        android:label="@string/app_name"
-53-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:30:9-41
+53-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:29:5-37
 54        android:largeHeap="true"
-54-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:31:9-33
+54-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:30:5-29
 55        android:networkSecurityConfig="@xml/web_cleartext_fix"
-55-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:32:9-63
+55-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:31:5-59
 56        android:screenOrientation="portrait"
-56-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:37:9-45
+56-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:36:5-41
 57        android:supportsRtl="true"
-57-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:33:9-35
+57-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:32:5-31
 58        android:testOnly="true"
 59        android:theme="@style/AppTheme" >
-59-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:34:9-40
+59-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:33:5-36
 60        <activity android:name="com.augmentcare.patient.activities.AboutActivity" />
-60-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:40:9-62
-60-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:40:19-59
+60-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:38:5-58
+60-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:38:15-55
 61
 62        <meta-data
-62-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:42:9-44:55
+62-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:40:5-42:51
 63            android:name="com.facebook.sdk.ApplicationId"
-63-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:43:13-58
+63-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:41:9-54
 64            android:value="@string/facebook_app_id" />
-64-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:44:13-52
+64-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:42:9-48
 65
 66        <activity
-66-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:46:9-55:20
+66-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:44:5-53:16
 67            android:name="com.augmentcare.patient.activities.HomeScreenActivity"
-67-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:47:13-58
+67-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:45:9-54
 68            android:windowSoftInputMode="adjustPan" >
-68-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:48:13-52
-69            <intent-filter>
-69-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:50:13-54:29
-70                <action android:name="android.intent.action.MAIN" />
-70-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:51:17-69
-70-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:51:25-66
+68-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:46:9-48
+69            <!-- <intent-filter> -->
+70            <!-- <action android:name="android.intent.action.MAIN" /> -->
 71
-72                <category android:name="android.intent.category.LAUNCHER" />
-72-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:53:17-77
-72-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:53:27-74
-73            </intent-filter>
-74        </activity>
-75
-76        <!-- <activity android:name=".activities.PdfViewerActivity" /> -->
-77        <activity
-77-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:58:9-61:15
-78            android:name="com.augmentcare.patient.activities.BankAlfalahPaymentSuccessActivity"
-78-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:59:13-73
-79            android:theme="@style/AppTheme.NoActionBar" />
-79-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:60:13-56
-80        <activity
-80-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:62:9-65:50
-81            android:name="com.augmentcare.patient.activities.TNCActivity"
-81-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:63:13-51
-82            android:label="@string/title_tnc"
-82-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:64:13-46
-83            android:theme="@style/AppTheme.TNC" />
-83-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:65:13-48
-84        <activity
-84-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:66:9-69:47
-85            android:name="com.augmentcare.patient.activities.ChatActivity"
-85-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:67:13-52
-86            android:theme="@style/AppTheme" />
-86-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:69:13-44
-87        <activity
-87-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:70:9-74:66
-88            android:name="com.augmentcare.patient.activities.VideoConsultationActivityOld"
-88-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:71:13-68
-89            android:launchMode="singleTop"
-89-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:72:13-43
-90            android:theme="@style/Theme.AppCompat.NoActionBar" />
-90-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:74:13-63
-91        <activity
-91-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:75:9-82:66
-92            android:name="com.augmentcare.patient.activities.VideoConsultationActivity"
-92-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:76:13-65
-93            android:launchMode="singleTop"
-93-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:77:13-43
-94            android:noHistory="true"
-94-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:80:13-37
-95            android:showWhenLocked="true"
-95-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:79:13-42
-96            android:theme="@style/Theme.AppCompat.NoActionBar"
-96-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:82:13-63
-97            android:turnScreenOn="true" />
-97-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:81:13-40
-98
-99        <service
-99-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:84:9-90:19
-100            android:name="com.augmentcare.patient.notifications.ACFirebaseMessagingService"
-100-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:85:13-69
-101            android:exported="false" >
-101-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:86:13-37
-102            <intent-filter>
-102-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:87:13-89:29
-103                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-103-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:88:17-78
-103-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:88:25-75
-104            </intent-filter>
-105        </service>
+72
+73            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+74            <!-- </intent-filter> -->
+75        </activity>
+76
+77        <!-- <activity android:name=".activities.PdfViewerActivity" /> -->
+78        <activity android:name="com.augmentcare.patient.InitializeACActivity" >
+78-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:56:5-61:16
+78-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:56:15-74
+79            <intent-filter>
+79-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:57:9-60:25
+80                <action android:name="android.intent.action.MAIN" />
+80-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:58:13-65
+80-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:58:21-62
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:59:13-73
+82-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:59:23-70
+83            </intent-filter>
+84        </activity>
+85        <activity
+85-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:62:5-64:55
+86            android:name="com.augmentcare.patient.activities.BankAlfalahPaymentSuccessActivity"
+86-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:63:9-69
+87            android:theme="@style/AppTheme.NoActionBar" />
+87-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:64:9-52
+88        <activity
+88-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:65:5-68:47
+89            android:name="com.augmentcare.patient.activities.TNCActivity"
+89-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:66:9-47
+90            android:label="@string/title_tnc"
+90-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:67:9-42
+91            android:theme="@style/AppTheme.TNC" />
+91-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:68:9-44
+92        <activity
+92-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:69:5-72:43
+93            android:name="com.augmentcare.patient.activities.ChatActivity"
+93-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:70:9-48
+94            android:theme="@style/AppTheme" />
+94-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:72:9-40
+95        <activity
+95-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:73:5-77:62
+96            android:name="com.augmentcare.patient.activities.VideoConsultationActivityOld"
+96-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:74:9-64
+97            android:launchMode="singleTop"
+97-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:75:9-39
+98            android:theme="@style/Theme.AppCompat.NoActionBar" />
+98-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:77:9-59
+99        <activity
+99-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:78:5-85:62
+100            android:name="com.augmentcare.patient.activities.VideoConsultationActivity"
+100-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:79:9-61
+101            android:launchMode="singleTop"
+101-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:80:9-39
+102            android:noHistory="true"
+102-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:83:9-33
+103            android:showWhenLocked="true"
+103-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:82:9-38
+104            android:theme="@style/Theme.AppCompat.NoActionBar"
+104-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:85:9-59
+105            android:turnScreenOn="true" />
+105-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:84:9-36
 106
-107        <activity
-107-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:92:9-95:15
-108            android:name="com.augmentcare.patient.activities.PaymentActivity"
-108-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:93:13-55
-109            android:label="Payment" />
-109-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:94:13-36
-110        <!-- <activity -->
-111        <!-- android:name=".activities.GoogleSigninActivity" -->
-112        <!--  -->
-113        <!-- android:theme="@style/AppTheme.NoActionBar" -->
-114        <!-- android:windowSoftInputMode="adjustResize|adjustPan" /> -->
-115
-116        <meta-data
-116-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:42:9-44:55
-117            android:name="com.facebook.sdk.ApplicationId"
-117-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:43:13-58
-118            android:value="@string/facebook_app_id" />
-118-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:44:13-52
-119        <meta-data
-119-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:105:9-107:57
-120            android:name="preloaded_fonts"
-120-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:106:13-43
-121            android:resource="@array/preloaded_fonts" />
-121-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:107:13-54
-122
-123        <activity
-123-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:109:9-113:54
-124            android:name="com.augmentcare.patient.activities.AddAddressActivity"
-124-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:110:13-58
-125            android:label="@string/label_add_address_title"
-125-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:111:13-60
-126            android:theme="@style/AppTheme.Orange" />
-126-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:113:13-51
-127        <activity
-127-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:116:9-120:54
-128            android:name="com.augmentcare.patient.activities.VideoPlayerActivity"
-128-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:117:13-59
-129            android:configChanges="orientation|keyboardHidden|screenSize"
-129-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:118:13-74
-130            android:label="@string/title_activity_video_player"
-130-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:119:13-64
-131            android:theme="@style/FullscreenTheme" />
-131-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:120:13-51
-132        <activity
-132-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:121:9-124:68
-133            android:name="com.augmentcare.patient.activities.LabOrderViewActivity"
-133-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:122:13-60
-134            android:windowSoftInputMode="adjustResize|adjustPan" />
-134-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:124:13-65
+107        <service
+107-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:87:5-93:15
+108            android:name="com.augmentcare.patient.notifications.ACFirebaseMessagingService"
+108-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:88:9-65
+109            android:exported="false" >
+109-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:89:9-33
+110            <intent-filter>
+110-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:90:9-92:25
+111                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+111-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:91:13-74
+111-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:91:21-71
+112            </intent-filter>
+113        </service>
+114
+115        <activity
+115-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:95:5-97:35
+116            android:name="com.augmentcare.patient.activities.PaymentActivity"
+116-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:96:9-51
+117            android:label="Payment" />
+117-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:97:9-32
+118        <!-- <activity -->
+119        <!-- android:name=".activities.GoogleSigninActivity" -->
+120        <!--  -->
+121        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+122        <!-- android:windowSoftInputMode="adjustResize|adjustPan" /> -->
+123
+124        <meta-data
+124-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:40:5-42:51
+125            android:name="com.facebook.sdk.ApplicationId"
+125-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:41:9-54
+126            android:value="@string/facebook_app_id" />
+126-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:42:9-48
+127        <meta-data
+127-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:107:5-109:53
+128            android:name="preloaded_fonts"
+128-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:108:9-39
+129            android:resource="@array/preloaded_fonts" />
+129-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:109:9-50
+130
+131        <activity
+131-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:111:5-115:50
+132            android:name="com.augmentcare.patient.activities.AddAddressActivity"
+132-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:112:9-54
+133            android:label="@string/label_add_address_title"
+133-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:113:9-56
+134            android:theme="@style/AppTheme.Orange" />
+134-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:115:9-47
 135        <activity
-135-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:125:9-128:68
-136            android:name="com.augmentcare.patient.activities.UpdateActivity"
-136-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:126:13-54
-137            android:windowSoftInputMode="adjustResize|adjustPan" />
-137-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:128:13-65
-138        <activity android:name="com.augmentcare.patient.activities.AddCardActivity" />
-138-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:129:9-131:15
-138-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:130:13-55
-139        <activity android:name="com.augmentcare.patient.activities.TermAndConditionActivity" />
-139-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:132:9-134:15
-139-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:133:13-64
-140        <activity android:name="com.augmentcare.patient.activities.PmdcWebViewActivity" />
-140-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:135:9-137:15
-140-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:136:13-59
-141        <activity android:name="com.augmentcare.patient.activities.WebViewActivity" />
-141-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:138:9-140:15
-141-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:139:13-55
-142        <activity android:name="com.augmentcare.patient.bottomsheets.CardSelectionDialogue" />
-142-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:141:9-96
-142-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:141:19-92
-143        <activity android:name="com.augmentcare.patient.activities.ViewClaimImageActivity" />
-143-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:142:9-73
-143-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:142:19-68
-144        <activity
-144-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:143:9-146:55
-145            android:name="com.augmentcare.patient.fragments.AddDependentMemberFragment"
-145-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:144:13-65
-146            android:windowSoftInputMode="adjustPan" />
-146-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:146:13-52
-147        <activity android:name="com.augmentcare.patient.activities.AddressActivity" />
-147-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:147:9-64
-147-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:147:19-61
-148
-149        <!-- #TODO OLD Code for marketing -->
-150        <!-- <receiver -->
-151        <!-- android:name="com.google.android.gms.analytics.CampaignTrackingReceiver" -->
-152        <!-- android:enabled="true" -->
-153        <!-- android:exported="true" -->
-154        <!-- tools:ignore="ExportedReceiver"> -->
-155        <!-- <intent-filter> -->
-156        <!-- <action android:name="com.android.vending.INSTALL_REFERRER" /> -->
-157        <!-- </intent-filter> -->
-158        <!-- </receiver> -->
-159        <!-- <receiver -->
-160        <!-- android:name="com.adjust.sdk.AdjustReferrerReceiver" -->
+135-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:118:5-122:50
+136            android:name="com.augmentcare.patient.activities.VideoPlayerActivity"
+136-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:119:9-55
+137            android:configChanges="orientation|keyboardHidden|screenSize"
+137-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:120:9-70
+138            android:label="@string/title_activity_video_player"
+138-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:121:9-60
+139            android:theme="@style/FullscreenTheme" />
+139-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:122:9-47
+140        <activity
+140-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:123:5-126:64
+141            android:name="com.augmentcare.patient.activities.LabOrderViewActivity"
+141-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:124:9-56
+142            android:windowSoftInputMode="adjustResize|adjustPan" />
+142-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:126:9-61
+143        <activity
+143-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:127:5-130:64
+144            android:name="com.augmentcare.patient.activities.UpdateActivity"
+144-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:128:9-50
+145            android:windowSoftInputMode="adjustResize|adjustPan" />
+145-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:130:9-61
+146        <activity android:name="com.augmentcare.patient.activities.AddCardActivity" />
+146-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:131:5-60
+146-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:131:15-57
+147        <activity android:name="com.augmentcare.patient.activities.TermAndConditionActivity" />
+147-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:132:5-69
+147-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:132:15-66
+148        <activity android:name="com.augmentcare.patient.activities.PmdcWebViewActivity" />
+148-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:133:5-64
+148-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:133:15-61
+149        <activity android:name="com.augmentcare.patient.activities.WebViewActivity" />
+149-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:134:5-60
+149-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:134:15-57
+150        <activity android:name="com.augmentcare.patient.bottomsheets.CardSelectionDialogue" />
+150-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:135:5-91
+150-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:135:15-88
+151        <activity android:name="com.augmentcare.patient.activities.ViewClaimImageActivity" />
+151-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:136:5-67
+151-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:136:15-64
+152        <activity
+152-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:137:5-140:51
+153            android:name="com.augmentcare.patient.fragments.AddDependentMemberFragment"
+153-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:138:9-61
+154            android:windowSoftInputMode="adjustPan" />
+154-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:140:9-48
+155        <activity android:name="com.augmentcare.patient.activities.AddressActivity" />
+155-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:141:5-60
+155-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:141:15-57
+156
+157        <!-- #TODO OLD Code for marketing -->
+158        <!-- <receiver -->
+159        <!-- android:name="com.google.android.gms.analytics.CampaignTrackingReceiver" -->
+160        <!-- android:enabled="true" -->
 161        <!-- android:exported="true" -->
-162        <!-- android:permission="android.permission.INSTALL_PACKAGES"> -->
+162        <!-- tools:ignore="ExportedReceiver"> -->
 163        <!-- <intent-filter> -->
 164        <!-- <action android:name="com.android.vending.INSTALL_REFERRER" /> -->
 165        <!-- </intent-filter> -->
 166        <!-- </receiver> -->
-167
-168
-169        <!-- <service -->
-170        <!-- android:name="com.google.android.gms.analytics.CampaignTrackingService" -->
-171        <!-- android:enabled="true" -->
-172        <!-- android:exported="false" /> -->
-173
-174
-175        <!-- <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver" -->
-176        <!-- android:enabled="true"> -->
-177        <!-- <intent-filter> -->
-178        <!-- <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" /> -->
-179        <!-- </intent-filter> -->
-180        <!-- </receiver> -->
-181        <!-- <service android:name="com.google.android.gms.analytics.AnalyticsService" -->
-182        <!-- android:enabled="true" -->
-183        <!-- android:exported="false"/> -->
-184
-185
-186        <!-- #TODO NEW Code for marketing -->
-187
-188
-189        <!-- Used for Google Play Store Campaign Measurement -->
-190        <service
-190-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:190:9-194:19
-191            android:name="com.google.android.gms.analytics.CampaignTrackingService"
-191-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:190:18-89
-192            android:enabled="true"
-192-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:192:13-35
-193            android:exported="true"
-193-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:193:13-36
-194            android:permission="android.permission.WAKE_LOCK" >
-194-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:191:13-62
-195        </service>
+167        <!-- <receiver -->
+168        <!-- android:name="com.adjust.sdk.AdjustReferrerReceiver" -->
+169        <!-- android:exported="true" -->
+170        <!-- android:permission="android.permission.INSTALL_PACKAGES"> -->
+171        <!-- <intent-filter> -->
+172        <!-- <action android:name="com.android.vending.INSTALL_REFERRER" /> -->
+173        <!-- </intent-filter> -->
+174        <!-- </receiver> -->
+175
+176
+177        <!-- <service -->
+178        <!-- android:name="com.google.android.gms.analytics.CampaignTrackingService" -->
+179        <!-- android:enabled="true" -->
+180        <!-- android:exported="false" /> -->
+181
+182
+183        <!-- <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver" -->
+184        <!-- android:enabled="true"> -->
+185        <!-- <intent-filter> -->
+186        <!-- <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" /> -->
+187        <!-- </intent-filter> -->
+188        <!-- </receiver> -->
+189        <!-- <service android:name="com.google.android.gms.analytics.AnalyticsService" -->
+190        <!-- android:enabled="true" -->
+191        <!-- android:exported="false"/> -->
+192
+193
+194        <!-- #TODO NEW Code for marketing -->
+195
 196
-197        <receiver
-197-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:195:9-202:20
-198            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
-198-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:195:19-91
-199            android:enabled="true"
-199-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:196:13-35
-200            android:exported="true"
-200-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:197:13-36
-201            android:permission="android.permission.INSTALL_PACKAGES" >
-201-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:198:13-69
-202            <intent-filter>
-202-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:199:13-201:29
-203                <action android:name="com.android.vending.INSTALL_REFERRER" />
-203-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:200:17-79
-203-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:200:25-76
-204            </intent-filter>
-205        </receiver>
-206        <receiver
-206-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:203:9-210:20
-207            android:name="com.augmentcare.patient.UtmReceiver"
-207-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:203:19-46
-208            android:enabled="true"
-208-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:204:13-35
-209            android:exported="true"
-209-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:205:13-36
-210            android:permission="android.permission.INSTALL_PACKAGES" >
-210-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:206:13-69
-211            <intent-filter>
-211-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:199:13-201:29
-212                <action android:name="com.android.vending.INSTALL_REFERRER" />
-212-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:200:17-79
-212-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:200:25-76
-213            </intent-filter>
-214        </receiver>
-215        <receiver
-215-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:211:9-216:20
-216            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
-216-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:211:19-84
-217            android:enabled="true"
-217-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:212:13-35
-218            android:exported="false" >
-218-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:33:13-37
-219            <intent-filter>
-219-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:213:13-215:29
-220                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
-220-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:214:17-94
-220-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:214:25-91
-221            </intent-filter>
-222        </receiver>
-223
-224        <service
-224-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:217:9-219:39
-225            android:name="com.google.android.gms.analytics.AnalyticsService"
-225-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:217:18-82
-226            android:enabled="true"
-226-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:218:13-35
-227            android:exported="false" />
-227-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:219:13-37
-228
-229        <receiver
-229-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:220:9-227:20
-230            android:name="com.adjust.sdk.AdjustReferrerReceiver"
-230-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:221:13-65
-231            android:exported="true"
-231-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:222:13-36
-232            android:permission="android.permission.INSTALL_PACKAGES" >
-232-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:223:13-69
-233            <intent-filter>
-233-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:199:13-201:29
-234                <action android:name="com.android.vending.INSTALL_REFERRER" />
-234-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:200:17-79
-234-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:200:25-76
-235            </intent-filter>
-236        </receiver>
-237
-238        <!-- <service android:name=".notifications.HeadsUpNotificationService" -->
-239        <!-- android:enabled="true" -->
-240        <!-- android:exported="false"/> -->
-241
-242
-243        <!-- <receiver android:name=".notifications.HeadsUpNotificationActionReceiver" -->
-244        <!-- android:enabled="true"> -->
-245
-246
-247        <!-- </receiver> -->
+197        <!-- Used for Google Play Store Campaign Measurement -->
+198        <service
+198-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:183:5-187:43
+199            android:name="com.google.android.gms.analytics.CampaignTrackingService"
+199-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:184:9-80
+200            android:enabled="true"
+200-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:186:9-31
+201            android:exported="true"
+201-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:187:9-32
+202            android:permission="android.permission.WAKE_LOCK" />
+202-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:185:9-58
+203
+204        <receiver
+204-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:189:5-197:16
+205            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+205-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:190:9-81
+206            android:enabled="true"
+206-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:191:9-31
+207            android:exported="true"
+207-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:192:9-32
+208            android:permission="android.permission.INSTALL_PACKAGES" >
+208-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:193:9-65
+209            <intent-filter>
+209-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:194:9-196:25
+210                <action android:name="com.android.vending.INSTALL_REFERRER" />
+210-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:195:13-75
+210-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:195:21-72
+211            </intent-filter>
+212        </receiver>
+213        <receiver
+213-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:198:5-206:16
+214            android:name="com.augmentcare.patient.UtmReceiver"
+214-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:199:9-36
+215            android:enabled="true"
+215-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:200:9-31
+216            android:exported="true"
+216-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:201:9-32
+217            android:permission="android.permission.INSTALL_PACKAGES" >
+217-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:202:9-65
+218            <intent-filter>
+218-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:194:9-196:25
+219                <action android:name="com.android.vending.INSTALL_REFERRER" />
+219-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:195:13-75
+219-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:195:21-72
+220            </intent-filter>
+221        </receiver>
+222        <receiver
+222-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:207:5-213:16
+223            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+223-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:208:9-74
+224            android:enabled="true"
+224-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:209:9-31
+225            android:exported="false" >
+225-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:33:13-37
+226            <intent-filter>
+226-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:210:9-212:25
+227                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+227-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:211:13-90
+227-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:211:21-87
+228            </intent-filter>
+229        </receiver>
+230
+231        <service
+231-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:215:5-218:36
+232            android:name="com.google.android.gms.analytics.AnalyticsService"
+232-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:216:9-73
+233            android:enabled="true"
+233-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:217:9-31
+234            android:exported="false" />
+234-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:218:9-33
+235
+236        <receiver
+236-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:219:5-226:16
+237            android:name="com.adjust.sdk.AdjustReferrerReceiver"
+237-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:220:9-61
+238            android:exported="true"
+238-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:221:9-32
+239            android:permission="android.permission.INSTALL_PACKAGES" >
+239-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:222:9-65
+240            <intent-filter>
+240-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:194:9-196:25
+241                <action android:name="com.android.vending.INSTALL_REFERRER" />
+241-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:195:13-75
+241-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:195:21-72
+242            </intent-filter>
+243        </receiver>
+244
+245        <!-- <service android:name=".notifications.HeadsUpNotificationService" -->
+246        <!-- android:enabled="true" -->
+247        <!-- android:exported="false"/> -->
 248
-249        <activity
-249-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:10:9-15:75
-250            android:name="com.blankj.utilcode.util.Utils$TransActivity"
-250-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:11:13-72
-251            android:configChanges="orientation|keyboardHidden|screenSize"
-251-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:12:13-74
-252            android:multiprocess="true"
-252-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:13:13-40
-253            android:theme="@style/ActivityTranslucent"
-253-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:14:13-55
-254            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
-254-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:15:13-72
+249
+250        <!-- <receiver android:name=".notifications.HeadsUpNotificationActionReceiver" -->
+251        <!-- android:enabled="true"> -->
+252
+253
+254        <!-- </receiver> -->
 255
-256        <provider
-256-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:17:9-26:20
-257            android:name="com.blankj.utilcode.util.Utils$FileProvider4UtilCode"
-257-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:18:13-80
-258            android:authorities="com.augmentcare.patient.utilcode.provider"
-258-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:19:13-69
-259            android:exported="false"
-259-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:20:13-37
-260            android:grantUriPermissions="true"
-260-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:21:13-47
-261            android:multiprocess="true" >
-261-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:22:13-40
-262            <meta-data
-262-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:23:13-25:68
-263                android:name="android.support.FILE_PROVIDER_PATHS"
-263-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:24:17-67
-264                android:resource="@xml/util_code_provider_paths" />
-264-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:25:17-65
-265        </provider>
-266
-267        <service android:name="com.blankj.utilcode.util.MessengerUtils$ServerService" >
-267-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:28:9-32:19
-267-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:28:18-86
-268            <intent-filter>
-268-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:29:13-31:29
-269                <action android:name="com.augmentcare.patient.messenger" />
-269-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:30:17-69
-269-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:30:25-66
-270            </intent-filter>
-271        </service>
-272
-273        <activity
-273-->[com.facebook.android:facebook-common:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/db8ed3879c981df94dccc88bf6aaf6b1/jetified-facebook-common-4.42.0/AndroidManifest.xml:29:9-32:66
-274            android:name="com.facebook.FacebookActivity"
-274-->[com.facebook.android:facebook-common:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/db8ed3879c981df94dccc88bf6aaf6b1/jetified-facebook-common-4.42.0/AndroidManifest.xml:30:13-57
-275            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-275-->[com.facebook.android:facebook-common:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/db8ed3879c981df94dccc88bf6aaf6b1/jetified-facebook-common-4.42.0/AndroidManifest.xml:31:13-96
-276            android:theme="@style/com_facebook_activity_theme" />
-276-->[com.facebook.android:facebook-common:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/db8ed3879c981df94dccc88bf6aaf6b1/jetified-facebook-common-4.42.0/AndroidManifest.xml:32:13-63
-277        <activity android:name="com.facebook.CustomTabMainActivity" />
-277-->[com.facebook.android:facebook-common:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/db8ed3879c981df94dccc88bf6aaf6b1/jetified-facebook-common-4.42.0/AndroidManifest.xml:33:9-71
-277-->[com.facebook.android:facebook-common:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/db8ed3879c981df94dccc88bf6aaf6b1/jetified-facebook-common-4.42.0/AndroidManifest.xml:33:19-68
-278        <activity android:name="com.facebook.CustomTabActivity" /> <!-- Autocomplete -->
-278-->[com.facebook.android:facebook-common:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/db8ed3879c981df94dccc88bf6aaf6b1/jetified-facebook-common-4.42.0/AndroidManifest.xml:34:9-67
-278-->[com.facebook.android:facebook-common:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/db8ed3879c981df94dccc88bf6aaf6b1/jetified-facebook-common-4.42.0/AndroidManifest.xml:34:19-64
-279        <activity
-279-->[com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:16:9-23:20
-280            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
-280-->[com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:17:13-91
-281            android:exported="false"
-281-->[com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:18:13-37
-282            android:hardwareAccelerated="true"
-282-->[com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:19:13-47
-283            android:label="@string/places_autocomplete_label"
-283-->[com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:20:13-62
-284            android:theme="@style/PlacesAutocompleteThemeOverlay"
-284-->[com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:21:13-66
-285            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
-285-->[com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:22:13-71
-286        </activity>
-287
-288        <service android:name="io.intercom.android.sdk.fcm.IntercomFcmMessengerService" >
-288-->[io.intercom.android:intercom-sdk-fcm:4.1.9] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/AndroidManifest.xml:11:9-15:19
-288-->[io.intercom.android:intercom-sdk-fcm:4.1.9] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/AndroidManifest.xml:11:18-88
-289            <intent-filter android:priority="-400" >
-289-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:87:13-89:29
-290                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-290-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:88:17-78
-290-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:88:25-75
-291            </intent-filter>
-292        </service>
-293        <service android:name="io.intercom.android.sdk.fcm.IntercomFcmInstanceIdService" >
-293-->[io.intercom.android:intercom-sdk-fcm:4.1.9] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/AndroidManifest.xml:16:9-20:19
-293-->[io.intercom.android:intercom-sdk-fcm:4.1.9] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/AndroidManifest.xml:16:18-89
-294            <intent-filter android:priority="-400" >
-294-->[io.intercom.android:intercom-sdk-fcm:4.1.9] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/AndroidManifest.xml:17:13-19:29
-294-->[io.intercom.android:intercom-sdk-fcm:4.1.9] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/AndroidManifest.xml:17:28-51
-295                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-295-->[io.intercom.android:intercom-sdk-fcm:4.1.9] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/AndroidManifest.xml:18:17-80
-295-->[io.intercom.android:intercom-sdk-fcm:4.1.9] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/AndroidManifest.xml:18:25-77
-296            </intent-filter>
-297        </service>
-298
-299        <activity
-299-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:13:9-19:73
-300            android:name="io.intercom.android.sdk.activities.IntercomMessengerActivity"
-300-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:14:13-88
-301            android:configChanges="screenSize|orientation"
-301-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:15:13-59
-302            android:exported="false"
-302-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:16:13-37
-303            android:launchMode="singleTop"
-303-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:17:13-43
-304            android:theme="@style/Intercom_PanelTheme"
-304-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:18:13-55
-305            android:windowSoftInputMode="stateUnchanged|adjustResize" />
-305-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:19:13-70
+256        <activity
+256-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:10:9-15:75
+257            android:name="com.blankj.utilcode.util.Utils$TransActivity"
+257-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:11:13-72
+258            android:configChanges="orientation|keyboardHidden|screenSize"
+258-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:12:13-74
+259            android:multiprocess="true"
+259-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:13:13-40
+260            android:theme="@style/ActivityTranslucent"
+260-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:14:13-55
+261            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+261-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:15:13-72
+262
+263        <provider
+263-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:17:9-26:20
+264            android:name="com.blankj.utilcode.util.Utils$FileProvider4UtilCode"
+264-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:18:13-80
+265            android:authorities="com.augmentcare.patient.utilcode.provider"
+265-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:19:13-69
+266            android:exported="false"
+266-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:20:13-37
+267            android:grantUriPermissions="true"
+267-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:21:13-47
+268            android:multiprocess="true" >
+268-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:22:13-40
+269            <meta-data
+269-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:23:13-25:68
+270                android:name="android.support.FILE_PROVIDER_PATHS"
+270-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:24:17-67
+271                android:resource="@xml/util_code_provider_paths" />
+271-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:25:17-65
+272        </provider>
+273
+274        <service android:name="com.blankj.utilcode.util.MessengerUtils$ServerService" >
+274-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:28:9-32:19
+274-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:28:18-86
+275            <intent-filter>
+275-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:29:13-31:29
+276                <action android:name="com.augmentcare.patient.messenger" />
+276-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:30:17-69
+276-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:30:25-66
+277            </intent-filter>
+278        </service>
+279
+280        <activity
+280-->[com.facebook.android:facebook-common:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/db8ed3879c981df94dccc88bf6aaf6b1/jetified-facebook-common-4.42.0/AndroidManifest.xml:29:9-32:66
+281            android:name="com.facebook.FacebookActivity"
+281-->[com.facebook.android:facebook-common:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/db8ed3879c981df94dccc88bf6aaf6b1/jetified-facebook-common-4.42.0/AndroidManifest.xml:30:13-57
+282            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+282-->[com.facebook.android:facebook-common:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/db8ed3879c981df94dccc88bf6aaf6b1/jetified-facebook-common-4.42.0/AndroidManifest.xml:31:13-96
+283            android:theme="@style/com_facebook_activity_theme" />
+283-->[com.facebook.android:facebook-common:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/db8ed3879c981df94dccc88bf6aaf6b1/jetified-facebook-common-4.42.0/AndroidManifest.xml:32:13-63
+284        <activity android:name="com.facebook.CustomTabMainActivity" />
+284-->[com.facebook.android:facebook-common:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/db8ed3879c981df94dccc88bf6aaf6b1/jetified-facebook-common-4.42.0/AndroidManifest.xml:33:9-71
+284-->[com.facebook.android:facebook-common:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/db8ed3879c981df94dccc88bf6aaf6b1/jetified-facebook-common-4.42.0/AndroidManifest.xml:33:19-68
+285        <activity android:name="com.facebook.CustomTabActivity" /> <!-- Autocomplete -->
+285-->[com.facebook.android:facebook-common:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/db8ed3879c981df94dccc88bf6aaf6b1/jetified-facebook-common-4.42.0/AndroidManifest.xml:34:9-67
+285-->[com.facebook.android:facebook-common:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/db8ed3879c981df94dccc88bf6aaf6b1/jetified-facebook-common-4.42.0/AndroidManifest.xml:34:19-64
+286        <activity
+286-->[com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:16:9-23:20
+287            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+287-->[com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:17:13-91
+288            android:exported="false"
+288-->[com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:18:13-37
+289            android:hardwareAccelerated="true"
+289-->[com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:19:13-47
+290            android:label="@string/places_autocomplete_label"
+290-->[com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:20:13-62
+291            android:theme="@style/PlacesAutocompleteThemeOverlay"
+291-->[com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:21:13-66
+292            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+292-->[com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:22:13-71
+293        </activity>
+294
+295        <service android:name="io.intercom.android.sdk.fcm.IntercomFcmMessengerService" >
+295-->[io.intercom.android:intercom-sdk-fcm:4.1.9] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/AndroidManifest.xml:11:9-15:19
+295-->[io.intercom.android:intercom-sdk-fcm:4.1.9] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/AndroidManifest.xml:11:18-88
+296            <intent-filter android:priority="-400" >
+296-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:90:9-92:25
+297                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+297-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:91:13-74
+297-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:91:21-71
+298            </intent-filter>
+299        </service>
+300        <service android:name="io.intercom.android.sdk.fcm.IntercomFcmInstanceIdService" >
+300-->[io.intercom.android:intercom-sdk-fcm:4.1.9] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/AndroidManifest.xml:16:9-20:19
+300-->[io.intercom.android:intercom-sdk-fcm:4.1.9] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/AndroidManifest.xml:16:18-89
+301            <intent-filter android:priority="-400" >
+301-->[io.intercom.android:intercom-sdk-fcm:4.1.9] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/AndroidManifest.xml:17:13-19:29
+301-->[io.intercom.android:intercom-sdk-fcm:4.1.9] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/AndroidManifest.xml:17:28-51
+302                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+302-->[io.intercom.android:intercom-sdk-fcm:4.1.9] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/AndroidManifest.xml:18:17-80
+302-->[io.intercom.android:intercom-sdk-fcm:4.1.9] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14c695ddb7197c3a80512f7a80f62c49/intercom-sdk-fcm-4.1.9/AndroidManifest.xml:18:25-77
+303            </intent-filter>
+304        </service>
+305
 306        <activity
-306-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:20:9-25:73
-307            android:name="io.intercom.android.sdk.lightbox.LightBoxActivity"
-307-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:21:13-77
+306-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:13:9-19:73
+307            android:name="io.intercom.android.sdk.activities.IntercomMessengerActivity"
+307-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:14:13-88
 308            android:configChanges="screenSize|orientation"
-308-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:22:13-59
+308-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:15:13-59
 309            android:exported="false"
-309-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:23:13-37
-310            android:theme="@style/Intercom_LightBoxTheme"
-310-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:24:13-58
-311            android:windowSoftInputMode="stateUnchanged|adjustResize" />
-311-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:25:13-70
-312        <activity
-312-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:26:9-31:57
-313            android:name="io.intercom.android.sdk.activities.IntercomArticleActivity"
-313-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:27:13-86
-314            android:exported="false"
-314-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:28:13-37
-315            android:launchMode="singleTop"
-315-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:29:13-43
-316            android:theme="@style/Intercom_ModalActivityTheme"
-316-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:30:13-63
-317            android:windowSoftInputMode="stateHidden" />
-317-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:31:13-54
-318        <activity
-318-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:32:9-38:57
-319            android:name="io.intercom.android.sdk.activities.IntercomHelpCenterActivity"
-319-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:33:13-89
-320            android:configChanges="screenSize|orientation"
-320-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:34:13-59
+309-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:16:13-37
+310            android:launchMode="singleTop"
+310-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:17:13-43
+311            android:theme="@style/Intercom_PanelTheme"
+311-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:18:13-55
+312            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+312-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:19:13-70
+313        <activity
+313-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:20:9-25:73
+314            android:name="io.intercom.android.sdk.lightbox.LightBoxActivity"
+314-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:21:13-77
+315            android:configChanges="screenSize|orientation"
+315-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:22:13-59
+316            android:exported="false"
+316-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:23:13-37
+317            android:theme="@style/Intercom_LightBoxTheme"
+317-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:24:13-58
+318            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+318-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:25:13-70
+319        <activity
+319-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:26:9-31:57
+320            android:name="io.intercom.android.sdk.activities.IntercomArticleActivity"
+320-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:27:13-86
 321            android:exported="false"
-321-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:35:13-37
+321-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:28:13-37
 322            android:launchMode="singleTop"
-322-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:36:13-43
+322-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:29:13-43
 323            android:theme="@style/Intercom_ModalActivityTheme"
-323-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:37:13-63
+323-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:30:13-63
 324            android:windowSoftInputMode="stateHidden" />
-324-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:38:13-54
+324-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:31:13-54
 325        <activity
-325-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:39:9-45:57
-326            android:name="io.intercom.android.sdk.activities.IntercomPostActivity"
-326-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:40:13-83
+325-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:32:9-38:57
+326            android:name="io.intercom.android.sdk.activities.IntercomHelpCenterActivity"
+326-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:33:13-89
 327            android:configChanges="screenSize|orientation"
-327-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:41:13-59
+327-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:34:13-59
 328            android:exported="false"
-328-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:42:13-37
-329            android:launchMode="singleTask"
-329-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:43:13-44
-330            android:theme="@style/Intercom_PostTheme"
-330-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:44:13-54
+328-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:35:13-37
+329            android:launchMode="singleTop"
+329-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:36:13-43
+330            android:theme="@style/Intercom_ModalActivityTheme"
+330-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:37:13-63
 331            android:windowSoftInputMode="stateHidden" />
-331-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:45:13-54
+331-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:38:13-54
 332        <activity
-332-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:46:9-52:73
-333            android:name="io.intercom.android.sdk.activities.IntercomNoteActivity"
-333-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:47:13-83
+332-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:39:9-45:57
+333            android:name="io.intercom.android.sdk.activities.IntercomPostActivity"
+333-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:40:13-83
 334            android:configChanges="screenSize|orientation"
-334-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:48:13-59
+334-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:41:13-59
 335            android:exported="false"
-335-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:49:13-37
+335-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:42:13-37
 336            android:launchMode="singleTask"
-336-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:50:13-44
-337            android:theme="@style/Intercom_NoteTheme"
-337-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:51:13-54
-338            android:windowSoftInputMode="stateUnchanged|adjustResize" />
-338-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:52:13-70
+336-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:43:13-44
+337            android:theme="@style/Intercom_PostTheme"
+337-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:44:13-54
+338            android:windowSoftInputMode="stateHidden" />
+338-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:45:13-54
 339        <activity
-339-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:53:9-59:57
-340            android:name="io.intercom.android.sdk.activities.IntercomSheetActivity"
-340-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:54:13-84
+339-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:46:9-52:73
+340            android:name="io.intercom.android.sdk.activities.IntercomNoteActivity"
+340-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:47:13-83
 341            android:configChanges="screenSize|orientation"
-341-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:55:13-59
+341-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:48:13-59
 342            android:exported="false"
-342-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:56:13-37
-343            android:launchMode="singleTop"
-343-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:57:13-43
-344            android:theme="@style/Intercom_ModalActivityTheme"
-344-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:58:13-63
-345            android:windowSoftInputMode="stateHidden" />
-345-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:59:13-54
+342-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:49:13-37
+343            android:launchMode="singleTask"
+343-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:50:13-44
+344            android:theme="@style/Intercom_NoteTheme"
+344-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:51:13-54
+345            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+345-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:52:13-70
 346        <activity
-346-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:60:9-66:57
-347            android:name="io.intercom.android.sdk.activities.IntercomVideoActivity"
-347-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:61:13-84
+346-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:53:9-59:57
+347            android:name="io.intercom.android.sdk.activities.IntercomSheetActivity"
+347-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:54:13-84
 348            android:configChanges="screenSize|orientation"
-348-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:62:13-59
+348-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:55:13-59
 349            android:exported="false"
-349-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:63:13-37
+349-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:56:13-37
 350            android:launchMode="singleTop"
-350-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:64:13-43
-351            android:theme="@style/Intercom_PanelTheme"
-351-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:65:13-55
+350-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:57:13-43
+351            android:theme="@style/Intercom_ModalActivityTheme"
+351-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:58:13-63
 352            android:windowSoftInputMode="stateHidden" />
-352-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:66:13-54
-353
-354        <receiver
-354-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:68:9-77:20
-355            android:name="io.intercom.android.sdk.push.IntercomPushBroadcastReceiver"
-355-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:69:13-86
-356            android:exported="false" >
-356-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:70:13-37
-357            <intent-filter>
-357-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:71:13-73:29
-358                <action android:name="io.intercom.android.sdk.INTERCOM_PUSH_OPENED" />
-358-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:72:17-87
-358-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:72:25-84
-359            </intent-filter>
-360            <intent-filter>
-360-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:74:13-76:29
-361                <action android:name="io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED" />
-361-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:75:17-90
-361-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:75:25-87
-362            </intent-filter>
-363        </receiver>
-364
-365        <provider
-365-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:79:9-82:40
-366            android:name="io.intercom.android.sdk.IntercomInitializeContentProvider"
-366-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:80:13-85
-367            android:authorities="com.augmentcare.patient.IntercomInitializeContentProvider"
-367-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:81:13-85
-368            android:exported="false" />
-368-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:82:13-37
-369
-370        <activity
-370-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:12:9-16:20
-371            android:name="com.stripe.android.view.AddSourceActivity"
-371-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:13:13-69
-372            android:theme="@style/StripeDefaultTheme"
-372-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:14:13-54
-373            android:windowSoftInputMode="stateVisible" >
-373-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:15:13-55
-374        </activity>
-375        <activity
-375-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:17:9-20:20
-376            android:name="com.stripe.android.view.PaymentMethodsActivity"
-376-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:18:13-74
-377            android:theme="@style/StripeDefaultTheme" >
-377-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:19:13-54
-378        </activity>
-379        <activity
-379-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:21:9-24:20
-380            android:name="com.stripe.android.view.PaymentFlowActivity"
-380-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:22:13-71
-381            android:theme="@style/StripeDefaultTheme" >
-381-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:23:13-54
-382        </activity>
-383        <activity
-383-->[pub.devrel:easypermissions:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bbc409071cf6ccb75ab432eb692c41f9/jetified-easypermissions-1.2.0/AndroidManifest.xml:12:9-16:66
-384            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
-384-->[pub.devrel:easypermissions:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bbc409071cf6ccb75ab432eb692c41f9/jetified-easypermissions-1.2.0/AndroidManifest.xml:13:13-86
-385            android:exported="false"
-385-->[pub.devrel:easypermissions:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bbc409071cf6ccb75ab432eb692c41f9/jetified-easypermissions-1.2.0/AndroidManifest.xml:14:13-37
-386            android:label=""
-386-->[pub.devrel:easypermissions:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bbc409071cf6ccb75ab432eb692c41f9/jetified-easypermissions-1.2.0/AndroidManifest.xml:15:13-29
-387            android:theme="@style/EasyPermissions.Transparent" />
-387-->[pub.devrel:easypermissions:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bbc409071cf6ccb75ab432eb692c41f9/jetified-easypermissions-1.2.0/AndroidManifest.xml:16:13-63
-388
-389        <provider
-389-->[com.github.jkwiecien:EasyImage:2.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/b447884912cc8a352cc533f3e90b6a87/jetified-EasyImage-2.0.4/AndroidManifest.xml:12:9-20:20
-390            android:name="pl.aprilapps.easyphotopicker.ExtendedFileProvider"
-390-->[com.github.jkwiecien:EasyImage:2.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/b447884912cc8a352cc533f3e90b6a87/jetified-EasyImage-2.0.4/AndroidManifest.xml:13:13-77
-391            android:authorities="com.augmentcare.patient.easyphotopicker.fileprovider"
-391-->[com.github.jkwiecien:EasyImage:2.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/b447884912cc8a352cc533f3e90b6a87/jetified-EasyImage-2.0.4/AndroidManifest.xml:14:13-80
+352-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:59:13-54
+353        <activity
+353-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:60:9-66:57
+354            android:name="io.intercom.android.sdk.activities.IntercomVideoActivity"
+354-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:61:13-84
+355            android:configChanges="screenSize|orientation"
+355-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:62:13-59
+356            android:exported="false"
+356-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:63:13-37
+357            android:launchMode="singleTop"
+357-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:64:13-43
+358            android:theme="@style/Intercom_PanelTheme"
+358-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:65:13-55
+359            android:windowSoftInputMode="stateHidden" />
+359-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:66:13-54
+360
+361        <receiver
+361-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:68:9-77:20
+362            android:name="io.intercom.android.sdk.push.IntercomPushBroadcastReceiver"
+362-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:69:13-86
+363            android:exported="false" >
+363-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:70:13-37
+364            <intent-filter>
+364-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:71:13-73:29
+365                <action android:name="io.intercom.android.sdk.INTERCOM_PUSH_OPENED" />
+365-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:72:17-87
+365-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:72:25-84
+366            </intent-filter>
+367            <intent-filter>
+367-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:74:13-76:29
+368                <action android:name="io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED" />
+368-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:75:17-90
+368-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:75:25-87
+369            </intent-filter>
+370        </receiver>
+371
+372        <provider
+372-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:79:9-82:40
+373            android:name="io.intercom.android.sdk.IntercomInitializeContentProvider"
+373-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:80:13-85
+374            android:authorities="com.augmentcare.patient.IntercomInitializeContentProvider"
+374-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:81:13-85
+375            android:exported="false" />
+375-->[io.intercom.android:intercom-sdk-base:6.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/AndroidManifest.xml:82:13-37
+376
+377        <activity
+377-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:12:9-16:20
+378            android:name="com.stripe.android.view.AddSourceActivity"
+378-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:13:13-69
+379            android:theme="@style/StripeDefaultTheme"
+379-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:14:13-54
+380            android:windowSoftInputMode="stateVisible" >
+380-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:15:13-55
+381        </activity>
+382        <activity
+382-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:17:9-20:20
+383            android:name="com.stripe.android.view.PaymentMethodsActivity"
+383-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:18:13-74
+384            android:theme="@style/StripeDefaultTheme" >
+384-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:19:13-54
+385        </activity>
+386        <activity
+386-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:21:9-24:20
+387            android:name="com.stripe.android.view.PaymentFlowActivity"
+387-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:22:13-71
+388            android:theme="@style/StripeDefaultTheme" >
+388-->[com.stripe:stripe-android:7.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/AndroidManifest.xml:23:13-54
+389        </activity>
+390        <activity
+390-->[pub.devrel:easypermissions:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bbc409071cf6ccb75ab432eb692c41f9/jetified-easypermissions-1.2.0/AndroidManifest.xml:12:9-16:66
+391            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+391-->[pub.devrel:easypermissions:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bbc409071cf6ccb75ab432eb692c41f9/jetified-easypermissions-1.2.0/AndroidManifest.xml:13:13-86
 392            android:exported="false"
-392-->[com.github.jkwiecien:EasyImage:2.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/b447884912cc8a352cc533f3e90b6a87/jetified-EasyImage-2.0.4/AndroidManifest.xml:15:13-37
-393            android:grantUriPermissions="true" >
-393-->[com.github.jkwiecien:EasyImage:2.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/b447884912cc8a352cc533f3e90b6a87/jetified-EasyImage-2.0.4/AndroidManifest.xml:16:13-47
-394            <meta-data
-394-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:23:13-25:68
-395                android:name="android.support.FILE_PROVIDER_PATHS"
-395-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:24:17-67
-396                android:resource="@xml/filepaths" />
-396-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:25:17-65
-397        </provider>
-398
-399        <service
-399-->[com.novoda:merlin:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4e3b47cb259fb3fdfd36baba33610f37/jetified-merlin-1.2.0/AndroidManifest.xml:11:9-13:40
-400            android:name="com.novoda.merlin.MerlinService"
-400-->[com.novoda:merlin:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4e3b47cb259fb3fdfd36baba33610f37/jetified-merlin-1.2.0/AndroidManifest.xml:12:13-59
-401            android:exported="false" />
-401-->[com.novoda:merlin:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4e3b47cb259fb3fdfd36baba33610f37/jetified-merlin-1.2.0/AndroidManifest.xml:13:13-37
-402
-403        <provider
-403-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:25:9-29:39
-404            android:name="com.google.firebase.perf.provider.FirebasePerfProvider"
-404-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:26:13-82
-405            android:authorities="com.augmentcare.patient.firebaseperfprovider"
-405-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:27:13-72
-406            android:exported="false"
-406-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:28:13-37
-407            android:initOrder="101" />
-407-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:29:13-36
-408
-409        <service
-409-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:31:9-37:19
-410            android:name="com.google.firebase.components.ComponentDiscoveryService"
-410-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:32:13-84
-411            android:directBootAware="true"
-411-->[com.google.firebase:firebase-common:19.3.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/403439d45aa48acdbf56af17b5308df4/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
-412            android:exported="false" >
-412-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:33:13-37
-413            <meta-data
-413-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:34:13-36:85
-414                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
-414-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:35:17-109
-415                android:value="com.google.firebase.components.ComponentRegistrar" />
-415-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:36:17-82
-416            <meta-data
-416-->[com.google.firebase:firebase-crashlytics:17.0.0-beta01] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/98f889d5dca3e46a78f97fa6693b687e/firebase-crashlytics-17.0.0-beta01/AndroidManifest.xml:16:13-18:85
-417                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
-417-->[com.google.firebase:firebase-crashlytics:17.0.0-beta01] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/98f889d5dca3e46a78f97fa6693b687e/firebase-crashlytics-17.0.0-beta01/AndroidManifest.xml:17:17-115
-418                android:value="com.google.firebase.components.ComponentRegistrar" />
-418-->[com.google.firebase:firebase-crashlytics:17.0.0-beta01] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/98f889d5dca3e46a78f97fa6693b687e/firebase-crashlytics-17.0.0-beta01/AndroidManifest.xml:18:17-82
-419            <meta-data
-419-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
-420                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-420-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
-421                android:value="com.google.firebase.components.ComponentRegistrar" />
-421-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
-422            <meta-data
-422-->[com.google.firebase:firebase-messaging:20.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c72ec63f0031daad0f50fe685d8ce309/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:38:13-40:85
-423                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-423-->[com.google.firebase:firebase-messaging:20.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c72ec63f0031daad0f50fe685d8ce309/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:39:17-119
-424                android:value="com.google.firebase.components.ComponentRegistrar" />
-424-->[com.google.firebase:firebase-messaging:20.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c72ec63f0031daad0f50fe685d8ce309/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:40:17-82
-425            <meta-data
-425-->[com.google.firebase:firebase-config:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/a0512c2cb12d2fbf0f689ce13a86c1f7/firebase-config-19.0.4/AndroidManifest.xml:32:13-34:85
-426                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
-426-->[com.google.firebase:firebase-config:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/a0512c2cb12d2fbf0f689ce13a86c1f7/firebase-config-19.0.4/AndroidManifest.xml:33:17-117
-427                android:value="com.google.firebase.components.ComponentRegistrar" />
-427-->[com.google.firebase:firebase-config:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/a0512c2cb12d2fbf0f689ce13a86c1f7/firebase-config-19.0.4/AndroidManifest.xml:34:17-82
-428            <meta-data
-428-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f793995d0c23ee3dc16856fad51704be/play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
-429                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-429-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f793995d0c23ee3dc16856fad51704be/play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
-430                android:value="com.google.firebase.components.ComponentRegistrar" />
-430-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f793995d0c23ee3dc16856fad51704be/play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
-431            <meta-data
-431-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
-432                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-432-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
-433                android:value="com.google.firebase.components.ComponentRegistrar" />
-433-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
-434            <meta-data
-434-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eb6211da952b35c073a0f7370e8ebc9b/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
-435                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-435-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eb6211da952b35c073a0f7370e8ebc9b/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
-436                android:value="com.google.firebase.components.ComponentRegistrar" />
-436-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eb6211da952b35c073a0f7370e8ebc9b/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
-437            <meta-data
-437-->[com.google.firebase:firebase-abt:19.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c8d881c19d611af55887f0034dea21b9/firebase-abt-19.0.0/AndroidManifest.xml:13:13-15:85
-438                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
-438-->[com.google.firebase:firebase-abt:19.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c8d881c19d611af55887f0034dea21b9/firebase-abt-19.0.0/AndroidManifest.xml:14:17-109
-439                android:value="com.google.firebase.components.ComponentRegistrar" />
-439-->[com.google.firebase:firebase-abt:19.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c8d881c19d611af55887f0034dea21b9/firebase-abt-19.0.0/AndroidManifest.xml:15:17-82
-440        </service>
-441
-442        <activity
-442-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
-443            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-443-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
-444            android:excludeFromRecents="true"
-444-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
-445            android:exported="true"
-445-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
-446            android:launchMode="singleTask"
-446-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
-447            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-447-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
-448            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-448-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+392-->[pub.devrel:easypermissions:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bbc409071cf6ccb75ab432eb692c41f9/jetified-easypermissions-1.2.0/AndroidManifest.xml:14:13-37
+393            android:label=""
+393-->[pub.devrel:easypermissions:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bbc409071cf6ccb75ab432eb692c41f9/jetified-easypermissions-1.2.0/AndroidManifest.xml:15:13-29
+394            android:theme="@style/EasyPermissions.Transparent" />
+394-->[pub.devrel:easypermissions:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bbc409071cf6ccb75ab432eb692c41f9/jetified-easypermissions-1.2.0/AndroidManifest.xml:16:13-63
+395
+396        <provider
+396-->[com.github.jkwiecien:EasyImage:2.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/b447884912cc8a352cc533f3e90b6a87/jetified-EasyImage-2.0.4/AndroidManifest.xml:12:9-20:20
+397            android:name="pl.aprilapps.easyphotopicker.ExtendedFileProvider"
+397-->[com.github.jkwiecien:EasyImage:2.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/b447884912cc8a352cc533f3e90b6a87/jetified-EasyImage-2.0.4/AndroidManifest.xml:13:13-77
+398            android:authorities="com.augmentcare.patient.easyphotopicker.fileprovider"
+398-->[com.github.jkwiecien:EasyImage:2.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/b447884912cc8a352cc533f3e90b6a87/jetified-EasyImage-2.0.4/AndroidManifest.xml:14:13-80
+399            android:exported="false"
+399-->[com.github.jkwiecien:EasyImage:2.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/b447884912cc8a352cc533f3e90b6a87/jetified-EasyImage-2.0.4/AndroidManifest.xml:15:13-37
+400            android:grantUriPermissions="true" >
+400-->[com.github.jkwiecien:EasyImage:2.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/b447884912cc8a352cc533f3e90b6a87/jetified-EasyImage-2.0.4/AndroidManifest.xml:16:13-47
+401            <meta-data
+401-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:23:13-25:68
+402                android:name="android.support.FILE_PROVIDER_PATHS"
+402-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:24:17-67
+403                android:resource="@xml/filepaths" />
+403-->[com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:25:17-65
+404        </provider>
+405
+406        <service
+406-->[com.novoda:merlin:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4e3b47cb259fb3fdfd36baba33610f37/jetified-merlin-1.2.0/AndroidManifest.xml:11:9-13:40
+407            android:name="com.novoda.merlin.MerlinService"
+407-->[com.novoda:merlin:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4e3b47cb259fb3fdfd36baba33610f37/jetified-merlin-1.2.0/AndroidManifest.xml:12:13-59
+408            android:exported="false" />
+408-->[com.novoda:merlin:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4e3b47cb259fb3fdfd36baba33610f37/jetified-merlin-1.2.0/AndroidManifest.xml:13:13-37
+409
+410        <provider
+410-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:25:9-29:39
+411            android:name="com.google.firebase.perf.provider.FirebasePerfProvider"
+411-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:26:13-82
+412            android:authorities="com.augmentcare.patient.firebaseperfprovider"
+412-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:27:13-72
+413            android:exported="false"
+413-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:28:13-37
+414            android:initOrder="101" />
+414-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:29:13-36
+415
+416        <service
+416-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:31:9-37:19
+417            android:name="com.google.firebase.components.ComponentDiscoveryService"
+417-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:32:13-84
+418            android:directBootAware="true"
+418-->[com.google.firebase:firebase-common:19.3.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/403439d45aa48acdbf56af17b5308df4/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+419            android:exported="false" >
+419-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:33:13-37
+420            <meta-data
+420-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:34:13-36:85
+421                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+421-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:35:17-109
+422                android:value="com.google.firebase.components.ComponentRegistrar" />
+422-->[com.google.firebase:firebase-perf:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d2f069450d624d7c48b102313853bace/firebase-perf-19.0.4/AndroidManifest.xml:36:17-82
+423            <meta-data
+423-->[com.google.firebase:firebase-crashlytics:17.0.0-beta01] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/98f889d5dca3e46a78f97fa6693b687e/firebase-crashlytics-17.0.0-beta01/AndroidManifest.xml:16:13-18:85
+424                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+424-->[com.google.firebase:firebase-crashlytics:17.0.0-beta01] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/98f889d5dca3e46a78f97fa6693b687e/firebase-crashlytics-17.0.0-beta01/AndroidManifest.xml:17:17-115
+425                android:value="com.google.firebase.components.ComponentRegistrar" />
+425-->[com.google.firebase:firebase-crashlytics:17.0.0-beta01] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/98f889d5dca3e46a78f97fa6693b687e/firebase-crashlytics-17.0.0-beta01/AndroidManifest.xml:18:17-82
+426            <meta-data
+426-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+427                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+427-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+428                android:value="com.google.firebase.components.ComponentRegistrar" />
+428-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+429            <meta-data
+429-->[com.google.firebase:firebase-messaging:20.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c72ec63f0031daad0f50fe685d8ce309/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:38:13-40:85
+430                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+430-->[com.google.firebase:firebase-messaging:20.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c72ec63f0031daad0f50fe685d8ce309/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:39:17-119
+431                android:value="com.google.firebase.components.ComponentRegistrar" />
+431-->[com.google.firebase:firebase-messaging:20.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c72ec63f0031daad0f50fe685d8ce309/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:40:17-82
+432            <meta-data
+432-->[com.google.firebase:firebase-config:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/a0512c2cb12d2fbf0f689ce13a86c1f7/firebase-config-19.0.4/AndroidManifest.xml:32:13-34:85
+433                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+433-->[com.google.firebase:firebase-config:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/a0512c2cb12d2fbf0f689ce13a86c1f7/firebase-config-19.0.4/AndroidManifest.xml:33:17-117
+434                android:value="com.google.firebase.components.ComponentRegistrar" />
+434-->[com.google.firebase:firebase-config:19.0.4] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/a0512c2cb12d2fbf0f689ce13a86c1f7/firebase-config-19.0.4/AndroidManifest.xml:34:17-82
+435            <meta-data
+435-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f793995d0c23ee3dc16856fad51704be/play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
+436                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+436-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f793995d0c23ee3dc16856fad51704be/play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
+437                android:value="com.google.firebase.components.ComponentRegistrar" />
+437-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f793995d0c23ee3dc16856fad51704be/play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
+438            <meta-data
+438-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+439                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+439-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+440                android:value="com.google.firebase.components.ComponentRegistrar" />
+440-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+441            <meta-data
+441-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eb6211da952b35c073a0f7370e8ebc9b/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+442                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+442-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eb6211da952b35c073a0f7370e8ebc9b/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+443                android:value="com.google.firebase.components.ComponentRegistrar" />
+443-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eb6211da952b35c073a0f7370e8ebc9b/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+444            <meta-data
+444-->[com.google.firebase:firebase-abt:19.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c8d881c19d611af55887f0034dea21b9/firebase-abt-19.0.0/AndroidManifest.xml:13:13-15:85
+445                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+445-->[com.google.firebase:firebase-abt:19.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c8d881c19d611af55887f0034dea21b9/firebase-abt-19.0.0/AndroidManifest.xml:14:17-109
+446                android:value="com.google.firebase.components.ComponentRegistrar" />
+446-->[com.google.firebase:firebase-abt:19.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c8d881c19d611af55887f0034dea21b9/firebase-abt-19.0.0/AndroidManifest.xml:15:17-82
+447        </service>
+448
 449        <activity
-449-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
-450            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-450-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+449-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+450            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+450-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
 451            android:excludeFromRecents="true"
-451-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
-452            android:exported="false"
-452-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
-453            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-453-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
-454        <!--
-455            Service handling Google Sign-In user revocation. For apps that do not integrate with
-456            Google Sign-In, this service will never be started.
-457        -->
-458        <service
-458-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
-459            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-459-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
-460            android:exported="true"
-460-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
-461            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-461-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
-462        <service
-462-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:40:9-44:72
-463            android:name="com.google.android.gms.analytics.AnalyticsJobService"
-463-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:41:13-80
-464            android:enabled="true"
-464-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:42:13-35
-465            android:exported="false"
-465-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:43:13-37
-466            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
-466-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:44:13-69
-467        <uses-library
-467-->[com.google.android.gms:play-services-maps:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1c4e8c18002c6fb2ede496f61bd4ee48/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-468            android:name="org.apache.http.legacy"
-468-->[com.google.android.gms:play-services-maps:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1c4e8c18002c6fb2ede496f61bd4ee48/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
-469            android:required="false" />
-469-->[com.google.android.gms:play-services-maps:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1c4e8c18002c6fb2ede496f61bd4ee48/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
-470        <!--
-471             FirebaseMessagingService performs security checks at runtime,
-472             but set to not exported to explicitly avoid allowing another app to call it.
-473        -->
-474        <service
-474-->[com.google.firebase:firebase-messaging:20.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c72ec63f0031daad0f50fe685d8ce309/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:28:9-34:19
-475            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-475-->[com.google.firebase:firebase-messaging:20.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c72ec63f0031daad0f50fe685d8ce309/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:29:13-82
-476            android:exported="false" >
-476-->[com.google.firebase:firebase-messaging:20.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c72ec63f0031daad0f50fe685d8ce309/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:30:13-37
-477            <intent-filter android:priority="-500" >
-477-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:87:13-89:29
-478                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-478-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:88:17-78
-478-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:88:25-75
-479            </intent-filter>
-480        </service>
-481
-482        <receiver
-482-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
-483            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-483-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
-484            android:exported="true"
-484-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
-485            android:permission="com.google.android.c2dm.permission.SEND" >
-485-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
-486            <intent-filter>
-486-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
-487                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-487-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
-487-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
-488            </intent-filter>
-489        </receiver>
-490
-491        <activity
-491-->[com.google.android.gms:play-services-base:17.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/20de9fd6d30ad7215f07be5c52f7f3ba/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-492            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-492-->[com.google.android.gms:play-services-base:17.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/20de9fd6d30ad7215f07be5c52f7f3ba/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-493            android:exported="false"
-493-->[com.google.android.gms:play-services-base:17.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/20de9fd6d30ad7215f07be5c52f7f3ba/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-494            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-494-->[com.google.android.gms:play-services-base:17.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/20de9fd6d30ad7215f07be5c52f7f3ba/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-495
-496        <provider
-496-->[com.google.firebase:firebase-common:19.3.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/403439d45aa48acdbf56af17b5308df4/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
-497            android:name="com.google.firebase.provider.FirebaseInitProvider"
-497-->[com.google.firebase:firebase-common:19.3.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/403439d45aa48acdbf56af17b5308df4/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
-498            android:authorities="com.augmentcare.patient.firebaseinitprovider"
-498-->[com.google.firebase:firebase-common:19.3.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/403439d45aa48acdbf56af17b5308df4/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
-499            android:exported="false"
-499-->[com.google.firebase:firebase-common:19.3.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/403439d45aa48acdbf56af17b5308df4/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
-500            android:initOrder="100" />
-500-->[com.google.firebase:firebase-common:19.3.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/403439d45aa48acdbf56af17b5308df4/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
-501
-502        <receiver
-502-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
-503            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-503-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
-504            android:enabled="true"
-504-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
-505            android:exported="false" >
-505-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
-506        </receiver>
-507        <receiver
-507-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
-508            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-508-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
-509            android:enabled="true"
-509-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
-510            android:exported="true"
-510-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
-511            android:permission="android.permission.INSTALL_PACKAGES" >
-511-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
-512            <intent-filter>
-512-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:199:13-201:29
-513                <action android:name="com.android.vending.INSTALL_REFERRER" />
-513-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:200:17-79
-513-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:200:25-76
-514            </intent-filter>
-515        </receiver>
-516
-517        <service
-517-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
-518            android:name="com.google.android.gms.measurement.AppMeasurementService"
-518-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
-519            android:enabled="true"
-519-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
-520            android:exported="false" />
-520-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
-521        <service
-521-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
-522            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-522-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
-523            android:enabled="true"
-523-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
-524            android:exported="false"
-524-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
-525            android:permission="android.permission.BIND_JOB_SERVICE" />
-525-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
-526
-527        <meta-data
-527-->[com.google.android.gms:play-services-basement:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/40d6936aef7a1d5ce7979142eb1f0d72/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-528            android:name="com.google.android.gms.version"
-528-->[com.google.android.gms:play-services-basement:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/40d6936aef7a1d5ce7979142eb1f0d72/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-529            android:value="@integer/google_play_services_version" />
-529-->[com.google.android.gms:play-services-basement:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/40d6936aef7a1d5ce7979142eb1f0d72/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-530        <!--
-531         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-532         with the application context. This config is merged in with the host app's manifest,
-533         but there can only be one provider with the same authority activated at any given
-534         point; so if the end user has two or more different apps that use Facebook SDK, only the
-535         first one will be able to use the provider. To work around this problem, we use the
-536         following placeholder in the authority to identify each host application as if it was
-537         a completely different provider.
-538        -->
-539        <provider
-539-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:39:9-42:40
-540            android:name="com.facebook.internal.FacebookInitProvider"
-540-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:40:13-70
-541            android:authorities="com.augmentcare.patient.FacebookInitProvider"
-541-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:41:13-72
-542            android:exported="false" />
-542-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:42:13-37
-543
-544        <receiver
-544-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:44:9-50:20
-545            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-545-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:45:13-86
-546            android:exported="false" >
-546-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:46:13-37
-547            <intent-filter>
-547-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:47:13-49:29
-548                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-548-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:48:17-95
-548-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:48:25-92
-549            </intent-filter>
-550        </receiver>
-551
-552        <activity
-552-->[io.card:android-sdk:5.5.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bc29b4d712ee94dde0be3c1ee5cc92cb/jetified-android-sdk-5.5.1/AndroidManifest.xml:20:9-22:66
-553            android:name="io.card.payment.CardIOActivity"
-553-->[io.card:android-sdk:5.5.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bc29b4d712ee94dde0be3c1ee5cc92cb/jetified-android-sdk-5.5.1/AndroidManifest.xml:21:13-58
-554            android:configChanges="keyboardHidden|orientation" />
-554-->[io.card:android-sdk:5.5.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bc29b4d712ee94dde0be3c1ee5cc92cb/jetified-android-sdk-5.5.1/AndroidManifest.xml:22:13-63
-555        <activity android:name="io.card.payment.DataEntryActivity" />
-555-->[io.card:android-sdk:5.5.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bc29b4d712ee94dde0be3c1ee5cc92cb/jetified-android-sdk-5.5.1/AndroidManifest.xml:23:9-70
-555-->[io.card:android-sdk:5.5.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bc29b4d712ee94dde0be3c1ee5cc92cb/jetified-android-sdk-5.5.1/AndroidManifest.xml:23:19-67
-556
-557        <service
-557-->[com.txusballesteros:bubbles:1.2.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/007fb4b392b9effb13ed8cd54e0d4d2f/bubbles-1.2.1/AndroidManifest.xml:39:9-42:40
-558            android:name="com.txusballesteros.bubbles.BubblesService"
-558-->[com.txusballesteros:bubbles:1.2.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/007fb4b392b9effb13ed8cd54e0d4d2f/bubbles-1.2.1/AndroidManifest.xml:40:13-70
-559            android:enabled="true"
-559-->[com.txusballesteros:bubbles:1.2.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/007fb4b392b9effb13ed8cd54e0d4d2f/bubbles-1.2.1/AndroidManifest.xml:41:13-35
-560            android:exported="false" />
-560-->[com.txusballesteros:bubbles:1.2.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/007fb4b392b9effb13ed8cd54e0d4d2f/bubbles-1.2.1/AndroidManifest.xml:42:13-37
-561
-562        <provider
-562-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4b91540b191bb040a383ed68616e6638/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
-563            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-563-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4b91540b191bb040a383ed68616e6638/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
-564            android:authorities="com.augmentcare.patient.lifecycle-process"
-564-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4b91540b191bb040a383ed68616e6638/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
-565            android:exported="false"
-565-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4b91540b191bb040a383ed68616e6638/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
-566            android:multiprocess="true" />
-566-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4b91540b191bb040a383ed68616e6638/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
-567
-568        <service
-568-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/9f2d7267206c457e7a47e61f70527166/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
-569            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-569-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/9f2d7267206c457e7a47e61f70527166/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
-570            android:exported="false" >
-570-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/9f2d7267206c457e7a47e61f70527166/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
-571            <meta-data
-571-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/9f2d7267206c457e7a47e61f70527166/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
-572                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-572-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/9f2d7267206c457e7a47e61f70527166/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
-573                android:value="cct" />
-573-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/9f2d7267206c457e7a47e61f70527166/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
-574        </service>
+451-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+452            android:exported="true"
+452-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+453            android:launchMode="singleTask"
+453-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+454            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+454-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+455            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+455-->[com.google.firebase:firebase-auth:19.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5bfca2f00ccc53336eeb8a25a48b5e6b/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+456        <activity
+456-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+457            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+457-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+458            android:excludeFromRecents="true"
+458-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+459            android:exported="false"
+459-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+460            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+460-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+461        <!--
+462            Service handling Google Sign-In user revocation. For apps that do not integrate with
+463            Google Sign-In, this service will never be started.
+464        -->
+465        <service
+465-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+466            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+466-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+467            android:exported="true"
+467-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+468            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+468-->[com.google.android.gms:play-services-auth:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c1995960dc6ff99c6998bd25d334f847/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+469        <service
+469-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:40:9-44:72
+470            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+470-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:41:13-80
+471            android:enabled="true"
+471-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:42:13-35
+472            android:exported="false"
+472-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:43:13-37
+473            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+473-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:44:13-69
+474        <uses-library
+474-->[com.google.android.gms:play-services-maps:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1c4e8c18002c6fb2ede496f61bd4ee48/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+475            android:name="org.apache.http.legacy"
+475-->[com.google.android.gms:play-services-maps:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1c4e8c18002c6fb2ede496f61bd4ee48/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+476            android:required="false" />
+476-->[com.google.android.gms:play-services-maps:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1c4e8c18002c6fb2ede496f61bd4ee48/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+477        <!--
+478             FirebaseMessagingService performs security checks at runtime,
+479             but set to not exported to explicitly avoid allowing another app to call it.
+480        -->
+481        <service
+481-->[com.google.firebase:firebase-messaging:20.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c72ec63f0031daad0f50fe685d8ce309/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:28:9-34:19
+482            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+482-->[com.google.firebase:firebase-messaging:20.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c72ec63f0031daad0f50fe685d8ce309/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:29:13-82
+483            android:exported="false" >
+483-->[com.google.firebase:firebase-messaging:20.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c72ec63f0031daad0f50fe685d8ce309/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:30:13-37
+484            <intent-filter android:priority="-500" >
+484-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:90:9-92:25
+485                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+485-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:91:13-74
+485-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:91:21-71
+486            </intent-filter>
+487        </service>
+488
+489        <receiver
+489-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+490            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+490-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+491            android:exported="true"
+491-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+492            android:permission="com.google.android.c2dm.permission.SEND" >
+492-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+493            <intent-filter>
+493-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+494                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+494-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+494-->[com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+495            </intent-filter>
+496        </receiver>
+497
+498        <activity
+498-->[com.google.android.gms:play-services-base:17.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/20de9fd6d30ad7215f07be5c52f7f3ba/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+499            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+499-->[com.google.android.gms:play-services-base:17.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/20de9fd6d30ad7215f07be5c52f7f3ba/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+500            android:exported="false"
+500-->[com.google.android.gms:play-services-base:17.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/20de9fd6d30ad7215f07be5c52f7f3ba/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+501            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+501-->[com.google.android.gms:play-services-base:17.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/20de9fd6d30ad7215f07be5c52f7f3ba/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+502
+503        <provider
+503-->[com.google.firebase:firebase-common:19.3.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/403439d45aa48acdbf56af17b5308df4/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+504            android:name="com.google.firebase.provider.FirebaseInitProvider"
+504-->[com.google.firebase:firebase-common:19.3.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/403439d45aa48acdbf56af17b5308df4/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+505            android:authorities="com.augmentcare.patient.firebaseinitprovider"
+505-->[com.google.firebase:firebase-common:19.3.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/403439d45aa48acdbf56af17b5308df4/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+506            android:exported="false"
+506-->[com.google.firebase:firebase-common:19.3.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/403439d45aa48acdbf56af17b5308df4/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+507            android:initOrder="100" />
+507-->[com.google.firebase:firebase-common:19.3.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/403439d45aa48acdbf56af17b5308df4/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+508
+509        <receiver
+509-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
+510            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+510-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
+511            android:enabled="true"
+511-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
+512            android:exported="false" >
+512-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
+513        </receiver>
+514        <receiver
+514-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
+515            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+515-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
+516            android:enabled="true"
+516-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
+517            android:exported="true"
+517-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
+518            android:permission="android.permission.INSTALL_PACKAGES" >
+518-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
+519            <intent-filter>
+519-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:194:9-196:25
+520                <action android:name="com.android.vending.INSTALL_REFERRER" />
+520-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:195:13-75
+520-->/Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:195:21-72
+521            </intent-filter>
+522        </receiver>
+523
+524        <service
+524-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
+525            android:name="com.google.android.gms.measurement.AppMeasurementService"
+525-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
+526            android:enabled="true"
+526-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
+527            android:exported="false" />
+527-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
+528        <service
+528-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
+529            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+529-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
+530            android:enabled="true"
+530-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
+531            android:exported="false"
+531-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
+532            android:permission="android.permission.BIND_JOB_SERVICE" />
+532-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d6cc9007027c50b55f85cf0e3f104128/play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
+533
+534        <meta-data
+534-->[com.google.android.gms:play-services-basement:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/40d6936aef7a1d5ce7979142eb1f0d72/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+535            android:name="com.google.android.gms.version"
+535-->[com.google.android.gms:play-services-basement:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/40d6936aef7a1d5ce7979142eb1f0d72/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+536            android:value="@integer/google_play_services_version" />
+536-->[com.google.android.gms:play-services-basement:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/40d6936aef7a1d5ce7979142eb1f0d72/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+537        <!--
+538         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+539         with the application context. This config is merged in with the host app's manifest,
+540         but there can only be one provider with the same authority activated at any given
+541         point; so if the end user has two or more different apps that use Facebook SDK, only the
+542         first one will be able to use the provider. To work around this problem, we use the
+543         following placeholder in the authority to identify each host application as if it was
+544         a completely different provider.
+545        -->
+546        <provider
+546-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:39:9-42:40
+547            android:name="com.facebook.internal.FacebookInitProvider"
+547-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:40:13-70
+548            android:authorities="com.augmentcare.patient.FacebookInitProvider"
+548-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:41:13-72
+549            android:exported="false" />
+549-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:42:13-37
+550
+551        <receiver
+551-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:44:9-50:20
+552            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+552-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:45:13-86
+553            android:exported="false" >
+553-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:46:13-37
+554            <intent-filter>
+554-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:47:13-49:29
+555                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+555-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:48:17-95
+555-->[com.facebook.android:facebook-core:4.42.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/77badf849b0f30d205f56490627c5832/jetified-facebook-core-4.42.0/AndroidManifest.xml:48:25-92
+556            </intent-filter>
+557        </receiver>
+558
+559        <activity
+559-->[io.card:android-sdk:5.5.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bc29b4d712ee94dde0be3c1ee5cc92cb/jetified-android-sdk-5.5.1/AndroidManifest.xml:20:9-22:66
+560            android:name="io.card.payment.CardIOActivity"
+560-->[io.card:android-sdk:5.5.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bc29b4d712ee94dde0be3c1ee5cc92cb/jetified-android-sdk-5.5.1/AndroidManifest.xml:21:13-58
+561            android:configChanges="keyboardHidden|orientation" />
+561-->[io.card:android-sdk:5.5.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bc29b4d712ee94dde0be3c1ee5cc92cb/jetified-android-sdk-5.5.1/AndroidManifest.xml:22:13-63
+562        <activity android:name="io.card.payment.DataEntryActivity" />
+562-->[io.card:android-sdk:5.5.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bc29b4d712ee94dde0be3c1ee5cc92cb/jetified-android-sdk-5.5.1/AndroidManifest.xml:23:9-70
+562-->[io.card:android-sdk:5.5.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bc29b4d712ee94dde0be3c1ee5cc92cb/jetified-android-sdk-5.5.1/AndroidManifest.xml:23:19-67
+563
+564        <service
+564-->[com.txusballesteros:bubbles:1.2.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/007fb4b392b9effb13ed8cd54e0d4d2f/bubbles-1.2.1/AndroidManifest.xml:39:9-42:40
+565            android:name="com.txusballesteros.bubbles.BubblesService"
+565-->[com.txusballesteros:bubbles:1.2.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/007fb4b392b9effb13ed8cd54e0d4d2f/bubbles-1.2.1/AndroidManifest.xml:40:13-70
+566            android:enabled="true"
+566-->[com.txusballesteros:bubbles:1.2.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/007fb4b392b9effb13ed8cd54e0d4d2f/bubbles-1.2.1/AndroidManifest.xml:41:13-35
+567            android:exported="false" />
+567-->[com.txusballesteros:bubbles:1.2.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/007fb4b392b9effb13ed8cd54e0d4d2f/bubbles-1.2.1/AndroidManifest.xml:42:13-37
+568
+569        <provider
+569-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4b91540b191bb040a383ed68616e6638/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+570            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+570-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4b91540b191bb040a383ed68616e6638/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+571            android:authorities="com.augmentcare.patient.lifecycle-process"
+571-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4b91540b191bb040a383ed68616e6638/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+572            android:exported="false"
+572-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4b91540b191bb040a383ed68616e6638/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+573            android:multiprocess="true" />
+573-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4b91540b191bb040a383ed68616e6638/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+574
 575        <service
-575-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c96b0480bd843f4d6866b61c6b42946d/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
-576            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-576-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c96b0480bd843f4d6866b61c6b42946d/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
-577            android:exported="false"
-577-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c96b0480bd843f4d6866b61c6b42946d/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
-578            android:permission="android.permission.BIND_JOB_SERVICE" >
-578-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c96b0480bd843f4d6866b61c6b42946d/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
-579        </service>
-580
-581        <receiver
-581-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c96b0480bd843f4d6866b61c6b42946d/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
-582            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-582-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c96b0480bd843f4d6866b61c6b42946d/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
-583            android:exported="false" />
-583-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c96b0480bd843f4d6866b61c6b42946d/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
-584
-585        <activity
-585-->[com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:10:9-12:74
-586            android:name="com.intercom.input.gallery.GalleryInputFullScreenActivity"
-586-->[com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:11:13-85
-587            android:theme="@style/intercom_composer_full_screen_theme" />
-587-->[com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:12:13-71
-588        <activity
-588-->[com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:13:9-16:74
-589            android:name="com.intercom.input.gallery.GalleryLightBoxActivity"
-589-->[com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:14:13-78
-590            android:configChanges="orientation|screenLayout|density|screenSize"
-590-->[com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:15:13-80
-591            android:theme="@style/intercom_composer_full_screen_theme" />
-591-->[com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:16:13-71
-592    </application>
-593
-594</manifest>
+575-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/9f2d7267206c457e7a47e61f70527166/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+576            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+576-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/9f2d7267206c457e7a47e61f70527166/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+577            android:exported="false" >
+577-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/9f2d7267206c457e7a47e61f70527166/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+578            <meta-data
+578-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/9f2d7267206c457e7a47e61f70527166/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+579                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+579-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/9f2d7267206c457e7a47e61f70527166/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+580                android:value="cct" />
+580-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/9f2d7267206c457e7a47e61f70527166/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+581        </service>
+582        <service
+582-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c96b0480bd843f4d6866b61c6b42946d/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+583            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+583-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c96b0480bd843f4d6866b61c6b42946d/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+584            android:exported="false"
+584-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c96b0480bd843f4d6866b61c6b42946d/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+585            android:permission="android.permission.BIND_JOB_SERVICE" >
+585-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c96b0480bd843f4d6866b61c6b42946d/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+586        </service>
+587
+588        <receiver
+588-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c96b0480bd843f4d6866b61c6b42946d/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+589            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+589-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c96b0480bd843f4d6866b61c6b42946d/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+590            android:exported="false" />
+590-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c96b0480bd843f4d6866b61c6b42946d/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+591
+592        <activity
+592-->[com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:10:9-12:74
+593            android:name="com.intercom.input.gallery.GalleryInputFullScreenActivity"
+593-->[com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:11:13-85
+594            android:theme="@style/intercom_composer_full_screen_theme" />
+594-->[com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:12:13-71
+595        <activity
+595-->[com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:13:9-16:74
+596            android:name="com.intercom.input.gallery.GalleryLightBoxActivity"
+596-->[com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:14:13-78
+597            android:configChanges="orientation|screenLayout|density|screenSize"
+597-->[com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:15:13-80
+598            android:theme="@style/intercom_composer_full_screen_theme" />
+598-->[com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:16:13-71
+599    </application>
+600
+601</manifest>

@@ -8,12 +8,12 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/48f56180b934605adacfe2eb4ac38ac5/material-1.0.0/res/drawable-mdpi-v4/design_ic_visibility.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_intercom_view_conversation_card_avatar.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/layout/intercom_view_conversation_card_avatar.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_no.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_no.png"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_intercom_view_conversation_card_avatar.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/layout/intercom_view_conversation_card_avatar.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_appintro_indicator_dot_grey.xml.flat",
@@ -92,12 +92,12 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/res/drawable-anydpi-v21/ic_add_black_32dp.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_card_list_layout.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/card_list_layout.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_mtrl_chip_checked_circle.xml.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/48f56180b934605adacfe2eb4ac38ac5/material-1.0.0/res/drawable/ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_card_list_layout.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/card_list_layout.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_intercom_activity_help_center.xml.flat",
@@ -124,12 +124,12 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/d8d9a9ce44f183d9f20214ca3f18b056/browser-1.2.0/res/xml/image_share_filepaths.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_checkmark_tinted.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/res/drawable-hdpi-v4/ic_checkmark_tinted.png"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_camera.xml.flat",
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_camera.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_checkmark_tinted.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/res/drawable-hdpi-v4/ic_checkmark_tinted.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -168,12 +168,12 @@
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_claim_pick_image.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_dz.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_dz.png"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_wife.xml.flat",
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_wife.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_dz.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_dz.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_com_facebook_button_icon_white.png.flat",
@@ -220,12 +220,12 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/44c01fe77f75adf56106ac9752f163ce/materialdrawer-6.1.2/res/layout/material_drawer_item_expandable.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_edit_icon_blue.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/edit_icon_blue.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_bottom_sheet_change_pass.xml.flat",
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/bottom_sheet_change_pass.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_edit_icon_blue.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/edit_icon_blue.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat",
@@ -284,16 +284,16 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable-xhdpi-v4/intercom_composer_gallery_expand.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_item_my_claim_message.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/item_my_claim_message.xml"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_checkmark_tinted.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/res/drawable-xxhdpi-v4/ic_checkmark_tinted.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_unknown.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/res/drawable-xxxhdpi-v4/ic_unknown.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_checkmark_tinted.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/res/drawable-xxhdpi-v4/ic_checkmark_tinted.png"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_item_my_claim_message.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/item_my_claim_message.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_intercom_composer_image_list_item.xml.flat",
@@ -308,24 +308,24 @@
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/activity_tnc.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/navigation_login_otp_verification_navigation.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/navigation/login_otp_verification_navigation.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_intercom_bubble_background_user_bottom.xml.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable/intercom_bubble_background_user_bottom.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/navigation_login_otp_verification_navigation.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/navigation/login_otp_verification_navigation.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_activity_home_screen.xml.flat",
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/activity_home_screen.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_kz.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_kz.png"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-mdpi_apt_handle_1.9.png.flat",
@@ -336,16 +336,16 @@
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/fragment_cancel_appointment_dialog.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_textview_border_white_bg.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/textview_border_white_bg.xml"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_button_border.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/button_border.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/interpolator-v21_mtrl_linear_out_slow_in.xml.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/48f56180b934605adacfe2eb4ac38ac5/material-1.0.0/res/interpolator-v21/mtrl_linear_out_slow_in.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_button_border.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/button_border.xml"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_textview_border_white_bg.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/textview_border_white_bg.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_cvc.png.flat",
@@ -396,12 +396,12 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable-xxhdpi-v4/intercom_snooze.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_intercom_composer_gallery_expand.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable-mdpi-v4/intercom_composer_gallery_expand.png"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_item_layout.xml.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_intercom_composer_gallery_expand.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable-mdpi-v4/intercom_composer_gallery_expand.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
@@ -436,24 +436,24 @@
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/activity_tutorial_new.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/20de9fd6d30ad7215f07be5c52f7f3ba/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/anim_left_out.xml.flat",
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/anim/left_out.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/20de9fd6d30ad7215f07be5c52f7f3ba/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_rejected_status.png.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_rejected_status.png"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_gh.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_gh.png"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_rejected_status.png.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_rejected_status.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_item_user_claims.xml.flat",
@@ -492,6 +492,10 @@
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/forward_arrow.png"
     },
     {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_activity_initialize_a_c.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/activity_initialize_a_c.xml"
+    },
+    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_search_bar_border.xml.flat",
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/search_bar_border.xml"
     },
@@ -504,12 +508,12 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_intercom_attribute_submit_arrow.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable-xxhdpi-v4/intercom_attribute_submit_arrow.png"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_checkmark_tinted.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/res/drawable-mdpi-v4/ic_checkmark_tinted.png"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_intercom_attribute_submit_arrow.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable-xxhdpi-v4/intercom_attribute_submit_arrow.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_view_appointments_history.xml.flat",
@@ -596,12 +600,12 @@
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/layout_progress.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_fragment_lab_tests.xml.flat",
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/fragment_lab_tests.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/mipmap-mdpi_ac_logo.png.flat",
@@ -664,12 +668,12 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/color/switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_diners_template_32.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/res/drawable-anydpi-v21/ic_diners_template_32.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_intercom_solid_circle.xml.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable/intercom_solid_circle.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_diners_template_32.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/res/drawable-anydpi-v21/ic_diners_template_32.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_appointment_time.xml.flat",
@@ -688,12 +692,12 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14f39c9abded71999903b8433fd4d381/jetified-facebook-login-4.42.0/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_cart_item.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_cart_item.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_cart_item.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_cart_item.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_unionpay_template_32.xml.flat",
@@ -720,12 +724,12 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_intercom_notification_pill.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/layout/intercom_notification_pill.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_si.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_si.png"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_intercom_notification_pill.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/layout/intercom_notification_pill.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/font_lato_bold.ttf.flat",
@@ -748,12 +752,12 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/res/drawable-xxxhdpi-v4/ic_jcb.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/anim_btn_checkbox_to_checked_box_outer_merged_animation.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_intercom_quick_reply_button_background.xml.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable/intercom_quick_reply_button_background.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/anim_btn_checkbox_to_checked_box_outer_merged_animation.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -840,24 +844,24 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_kr.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_intercom_bubble_background_user_middle.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable/intercom_bubble_background_user_middle.xml"
-    },
-    {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_intercom_message_error.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable/intercom_message_error.xml"
-    },
-    {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_intercom_fake_composer.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/layout/intercom_fake_composer.xml"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/animator_mtrl_fab_hide_motion_spec.xml.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/48f56180b934605adacfe2eb4ac38ac5/material-1.0.0/res/animator/mtrl_fab_hide_motion_spec.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_intercom_fake_composer.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/layout/intercom_fake_composer.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_intercom_message_error.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable/intercom_message_error.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_intercom_bubble_background_user_middle.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable/intercom_bubble_background_user_middle.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_messenger_bubble_large_white.png.flat",
@@ -1000,12 +1004,12 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/layout/abc_tooltip.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/raw_places_keep.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/res/raw/places_keep.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_intercom_activity_help_center_fullscreen.xml.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/layout/intercom_activity_help_center_fullscreen.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/raw_places_keep.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/res/raw/places_keep.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_activity_add_source.xml.flat",
@@ -1076,12 +1080,12 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_bn.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_fragment_doctor_detail_croporate.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/fragment_doctor_detail_croporate.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_quantum_ic_cloud_off_vd_theme_24.xml.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/res/drawable/quantum_ic_cloud_off_vd_theme_24.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_fragment_doctor_detail_croporate.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/fragment_doctor_detail_croporate.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/anim_intercom_home_layout_animator.xml.flat",
@@ -1120,28 +1124,28 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_gray_border_white_background.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/gray_border_white_background.xml"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tv_inactive_background.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable-xxhdpi/tv_inactive_background.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_mq.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_mq.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tv_inactive_background.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable-xxhdpi/tv_inactive_background.xml"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_gray_border_white_background.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/gray_border_white_background.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_material_drawer_item_divider.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/44c01fe77f75adf56106ac9752f163ce/materialdrawer-6.1.2/res/layout/material_drawer_item_divider.xml"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_quantum_ic_arrow_back_grey600_24.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/res/drawable-ldrtl-xxhdpi-v17/quantum_ic_arrow_back_grey600_24.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_filter.xml.flat",
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_filter.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_quantum_ic_arrow_back_grey600_24.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/res/drawable-ldrtl-xxhdpi-v17/quantum_ic_arrow_back_grey600_24.png"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_material_drawer_item_divider.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/44c01fe77f75adf56106ac9752f163ce/materialdrawer-6.1.2/res/layout/material_drawer_item_divider.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_za.png.flat",
@@ -1212,20 +1216,20 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_arrow_back_grey600_24.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/res/drawable-xhdpi-v4/quantum_ic_arrow_back_grey600_24.png"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_fragment_medicines.xml.flat",
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/fragment_medicines.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_intercom_boolean_attribute_left.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable/intercom_boolean_attribute_left.xml"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_arrow_back_grey600_24.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/res/drawable-xhdpi-v4/quantum_ic_arrow_back_grey600_24.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_regular_button_border.xml.flat",
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/regular_button_border.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_intercom_boolean_attribute_left.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable/intercom_boolean_attribute_left.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_shape_dot_plan.xml.flat",
@@ -1364,12 +1368,12 @@
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_edit_black_24dp.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_ic_diners.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/res/drawable-ldpi-v4/ic_diners.png"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_mtrl_snackbar_background.xml.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/48f56180b934605adacfe2eb4ac38ac5/material-1.0.0/res/drawable/mtrl_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_ic_diners.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/res/drawable-ldpi-v4/ic_diners.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_material_drawer_shadow_left.9.png.flat",
@@ -1412,12 +1416,12 @@
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/fragment_explore_payment.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/navigation_main_navigation.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/navigation/main_navigation.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_material_drawer_shadow_right.9.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/44c01fe77f75adf56106ac9752f163ce/materialdrawer-6.1.2/res/drawable/material_drawer_shadow_right.9.png"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/navigation_main_navigation.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/navigation/main_navigation.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
@@ -1444,12 +1448,12 @@
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/layout_dialog_title.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_la.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_la.png"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_wf.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_wf.png"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_la.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_la.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_intercom_view_boolean_attribute.xml.flat",
@@ -1476,40 +1480,40 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_text.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_text.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_cio_paypal_logo.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bc29b4d712ee94dde0be3c1ee5cc92cb/jetified-android-sdk-5.5.1/res/drawable-xhdpi-v4/cio_paypal_logo.png"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_text.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_text.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_af.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_af.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_chat_green.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_chat_green.xml"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/xml_filepaths.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/b447884912cc8a352cc533f3e90b6a87/jetified-EasyImage-2.0.4/res/xml/filepaths.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_quantum_ic_clear_grey600_24.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/res/drawable-xxhdpi-v4/quantum_ic_clear_grey600_24.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/xml_filepaths.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/b447884912cc8a352cc533f3e90b6a87/jetified-EasyImage-2.0.4/res/xml/filepaths.xml"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_chat_green.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_chat_green.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_er.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_er.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_fragment_sign_up_new.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/fragment_sign_up_new.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_vg.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_vg.png"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_fragment_sign_up_new.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/fragment_sign_up_new.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_btn_checkbox_checked_to_unchecked_mtrl_animation.xml.flat",
@@ -1540,12 +1544,12 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_activity_plan_selection.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/activity_plan_selection.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_activity_plan_selection.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/activity_plan_selection.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_intercom_attribute_submit_arrow.xml.flat",
@@ -1628,12 +1632,12 @@
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable-xhdpi/btn_bank_alfalah_pressed.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_abc_spinner_textfield_background_material.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_places_powered_by_google_dark.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/res/drawable-xhdpi-v4/places_powered_by_google_dark.png"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_abc_spinner_textfield_background_material.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_search_green.xml.flat",
@@ -1648,56 +1652,56 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14f39c9abded71999903b8433fd4d381/jetified-facebook-login-4.42.0/res/drawable-xhdpi-v4/com_facebook_tooltip_black_bottomnub.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_intercom_article_title_bar_background.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable/intercom_article_title_bar_background.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_intercom_composer_input_icon_view_layout.xml.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/38758880cef147a7f85d488b8fcda385/jetified-android-composer-2.1.0/res/layout/intercom_composer_input_icon_view_layout.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_info_outline_white_24dp.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f49eb93871210eb2612eaacd078ef145/jetified-Toasty-1.4.0/res/drawable-xhdpi-v4/ic_info_outline_white_24dp.png"
-    },
-    {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_ie.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_ie.png"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_intercom_article_title_bar_background.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable/intercom_article_title_bar_background.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_zw.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_zw.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_profile_placeholder.png.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/profile_placeholder.png"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_ie.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_ie.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_info_outline_white_24dp.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f49eb93871210eb2612eaacd078ef145/jetified-Toasty-1.4.0/res/drawable-xhdpi-v4/ic_info_outline_white_24dp.png"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_profile_placeholder.png.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/profile_placeholder.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_abc_btn_borderless_material.xml.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_credit.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_credit.xml"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_medicine_art_info.png.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/medicine_art_info.png"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_credit.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_credit.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_fragment_update.xml.flat",
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/fragment_update.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-zh-mdpi-v4_ic_unionpay.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/res/drawable-zh-mdpi-v4/ic_unionpay.png"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_medicine_art_info.png.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/medicine_art_info.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_intercom_warning.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable-xhdpi-v4/intercom_warning.png"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-zh-mdpi-v4_ic_unionpay.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/res/drawable-zh-mdpi-v4/ic_unionpay.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_sk.png.flat",
@@ -1716,12 +1720,12 @@
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_arrow_left.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -1812,24 +1816,24 @@
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_husband.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_employee_code.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_employee_code.xml"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_appintro_intro_layout2.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/fa7d6cba17ff9f076b4dfd5f568f9b32/AppIntro-5.1.0/res/layout/appintro_intro_layout2.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_intercom_row_composer_suggestions_part.xml.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/layout/intercom_row_composer_suggestions_part.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_appintro_intro_layout2.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/fa7d6cba17ff9f076b4dfd5f568f9b32/AppIntro-5.1.0/res/layout/appintro_intro_layout2.xml"
-    },
-    {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_intercom_attribute_spinner.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable-ldpi-v4/intercom_attribute_spinner.png"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_ic_employee_code.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/ic_employee_code.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout_design_layout_tab_text.xml.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/48f56180b934605adacfe2eb4ac38ac5/material-1.0.0/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_intercom_attribute_spinner.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable-ldpi-v4/intercom_attribute_spinner.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -1916,36 +1920,36 @@
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/layout/item_cart.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/anim_nav_default_pop_exit_anim.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c41f6582115934071371edd4b4b5badd/jetified-navigation-ui-2.2.0-rc04/res/anim/nav_default_pop_exit_anim.xml"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_intercom_warning.png.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable-mdpi-v4/intercom_warning.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_country_flag_fi.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/res/drawable-xhdpi-v4/country_flag_fi.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_intercom_warning.png.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable-mdpi-v4/intercom_warning.png"
-    },
-    {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_intercom_expand_arrow.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable/intercom_expand_arrow.xml"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/anim_nav_default_pop_exit_anim.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c41f6582115934071371edd4b4b5badd/jetified-navigation-ui-2.2.0-rc04/res/anim/nav_default_pop_exit_anim.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_discover_template_32.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/res/drawable-xxxhdpi-v4/ic_discover_template_32.png"
     },
     {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_intercom_expand_arrow.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable/intercom_expand_arrow.xml"
+    },
+    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_btn_checkbox_checked_mtrl.xml.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/3c8fc01ac39fbf267d1510d64d795206/appcompat-1.1.0/res/drawable/btn_checkbox_checked_mtrl.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_video_call_picture_circle.png.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/video_call_picture_circle.png"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_com_facebook_tooltip_black_background.9.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/14f39c9abded71999903b8433fd4d381/jetified-facebook-login-4.42.0/res/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_video_call_picture_circle.png.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/video_call_picture_circle.png"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_ic_checkmark_tinted.png.flat",
@@ -2052,12 +2056,12 @@
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/68758fe96b1325592fe068faeb7ffcd9/jetified-stripe-android-7.0.0/res/drawable-xhdpi-v4/ic_checkmark.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-v21_intercom_home_composer_background_ripple.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable-v21/intercom_home_composer_background_ripple.xml"
-    },
-    {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/font_raleway.xml.flat",
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/font/raleway.xml"
+    },
+    {
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-v21_intercom_home_composer_background_ripple.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable-v21/intercom_home_composer_background_ripple.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/anim_nav_default_exit_anim.xml.flat",
@@ -2072,16 +2076,16 @@
         "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable-xhdpi/round_border.xml"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_groupclose.xml.flat",
-        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/groupclose.xml"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_intercom_new_conversation_send_button.xml.flat",
+        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable/intercom_new_conversation_send_button.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_design_ic_visibility_off.png.flat",
         "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/48f56180b934605adacfe2eb4ac38ac5/material-1.0.0/res/drawable-xxhdpi-v4/design_ic_visibility_off.png"
     },
     {
-        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_intercom_new_conversation_send_button.xml.flat",
-        "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/drawable/intercom_new_conversation_send_button.xml"
+        "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/drawable_groupclose.xml.flat",
+        "source": "/Users/haadnadeem/Android Projects/AC SDK/app/src/main/res/drawable/groupclose.xml"
     },
     {
         "merged": "/Users/haadnadeem/Android Projects/AC SDK/app/build/intermediates/res/merged/debug/layout-v21_place_autocomplete_fragment.xml.flat",

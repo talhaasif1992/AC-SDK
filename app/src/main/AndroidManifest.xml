@@ -1,239 +1,238 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.augmentcare.patient">
-    <!-- To auto-complete the email text field in the login form with the user's emails -->
-    <!--
+xmlns:tools="http://schemas.android.com/tools"
+package="com.augmentcare.patient">
+<!-- To auto-complete the email text field in the login form with the user's emails -->
+<!--
         <uses-permission android:name="android.permission.GET_ACCOUNTS" />
         <uses-permission android:name="android.permission.READ_PROFILE" />
         <uses-permission android:name="android.permission.READ_CONTACTS" />
         <uses-permission android:name="android.permission.RECEIVE_SMS" />
         -->
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.VIBRATE"/>
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
-    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+<uses-permission android:name="android.permission.WAKE_LOCK" />
+<uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.VIBRATE" />
+<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+<uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
 
-    <application
-        android:name=".MyApp"
-        android:allowBackup="false"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:largeHeap="true"
-        android:networkSecurityConfig="@xml/web_cleartext_fix"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning"
-        tools:replace="android:allowBackup"
-        android:screenOrientation="portrait"
-        >
+<application
+    android:name=".MyApp"
+    android:allowBackup="false"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:largeHeap="true"
+    android:networkSecurityConfig="@xml/web_cleartext_fix"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme"
+    tools:ignore="GoogleAppIndexingWarning"
+    tools:replace="android:allowBackup"
+    android:screenOrientation="portrait">
 
-        <activity android:name=".activities.AboutActivity" />
+    <activity android:name=".activities.AboutActivity" />
 
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id" />
+    <meta-data
+        android:name="com.facebook.sdk.ApplicationId"
+        android:value="@string/facebook_app_id" />
 
-        <activity
-            android:name=".activities.HomeScreenActivity"
-            android:windowSoftInputMode="adjustPan">
-            <nav-graph android:value="@navigation/main_navigation" />
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+    <activity
+        android:name=".activities.HomeScreenActivity"
+        android:windowSoftInputMode="adjustPan">
+        <nav-graph android:value="@navigation/main_navigation" />
+<!--        <intent-filter>-->
+<!--            <action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+<!--            <category android:name="android.intent.category.LAUNCHER" />-->
+<!--        </intent-filter>-->
+    </activity>
 
-        <!--    <activity android:name=".activities.PdfViewerActivity" />-->
-        <activity
-            android:name=".activities.BankAlfalahPaymentSuccessActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            />
-        <activity
-            android:name=".activities.TNCActivity"
-            android:label="@string/title_tnc"
-            android:theme="@style/AppTheme.TNC"/>
-        <activity
-            android:name=".activities.ChatActivity"
+    <!--    <activity android:name=".activities.PdfViewerActivity" />-->
+    <activity android:name="com.augmentcare.patient.InitializeACActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name=".activities.BankAlfalahPaymentSuccessActivity"
+        android:theme="@style/AppTheme.NoActionBar" />
+    <activity
+        android:name=".activities.TNCActivity"
+        android:label="@string/title_tnc"
+        android:theme="@style/AppTheme.TNC" />
+    <activity
+        android:name=".activities.ChatActivity"
 
-            android:theme="@style/AppTheme" />
-        <activity
-            android:name=".activities.VideoConsultationActivityOld"
-            android:launchMode="singleTop"
+        android:theme="@style/AppTheme" />
+    <activity
+        android:name=".activities.VideoConsultationActivityOld"
+        android:launchMode="singleTop"
 
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity
-            android:name=".activities.VideoConsultationActivity"
-            android:launchMode="singleTop"
+        android:theme="@style/Theme.AppCompat.NoActionBar" />
+    <activity
+        android:name=".activities.VideoConsultationActivity"
+        android:launchMode="singleTop"
 
-            android:showWhenLocked="true"
-            android:noHistory="true"
-            android:turnScreenOn="true"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        android:showWhenLocked="true"
+        android:noHistory="true"
+        android:turnScreenOn="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar" />
 
-        <service
-            android:name=".notifications.ACFirebaseMessagingService"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
+    <service
+        android:name=".notifications.ACFirebaseMessagingService"
+        android:exported="false">
+        <intent-filter>
+            <action android:name="com.google.firebase.MESSAGING_EVENT" />
+        </intent-filter>
+    </service>
 
-        <activity
-            android:name=".activities.PaymentActivity"
-            android:label="Payment"
-            />
-        <!--    <activity-->
-        <!--        android:name=".activities.GoogleSigninActivity"-->
-        <!--        -->
-        <!--        android:theme="@style/AppTheme.NoActionBar"-->
-        <!--        android:windowSoftInputMode="adjustResize|adjustPan" />-->
+    <activity
+        android:name=".activities.PaymentActivity"
+        android:label="Payment" />
+    <!--    <activity-->
+    <!--        android:name=".activities.GoogleSigninActivity"-->
+    <!--        -->
+    <!--        android:theme="@style/AppTheme.NoActionBar"-->
+    <!--        android:windowSoftInputMode="adjustResize|adjustPan" />-->
 
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id" />
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
+    <meta-data
+        android:name="com.facebook.sdk.ApplicationId"
+        android:value="@string/facebook_app_id" />
+    <meta-data
+        android:name="preloaded_fonts"
+        android:resource="@array/preloaded_fonts" />
 
-        <activity
-            android:name=".activities.AddAddressActivity"
-            android:label="@string/label_add_address_title"
+    <activity
+        android:name=".activities.AddAddressActivity"
+        android:label="@string/label_add_address_title"
 
-            android:theme="@style/AppTheme.Orange" />
-
-
-        <activity
-            android:name=".activities.VideoPlayerActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_video_player"
-            android:theme="@style/FullscreenTheme" />
-        <activity
-            android:name=".activities.LabOrderViewActivity"
-
-            android:windowSoftInputMode="adjustResize|adjustPan" />
-        <activity
-            android:name=".activities.UpdateActivity"
-
-            android:windowSoftInputMode="adjustResize|adjustPan" />
-        <activity
-            android:name=".activities.AddCardActivity"
-            />
-        <activity
-            android:name=".activities.TermAndConditionActivity"
-            />
-        <activity
-            android:name=".activities.PmdcWebViewActivity"
-            />
-        <activity
-            android:name=".activities.WebViewActivity"
-            />
-        <activity android:name="com.augmentcare.patient.bottomsheets.CardSelectionDialogue"  />
-        <activity android:name=".activities.ViewClaimImageActivity"   />
-        <activity
-            android:name=".fragments.AddDependentMemberFragment"
-
-            android:windowSoftInputMode="adjustPan" />
-        <activity android:name=".activities.AddressActivity" />
+        android:theme="@style/AppTheme.Orange" />
 
 
+    <activity
+        android:name=".activities.VideoPlayerActivity"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:label="@string/title_activity_video_player"
+        android:theme="@style/FullscreenTheme" />
+    <activity
+        android:name=".activities.LabOrderViewActivity"
 
-        <!--        #TODO OLD Code for marketing  -->
-        <!--        <receiver-->
-        <!--            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"-->
-        <!--            android:enabled="true"-->
-        <!--            android:exported="true"-->
-        <!--            tools:ignore="ExportedReceiver">-->
-        <!--            <intent-filter>-->
-        <!--                <action android:name="com.android.vending.INSTALL_REFERRER" />-->
-        <!--            </intent-filter>-->
-        <!--        </receiver>-->
-        <!--        <receiver-->
-        <!--            android:name="com.adjust.sdk.AdjustReferrerReceiver"-->
-        <!--            android:exported="true"-->
-        <!--            android:permission="android.permission.INSTALL_PACKAGES">-->
-        <!--            <intent-filter>-->
-        <!--                <action android:name="com.android.vending.INSTALL_REFERRER" />-->
-        <!--            </intent-filter>-->
-        <!--        </receiver>-->
+        android:windowSoftInputMode="adjustResize|adjustPan" />
+    <activity
+        android:name=".activities.UpdateActivity"
 
-        <!--        <service-->
-        <!--            android:name="com.google.android.gms.analytics.CampaignTrackingService"-->
-        <!--            android:enabled="true"-->
-        <!--            android:exported="false" />-->
+        android:windowSoftInputMode="adjustResize|adjustPan" />
+    <activity android:name=".activities.AddCardActivity" />
+    <activity android:name=".activities.TermAndConditionActivity" />
+    <activity android:name=".activities.PmdcWebViewActivity" />
+    <activity android:name=".activities.WebViewActivity" />
+    <activity android:name="com.augmentcare.patient.bottomsheets.CardSelectionDialogue" />
+    <activity android:name=".activities.ViewClaimImageActivity" />
+    <activity
+        android:name=".fragments.AddDependentMemberFragment"
 
-        <!--        <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver"-->
-        <!--            android:enabled="true">-->
-        <!--            <intent-filter>-->
-        <!--                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />-->
-        <!--            </intent-filter>-->
-        <!--        </receiver>-->
-        <!--        <service android:name="com.google.android.gms.analytics.AnalyticsService"-->
-        <!--            android:enabled="true"-->
-        <!--            android:exported="false"/>-->
+        android:windowSoftInputMode="adjustPan" />
+    <activity android:name=".activities.AddressActivity" />
 
 
-        <!--        #TODO NEW Code for marketing  -->
+    <!--        #TODO OLD Code for marketing  -->
+    <!--        <receiver-->
+    <!--            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"-->
+    <!--            android:enabled="true"-->
+    <!--            android:exported="true"-->
+    <!--            tools:ignore="ExportedReceiver">-->
+    <!--            <intent-filter>-->
+    <!--                <action android:name="com.android.vending.INSTALL_REFERRER" />-->
+    <!--            </intent-filter>-->
+    <!--        </receiver>-->
+    <!--        <receiver-->
+    <!--            android:name="com.adjust.sdk.AdjustReferrerReceiver"-->
+    <!--            android:exported="true"-->
+    <!--            android:permission="android.permission.INSTALL_PACKAGES">-->
+    <!--            <intent-filter>-->
+    <!--                <action android:name="com.android.vending.INSTALL_REFERRER" />-->
+    <!--            </intent-filter>-->
+    <!--        </receiver>-->
+
+    <!--        <service-->
+    <!--            android:name="com.google.android.gms.analytics.CampaignTrackingService"-->
+    <!--            android:enabled="true"-->
+    <!--            android:exported="false" />-->
+
+    <!--        <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver"-->
+    <!--            android:enabled="true">-->
+    <!--            <intent-filter>-->
+    <!--                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />-->
+    <!--            </intent-filter>-->
+    <!--        </receiver>-->
+    <!--        <service android:name="com.google.android.gms.analytics.AnalyticsService"-->
+    <!--            android:enabled="true"-->
+    <!--            android:exported="false"/>-->
 
 
-        <!-- Used for Google Play Store Campaign Measurement-->
-        <service android:name="com.google.android.gms.analytics.CampaignTrackingService"
-            android:permission="android.permission.WAKE_LOCK"
-            android:enabled="true"
-            android:exported="true">
-        </service>
-        <receiver android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
-            android:enabled="true"
-            android:exported="true"
-            android:permission="android.permission.INSTALL_PACKAGES">
-            <intent-filter>
-                <action android:name="com.android.vending.INSTALL_REFERRER" />
-            </intent-filter>
-        </receiver>
-        <receiver android:name=".UtmReceiver"
-            android:enabled="true"
-            android:exported="true"
-            android:permission="android.permission.INSTALL_PACKAGES">
-            <intent-filter>
-                <action android:name="com.android.vending.INSTALL_REFERRER" />
-            </intent-filter>
-        </receiver>
-        <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver"
-            android:enabled="true">
-            <intent-filter>
-                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
-            </intent-filter>
-        </receiver>
-        <service android:name="com.google.android.gms.analytics.AnalyticsService"
-            android:enabled="true"
-            android:exported="false"/>
-        <receiver
-            android:name="com.adjust.sdk.AdjustReferrerReceiver"
-            android:exported="true"
-            android:permission="android.permission.INSTALL_PACKAGES">
-            <intent-filter>
-                <action android:name="com.android.vending.INSTALL_REFERRER" />
-            </intent-filter>
-        </receiver>
+    <!--        #TODO NEW Code for marketing  -->
 
-<!--        <service android:name=".notifications.HeadsUpNotificationService"-->
-<!--            android:enabled="true"-->
-<!--            android:exported="false"/>-->
 
-<!--        <receiver android:name=".notifications.HeadsUpNotificationActionReceiver"-->
-<!--            android:enabled="true">-->
+    <!-- Used for Google Play Store Campaign Measurement-->
+    <service
+        android:name="com.google.android.gms.analytics.CampaignTrackingService"
+        android:permission="android.permission.WAKE_LOCK"
+        android:enabled="true"
+        android:exported="true"></service>
 
-<!--        </receiver>-->
+    <receiver
+        android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+        android:enabled="true"
+        android:exported="true"
+        android:permission="android.permission.INSTALL_PACKAGES">
+        <intent-filter>
+            <action android:name="com.android.vending.INSTALL_REFERRER" />
+        </intent-filter>
+    </receiver>
+    <receiver
+        android:name=".UtmReceiver"
+        android:enabled="true"
+        android:exported="true"
+        android:permission="android.permission.INSTALL_PACKAGES">
+        <intent-filter>
+            <action android:name="com.android.vending.INSTALL_REFERRER" />
+        </intent-filter>
+    </receiver>
+    <receiver
+        android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+        android:enabled="true">
+        <intent-filter>
+            <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+        </intent-filter>
+    </receiver>
 
-    </application>
+    <service
+        android:name="com.google.android.gms.analytics.AnalyticsService"
+        android:enabled="true"
+        android:exported="false" />
+    <receiver
+        android:name="com.adjust.sdk.AdjustReferrerReceiver"
+        android:exported="true"
+        android:permission="android.permission.INSTALL_PACKAGES">
+        <intent-filter>
+            <action android:name="com.android.vending.INSTALL_REFERRER" />
+        </intent-filter>
+    </receiver>
+
+    <!--        <service android:name=".notifications.HeadsUpNotificationService"-->
+    <!--            android:enabled="true"-->
+    <!--            android:exported="false"/>-->
+
+    <!--        <receiver android:name=".notifications.HeadsUpNotificationActionReceiver"-->
+    <!--            android:enabled="true">-->
+
+    <!--        </receiver>-->
+
+</application>
 </manifest>

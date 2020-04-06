@@ -67,14 +67,22 @@
         <activity
             android:name="com.augmentcare.patient.activities.HomeScreenActivity"
             android:windowSoftInputMode="adjustPan" >
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+        <!-- <activity android:name=".activities.PdfViewerActivity" /> -->
+        <activity android:name="com.augmentcare.patient.InitializeACActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- <activity android:name=".activities.PdfViewerActivity" /> -->
         <activity
             android:name="com.augmentcare.patient.activities.BankAlfalahPaymentSuccessActivity"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -192,8 +200,7 @@
             android:name="com.google.android.gms.analytics.CampaignTrackingService"
             android:enabled="true"
             android:exported="true"
-            android:permission="android.permission.WAKE_LOCK" >
-        </service>
+            android:permission="android.permission.WAKE_LOCK" />
 
         <receiver
             android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"

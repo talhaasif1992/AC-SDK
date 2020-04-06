@@ -56,10 +56,10 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int place_autocomplete_fragment = 0x7f0d017e;
-        public static final int place_autocomplete_item_powered_by_google = 0x7f0d017f;
-        public static final int place_autocomplete_item_prediction = 0x7f0d0180;
-        public static final int place_autocomplete_progress = 0x7f0d0181;
+        public static final int place_autocomplete_fragment = 0x7f0d017f;
+        public static final int place_autocomplete_item_powered_by_google = 0x7f0d0180;
+        public static final int place_autocomplete_item_prediction = 0x7f0d0181;
+        public static final int place_autocomplete_progress = 0x7f0d0182;
     }
     public static final class string {
         private string() {}

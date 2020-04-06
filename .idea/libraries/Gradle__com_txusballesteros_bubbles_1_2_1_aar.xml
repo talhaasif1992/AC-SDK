@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.txusballesteros:bubbles:1.2.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/007fb4b392b9effb13ed8cd54e0d4d2f/bubbles-1.2.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/007fb4b392b9effb13ed8cd54e0d4d2f/bubbles-1.2.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8f098026c1510eceeb551ccb21e0d4e/bubbles-1.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8f098026c1510eceeb551ccb21e0d4e/bubbles-1.2.1/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.txusballesteros/bubbles/1.2.1/1371c986d3308af62e7ad88287324c15e12256cd/bubbles-1.2.1-javadoc.jar!/" />

@@ -1,8 +1,18 @@
-apply plugin: 'com.android.application'
+
+
+//apply plugin: 'com.android.application'
+
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.augmentcare'
+version = '1.0'
+
+
+
 //apply plugin: 'io.fabric'
-apply plugin: 'com.google.firebase.firebase-perf'
+//apply plugin: 'com.google.firebase.firebase-perf'
 apply plugin: "androidx.navigation.safeargs"
-apply plugin: 'com.google.firebase.crashlytics'
+//apply plugin: 'com.google.firebase.crashlytics'
 
 ////// Steps to check dependency tree
 // 1 - go to terminal tab on android studio
@@ -41,7 +51,6 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.augmentcare.patient"
         minSdkVersion 21
         versionCode 97
         targetSdkVersion 29
@@ -112,17 +121,17 @@ android {
         }
         debug {
 
-            FirebasePerformance {
-                // Set this flag to 'false' to disable @AddTrace annotation processing and
-                // automatic HTTP/S network request monitoring
-                // for a specific build variant at compile time.
-                instrumentationEnabled false
-            }
+//            FirebasePerformance {
+//                // Set this flag to 'false' to disable @AddTrace annotation processing and
+//                // automatic HTTP/S network request monitoring
+//                // for a specific build variant at compile time.
+//                instrumentationEnabled false
+//            }
 //
 //            minifyEnabled true
 ////            shrinkResources true
 //            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-           // buildConfigField "String", "URL", "\"https://backend-augmentcare.herokuapp.com\""
+            // buildConfigField "String", "URL", "\"https://backend-augmentcare.herokuapp.com\""
 
             buildConfigField "String", "URL", "\"http://dev-backend.herokuapp.com\""
             buildConfigField "String", "SOCKET_URL", "\"https://dev.augmentcare.com\""
@@ -137,8 +146,6 @@ android {
             ext.enableCrashlytics = false
 
             signingConfig signingConfigs.debug
-
-
 
 
             //////////////// Only for LIVE URLs and debug build /////////////////////
@@ -319,7 +326,6 @@ dependencies {
     implementation 'com.google.firebase:firebase-crashlytics:17.0.0-beta01'
     implementation 'com.txusballesteros:bubbles:1.2.1'
     implementation 'se.aaro.gustav:passwordstrengthmeter:0.+'
-
 
 
 }

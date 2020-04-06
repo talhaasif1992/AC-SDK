@@ -274,10 +274,10 @@ public class HomeScreenActivity extends BaseActivity {
 //            // #TODO planOn should be false
 //            PrefsHelper.setOnPlan(false);
 
-            if (myTrace == null) {
-                myTrace = FirebasePerformance.getInstance().newTrace("test_trace");
-                myTrace.start();
-            }
+//            if (myTrace == null) {
+//                myTrace = FirebasePerformance.getInstance().newTrace("test_trace");
+//                myTrace.start();
+//            }
         } catch (Exception ignored) {
         }
 

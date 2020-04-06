@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:2:1-239:12
-INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:2:1-239:12
-INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:2:1-239:12
-INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:2:1-239:12
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:1:1-238:12
+INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:1:1-238:12
+INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:1:1-238:12
+INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:1:1-238:12
 MERGED from [androidx.databinding:databinding-adapters:3.5.3] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/19e25b2d38a617ecb6a789a33a8645bd/databinding-adapters-3.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:3.5.3] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/629551c725da345fbad0b19cab3606c5/databinding-runtime-3.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [com.lamudi.phonefield:phone-field:0.1.3] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/AndroidManifest.xml:2:1-17:12
@@ -149,33 +149,33 @@ MERGED from [com.intercom:android-composer:2.1.0] /Users/haadnadeem/.gradle/cach
 MERGED from [com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:2:1-19:12
 MERGED from [com.google.android:flexbox:1.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/8ace537b32c136fc0d3a6b45f1a06202/jetified-flexbox-1.0.0/AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/e6dadfd5edf9e21d457c8bee99b7e52a/transport-api-2.2.0/AndroidManifest.xml:15:1-22:12
-INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:2:1-239:12
-INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:2:1-239:12
-INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:2:1-239:12
+INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:1:1-238:12
+INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:1:1-238:12
+INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:1:1-238:12
 	package
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:4:5-38
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:3:1-34
 		INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:2:1-239:12
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:1:1-238:12
 		INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:2:1-47
 	android:versionCode
 		INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:2:1-239:12
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:1:1-238:12
 		INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:12:5-82
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:11:1-78
 MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
 MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/5e80c84d742bd1511deb1c7738688ec3/firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:12:22-79
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:11:18-75
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:13:5-68
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:12:1-64
 MERGED from [com.segment.analytics.android.integrations:intercom:1.1.0-beta] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eef71b4744612334c59b4505907fe954/jetified-intercom-1.1.0-beta/AndroidManifest.xml:12:5-68
 MERGED from [com.segment.analytics.android.integrations:intercom:1.1.0-beta] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eef71b4744612334c59b4505907fe954/jetified-intercom-1.1.0-beta/AndroidManifest.xml:12:5-68
 MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:27:5-68
@@ -193,13 +193,13 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /User
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/754ed61f28480aebad4b7a26d8a0c5b5/play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/754ed61f28480aebad4b7a26d8a0c5b5/play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:13:22-65
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:12:18-61
 uses-permission#android.permission.DISABLE_KEYGUARD
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:14:5-75
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:13:1-71
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:14:22-72
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:13:18-68
 uses-permission#android.permission.INTERNET
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:15:5-67
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:14:1-63
 MERGED from [com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:11:5-67
 MERGED from [com.segment.analytics.android.integrations:intercom:1.1.0-beta] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eef71b4744612334c59b4505907fe954/jetified-intercom-1.1.0-beta/AndroidManifest.xml:10:5-67
@@ -237,23 +237,23 @@ MERGED from [com.opentok.android.v3:opentok-android-sdk-v3:3.1.6] /Users/haadnad
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/9f2d7267206c457e7a47e61f70527166/transport-backend-cct-2.2.0/AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/9f2d7267206c457e7a47e61f70527166/transport-backend-cct-2.2.0/AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:15:22-64
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:14:18-60
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:16:5-79
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:15:1-75
 MERGED from [com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:9:5-79
 MERGED from [com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:16:22-76
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:15:18-72
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:17:5-81
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:16:1-77
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:17:22-78
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:16:18-74
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:18:5-80
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:17:1-76
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:18:22-77
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:17:18-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:19:5-79
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:18:1-75
 MERGED from [com.segment.analytics.android.integrations:intercom:1.1.0-beta] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eef71b4744612334c59b4505907fe954/jetified-intercom-1.1.0-beta/AndroidManifest.xml:11:5-79
 MERGED from [com.segment.analytics.android.integrations:intercom:1.1.0-beta] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eef71b4744612334c59b4505907fe954/jetified-intercom-1.1.0-beta/AndroidManifest.xml:11:5-79
 MERGED from [com.novoda:merlin:1.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/4e3b47cb259fb3fdfd36baba33610f37/jetified-merlin-1.2.0/AndroidManifest.xml:8:5-79
@@ -281,37 +281,37 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /User
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c96b0480bd843f4d6866b61c6b42946d/transport-runtime-2.2.0/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/c96b0480bd843f4d6866b61c6b42946d/transport-runtime-2.2.0/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:19:22-76
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:18:18-72
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:20:5-76
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:19:1-72
 MERGED from [com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:10:5-76
 MERGED from [com.google.android.libraries.places:places:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/35c9a059e97447802c5b3a3f8e22a76f/jetified-places-1.1.0/AndroidManifest.xml:10:5-76
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:20:22-73
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:19:18-69
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:21:5-65
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:20:1-62
 MERGED from [io.card:android-sdk:5.5.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bc29b4d712ee94dde0be3c1ee5cc92cb/jetified-android-sdk-5.5.1/AndroidManifest.xml:10:5-66
 MERGED from [io.card:android-sdk:5.5.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/bc29b4d712ee94dde0be3c1ee5cc92cb/jetified-android-sdk-5.5.1/AndroidManifest.xml:10:5-66
 MERGED from [com.txusballesteros:bubbles:1.2.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/007fb4b392b9effb13ed8cd54e0d4d2f/bubbles-1.2.1/AndroidManifest.xml:35:5-66
 MERGED from [com.txusballesteros:bubbles:1.2.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/007fb4b392b9effb13ed8cd54e0d4d2f/bubbles-1.2.1/AndroidManifest.xml:35:5-66
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:21:22-63
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:20:18-59
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:22:5-77
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:21:1-74
 MERGED from [com.txusballesteros:bubbles:1.2.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/007fb4b392b9effb13ed8cd54e0d4d2f/bubbles-1.2.1/AndroidManifest.xml:36:5-78
 MERGED from [com.txusballesteros:bubbles:1.2.1] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/007fb4b392b9effb13ed8cd54e0d4d2f/bubbles-1.2.1/AndroidManifest.xml:36:5-78
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:22:22-75
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:21:18-71
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:23:5-76
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:22:1-73
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:23:22-74
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:22:18-70
 uses-permission#android.permission.USE_FULL_SCREEN_INTENT
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:24:5-80
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:23:1-77
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:24:22-78
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:23:18-74
 application
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:26:5-238:19
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:25:1-237:15
 MERGED from [com.lamudi.phonefield:phone-field:0.1.3] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/AndroidManifest.xml:11:5-15:19
 MERGED from [com.lamudi.phonefield:phone-field:0.1.3] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/AndroidManifest.xml:11:5-15:19
 MERGED from [com.blankj:utilcodex:1.26.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1b92658862aa65692183e2e7d0fd5382/jetified-utilcodex-1.26.0/AndroidManifest.xml:9:5-33:19
@@ -459,263 +459,267 @@ MERGED from [com.intercom:android-composer:2.1.0] /Users/haadnadeem/.gradle/cach
 MERGED from [com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:9:5-17:19
 MERGED from [com.intercom:android-composer-gallery:2.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/AndroidManifest.xml:9:5-17:19
 	android:screenOrientation
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:37:9-45
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:36:5-41
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/8900fc9413b523a4d57fbc4443be86a3/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:33:9-35
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:32:5-31
 	android:label
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:30:9-41
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:29:5-37
 	tools:ignore
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:35:9-48
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:34:5-44
 	android:largeHeap
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:31:9-33
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:30:5-29
 	android:icon
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:29:9-43
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:28:5-39
 	android:allowBackup
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:28:9-36
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:27:5-32
 		REJECTED from [com.lamudi.phonefield:phone-field:0.1.3] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/96bc9406b6d974cf354339f5f0d923dd/jetified-phone-field-0.1.3/AndroidManifest.xml:12:9-35
 		REJECTED from [:RangeSeekBar] /Users/haadnadeem/Android Projects/AC SDK/RangeSeekBar/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-35
 		REJECTED from [com.mikhaellopez:circularimageview:3.0.2] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/45ff19b13d474d0c89a909f0f5447cfa/circularimageview-3.0.2/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:34:9-40
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:33:5-36
 	android:networkSecurityConfig
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:32:9-63
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:31:5-59
 	tools:replace
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:36:9-44
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:35:5-40
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:27:9-30
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:26:5-26
 activity#com.augmentcare.patient.activities.AboutActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:40:9-62
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:38:5-58
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:40:19-59
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:38:15-55
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:42:9-44:55
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:40:5-42:51
 	android:value
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:44:13-52
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:42:9-48
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:43:13-58
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:41:9-54
 activity#com.augmentcare.patient.activities.HomeScreenActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:46:9-55:20
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:44:5-53:16
 	android:windowSoftInputMode
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:48:13-52
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:46:9-48
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:47:13-58
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:45:9-54
 nav-graph
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:49:13-70
-CONVERTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:49:13-70
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:47:9-66
+CONVERTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:47:9-66
 	android:value
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:49:24-67
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:47:20-63
+activity#com.augmentcare.patient.InitializeACActivity
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:56:5-61:16
+	android:name
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:56:15-74
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:50:13-54:29
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:57:9-60:25
 action#android.intent.action.MAIN
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:51:17-69
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:58:13-65
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:51:25-66
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:58:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:53:17-77
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:59:13-73
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:53:27-74
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:59:23-70
 activity#com.augmentcare.patient.activities.BankAlfalahPaymentSuccessActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:58:9-61:15
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:62:5-64:55
 	android:theme
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:60:13-56
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:64:9-52
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:59:13-73
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:63:9-69
 activity#com.augmentcare.patient.activities.TNCActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:62:9-65:50
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:65:5-68:47
 	android:label
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:64:13-46
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:67:9-42
 	android:theme
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:65:13-48
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:68:9-44
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:63:13-51
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:66:9-47
 activity#com.augmentcare.patient.activities.ChatActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:66:9-69:47
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:69:5-72:43
 	android:theme
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:69:13-44
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:72:9-40
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:67:13-52
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:70:9-48
 activity#com.augmentcare.patient.activities.VideoConsultationActivityOld
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:70:9-74:66
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:73:5-77:62
 	android:launchMode
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:72:13-43
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:75:9-39
 	android:theme
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:74:13-63
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:77:9-59
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:71:13-68
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:74:9-64
 activity#com.augmentcare.patient.activities.VideoConsultationActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:75:9-82:66
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:78:5-85:62
 	android:turnScreenOn
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:81:13-40
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:84:9-36
 	android:showWhenLocked
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:79:13-42
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:82:9-38
 	android:launchMode
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:77:13-43
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:80:9-39
 	android:noHistory
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:80:13-37
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:83:9-33
 	android:theme
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:82:13-63
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:85:9-59
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:76:13-65
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:79:9-61
 service#com.augmentcare.patient.notifications.ACFirebaseMessagingService
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:84:9-90:19
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:87:5-93:15
 	android:exported
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:86:13-37
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:89:9-33
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:85:13-69
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:88:9-65
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:87:13-89:29
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:90:9-92:25
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:88:17-78
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:91:13-74
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:88:25-75
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:91:21-71
 activity#com.augmentcare.patient.activities.PaymentActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:92:9-95:15
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:95:5-97:35
 	android:label
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:94:13-36
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:97:9-32
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:93:13-55
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:96:9-51
 meta-data#preloaded_fonts
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:105:9-107:57
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:107:5-109:53
 	android:resource
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:107:13-54
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:109:9-50
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:106:13-43
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:108:9-39
 activity#com.augmentcare.patient.activities.AddAddressActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:109:9-113:54
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:111:5-115:50
 	android:label
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:111:13-60
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:113:9-56
 	android:theme
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:113:13-51
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:115:9-47
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:110:13-58
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:112:9-54
 activity#com.augmentcare.patient.activities.VideoPlayerActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:116:9-120:54
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:118:5-122:50
 	android:label
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:119:13-64
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:121:9-60
 	android:configChanges
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:118:13-74
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:120:9-70
 	android:theme
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:120:13-51
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:122:9-47
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:117:13-59
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:119:9-55
 activity#com.augmentcare.patient.activities.LabOrderViewActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:121:9-124:68
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:123:5-126:64
 	android:windowSoftInputMode
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:124:13-65
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:126:9-61
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:122:13-60
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:124:9-56
 activity#com.augmentcare.patient.activities.UpdateActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:125:9-128:68
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:127:5-130:64
 	android:windowSoftInputMode
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:128:13-65
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:130:9-61
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:126:13-54
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:128:9-50
 activity#com.augmentcare.patient.activities.AddCardActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:129:9-131:15
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:131:5-60
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:130:13-55
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:131:15-57
 activity#com.augmentcare.patient.activities.TermAndConditionActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:132:9-134:15
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:132:5-69
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:133:13-64
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:132:15-66
 activity#com.augmentcare.patient.activities.PmdcWebViewActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:135:9-137:15
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:133:5-64
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:136:13-59
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:133:15-61
 activity#com.augmentcare.patient.activities.WebViewActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:138:9-140:15
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:134:5-60
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:139:13-55
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:134:15-57
 activity#com.augmentcare.patient.bottomsheets.CardSelectionDialogue
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:141:9-96
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:135:5-91
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:141:19-92
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:135:15-88
 activity#com.augmentcare.patient.activities.ViewClaimImageActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:142:9-73
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:136:5-67
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:142:19-68
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:136:15-64
 activity#com.augmentcare.patient.fragments.AddDependentMemberFragment
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:143:9-146:55
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:137:5-140:51
 	android:windowSoftInputMode
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:146:13-52
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:140:9-48
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:144:13-65
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:138:9-61
 activity#com.augmentcare.patient.activities.AddressActivity
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:147:9-64
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:141:5-60
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:147:19-61
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:141:15-57
 service#com.google.android.gms.analytics.CampaignTrackingService
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:190:9-194:19
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:183:5-187:43
 	android:enabled
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:192:13-35
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:186:9-31
 	android:exported
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:193:13-36
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:187:9-32
 	android:permission
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:191:13-62
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:185:9-58
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:190:18-89
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:184:9-80
 receiver#com.google.android.gms.analytics.CampaignTrackingReceiver
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:195:9-202:20
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:189:5-197:16
 	android:enabled
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:196:13-35
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:191:9-31
 	android:exported
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:197:13-36
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:192:9-32
 	android:permission
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:198:13-69
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:193:9-65
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:195:19-91
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:190:9-81
 intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:199:13-201:29
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:194:9-196:25
 action#com.android.vending.INSTALL_REFERRER
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:200:17-79
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:195:13-75
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:200:25-76
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:195:21-72
 receiver#com.augmentcare.patient.UtmReceiver
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:203:9-210:20
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:198:5-206:16
 	android:enabled
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:204:13-35
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:200:9-31
 	android:exported
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:205:13-36
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:201:9-32
 	android:permission
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:206:13-69
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:202:9-65
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:203:19-46
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:199:9-36
 receiver#com.google.android.gms.analytics.AnalyticsReceiver
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:211:9-216:20
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:207:5-213:16
 MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:30:9-34:20
 MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:30:9-34:20
 	android:enabled
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:212:13-35
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:209:9-31
 	android:exported
 		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:211:19-84
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:208:9-74
 intent-filter#action:name:com.google.android.gms.analytics.ANALYTICS_DISPATCH
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:213:13-215:29
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:210:9-212:25
 action#com.google.android.gms.analytics.ANALYTICS_DISPATCH
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:214:17-94
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:211:13-90
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:214:25-91
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:211:21-87
 service#com.google.android.gms.analytics.AnalyticsService
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:217:9-219:39
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:215:5-218:36
 MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:36:9-39:40
 MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/f27bce6cb8b40a1e0f67e13aa9895b0e/play-services-analytics-17.0.0/AndroidManifest.xml:36:9-39:40
 	android:enabled
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:218:13-35
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:217:9-31
 	android:exported
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:219:13-37
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:218:9-33
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:217:18-82
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:216:9-73
 receiver#com.adjust.sdk.AdjustReferrerReceiver
-ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:220:9-227:20
+ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:219:5-226:16
 	android:exported
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:222:13-36
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:221:9-32
 	android:permission
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:223:13-69
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:222:9-65
 	android:name
-		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:221:13-65
+		ADDED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml:220:9-61
 uses-sdk
 INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/haadnadeem/Android Projects/AC SDK/app/src/main/AndroidManifest.xml
