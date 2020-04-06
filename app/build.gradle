@@ -1,0 +1,326 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'io.fabric'
+apply plugin: 'com.google.firebase.firebase-perf'
+apply plugin: "androidx.navigation.safeargs"
+apply plugin: 'com.google.firebase.crashlytics'
+
+////// Steps to check dependency tree
+// 1 - go to terminal tab on android studio
+// 2 - paste and run this command ./gradlew -q dependencies app:dependencies >>dependencyTreeReport.txt
+// 3 - go and check dependencyTreeReport.txt file in your project
+
+
+//repositories {
+//    maven { url 'https://maven.fabric.io/public' }
+//}
+
+android {
+    def GOOGLE_WEB_CLIENT_ID_LIVE = "216332780262-espc0rql21h10omumcaarot19535gt5m.apps.googleusercontent.com"
+    def GOOGLE_WEB_CLIENT_ID_DEBUG = "1027171821875-t198idl9if7o6p3mo9gc76d5leqim839.apps.googleusercontent.com"
+
+    compileSdkVersion 29
+    buildToolsVersion '29.0.2'
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+
+    }
+    android {
+        packagingOptions {
+            exclude 'META-INF/DEPENDENCIES'
+            exclude 'META-INF/NOTICE'
+            exclude 'META-INF/NOTICE.txt'
+            exclude 'META-INF/LICENSE'
+            exclude 'META-INF/LICENSE.txt'
+        }
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+        dataBinding.enabled true
+    }
+
+    defaultConfig {
+        applicationId "com.augmentcare.patient"
+        minSdkVersion 21
+        versionCode 97
+        targetSdkVersion 29
+        versionName "3.1.6"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath false
+            }
+        }
+    }
+
+    signingConfigs {
+        /*
+        release {
+//            storeFile file("Users/fahad/Desktop/AugmentCareAndroid.jks")
+            storeFile file("C:/Users/Hassan Aizaz/Documents/AugmentCare Data/file/AugmentCareAndroid.jks")
+            storePassword "acRoidBoss2273&"
+            keyAlias "AugmentCare"
+            keyPassword "acRoidBoss2273&"
+        }
+    }
+    productFlavors {
+        Patient {
+            applicationId "com.augmentcare.patient"
+            minSdkVersion 19
+            targetSdkVersion 27
+            versionCode 62
+            versionName "2.0.22"
+            multiDexEnabled true
+            testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+            dimension "mode"
+        }
+        Doctor {
+            applicationId "com.patient.doctor"
+            minSdkVersion 19
+            targetSdkVersion 27
+            versionCode 1
+            versionName "1.0"
+            multiDexEnabled true
+            testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+            dimension "mode"
+        }
+        */
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            // Live keys
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            buildConfigField "String", "URL", "\"https://partnerengine.augmentcare.com\""
+            buildConfigField "String", "URL", "\"https://backend-augmentcare.herokuapp.com\""
+            buildConfigField "String", "SOCKET_URL", "\"https://app.augmentcare.com/\""
+            buildConfigField "String", "STRIPE_KEY", "\"pk_live_RnszX0IlYYhF75YkEMIpgv8u\""
+            buildConfigField "String", "INTERCOME_APP_ID", "\"poad693h\""
+            buildConfigField "String", "INTERCOME_API_KAY", "\"android_sdk-eb6149eaae5d269c755076b2fa857c733fc35b60\""
+            buildConfigField "String", "REQUEST_ID_TOKEN", "\"$GOOGLE_WEB_CLIENT_ID_LIVE\""
+            buildConfigField "String", "ALGOLIA_APP_ID", "\"RRNG973S0A\""
+            buildConfigField "String", "API_KEY", "\"a867cf7c3647da7253ceaeb02977bdb8\""
+            buildConfigField "String", "AMPLITUDE_KEY", "\"e9e6fd59227ca44f31fcc4ec1260d661\""
+            buildConfigField "String", "ADJUST_SDK_ENVIRONMENT", "\"production\""
+            debuggable false
+//            signingConfig signingConfigs.release
+        }
+        debug {
+
+            FirebasePerformance {
+                // Set this flag to 'false' to disable @AddTrace annotation processing and
+                // automatic HTTP/S network request monitoring
+                // for a specific build variant at compile time.
+                instrumentationEnabled false
+            }
+//
+//            minifyEnabled true
+////            shrinkResources true
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+           // buildConfigField "String", "URL", "\"https://backend-augmentcare.herokuapp.com\""
+
+            buildConfigField "String", "URL", "\"http://dev-backend.herokuapp.com\""
+            buildConfigField "String", "SOCKET_URL", "\"https://dev.augmentcare.com\""
+            buildConfigField "String", "STRIPE_KEY", "\"pk_test_rosXgs5uYEcbcCI20tDgjUnZ\""
+            buildConfigField "String", "INTERCOME_APP_ID", "\"osflvlzs\""
+            buildConfigField "String", "INTERCOME_API_KAY", "\"android_sdk-7d94e2e079e523852d107c5b8aa03351b2ef9f46\""
+            buildConfigField "String", "REQUEST_ID_TOKEN", "\"$GOOGLE_WEB_CLIENT_ID_DEBUG\""
+            buildConfigField "String", "ALGOLIA_APP_ID", "\"PX7CF5JY25\""
+            buildConfigField "String", "API_KEY", "\"8dd1a44cf682e2588de57c311dc608db\""
+            buildConfigField "String", "AMPLITUDE_KEY", "\"e1906fab5998a4f4b5f24e3d4a17ffea\""
+            buildConfigField "String", "ADJUST_SDK_ENVIRONMENT", "\"sandbox\""
+            ext.enableCrashlytics = false
+
+            signingConfig signingConfigs.debug
+
+
+
+
+            //////////////// Only for LIVE URLs and debug build /////////////////////
+//            buildConfigField "String", "URL", "\"https://backend-augmentcare.herokuapp.com\""
+//            buildConfigField "String", "SOCKET_URL", "\"https://app.augmentcare.com/\""
+//            buildConfigField "String", "STRIPE_KEY", "\"pk_live_RnszX0IlYYhF75YkEMIpgv8u\""
+//            buildConfigField "String", "INTERCOME_APP_ID", "\"poad693h\""
+//            buildConfigField "String", "INTERCOME_API_KAY", "\"android_sdk-eb6149eaae5d269c755076b2fa857c733fc35b60\""
+//            buildConfigField "String", "REQUEST_ID_TOKEN", "\"$GOOGLE_WEB_CLIENT_ID_DEBUG\""
+//            buildConfigField "String", "ALGOLIA_APP_ID", "\"RRNG973S0A\""
+//            buildConfigField "String", "API_KEY", "\"a867cf7c3647da7253ceaeb02977bdb8\""
+//            buildConfigField "String", "AMPLITUDE_KEY", "\"e9e6fd59227ca44f31fcc4ec1260d661\""
+//            buildConfigField "String", "ADJUST_SDK_ENVIRONMENT", "\"production\""
+////            ////////////////////////////////////////////////////////////////////////////
+
+        }
+//        demo {
+//            buildConfigField "String", "URL", "\"https://staging-back.herokuapp.com\""
+//            buildConfigField "String", "STRIPE_KEY", "\"pk_test_rosXgs5uYEcbcCI20tDgjUnZ\""
+//            buildConfigField "String", "SOCKET_URL", "\"https://demo.augmentcare.com\""
+//            debuggable true
+//            signingConfig signingConfigs.debug
+//        }
+    }
+
+    lintOptions {
+        abortOnError true
+    }
+
+    configurations {
+        all*.exclude group: 'com.google.guava', module: 'listenablefuture'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    implementation('com.lamudi.phonefield:phone-field:0.1.3@aar') {
+        transitive = true
+//        exclude group: 'com.googlecode.libphonenumber', module: 'libphonenumber'
+    }
+
+    // utils lib
+    implementation 'com.blankj:utilcodex:1.26.0'
+
+    implementation 'androidx.browser:browser:1.2.0'
+    implementation 'androidx.vectordrawable:vectordrawable-animated:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.github.nkzawa:socket.io-client:0.3.0'
+    implementation 'com.opentok.android:opentok-android-sdk:2.16.6'
+    implementation 'pub.devrel:easypermissions:1.2.0'
+    implementation 'com.jakewharton:butterknife:10.2.1'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
+
+    implementation 'com.stripe:stripe-android:7.0.0'
+
+    //google places api
+    implementation 'com.google.android.libraries.places:places:1.1.0'
+
+    //Password Strength checker
+    implementation 'se.aaro.gustav:passwordstrengthmeter:0.+'
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'org.apache.httpcomponents:httpmime:4.5.10'
+    implementation 'com.github.tozny:java-aes-crypto:1.1.0'
+    implementation 'com.github.jkwiecien:EasyImage:2.0.4'
+    implementation 'com.mikhaellopez:circularimageview:3.0.2'
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+//    implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+    implementation 'io.intercom.android:intercom-sdk-fcm:4.1.9'
+    implementation 'com.amplitude:android-sdk:2.23.2'
+    implementation 'com.github.GrenderG:Toasty:1.4.0'
+    implementation 'com.adjust.sdk:adjust-android:4.19.1'
+    implementation 'com.android.installreferrer:installreferrer:1.1.1'
+    implementation 'com.github.ybq:Android-SpinKit:1.2.0'
+    implementation 'org.apache.commons:commons-lang3:3.9'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.7.0'
+
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+
+    //    //RX Java
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.4'
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    // rx behaviour relay
+    implementation 'com.jakewharton.rxrelay2:rxrelay:2.1.0'
+
+    // for intenet connectivity
+    implementation 'com.novoda:merlin:1.2.0'
+
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
+
+
+    implementation 'com.mikepenz:materialdrawer:6.1.2'
+
+    implementation 'com.segment.analytics.android:analytics:4.5.0-beta.0'
+    implementation 'com.segment.analytics.android.integrations:intercom:1.1.0-beta'
+    implementation 'com.github.AppIntro:AppIntro:5.1.0'
+
+
+    // Retrofit and OkHttp
+
+    // OkHttp interceptors for logging
+    implementation 'com.squareup.retrofit2:retrofit:2.7.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.7.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.7.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.2.2'
+    implementation 'com.squareup.okhttp3:okhttp-urlconnection:3.13.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.13.1'
+
+    implementation 'androidx.navigation:navigation-fragment:2.2.0-rc04'
+    implementation 'androidx.navigation:navigation-ui:2.2.0-rc04'
+    implementation 'androidx.navigation:navigation-runtime:2.2.0-rc04'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+    implementation "androidx.viewpager:viewpager:1.0.0"
+    implementation 'com.github.mahimrocky:ShowMoreText:1.0.2'
+    implementation 'me.zhanghai.android.materialratingbar:library:1.4.0'
+
+
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+
+    implementation 'androidx.lifecycle:lifecycle-viewmodel:2.1.0'
+
+    implementation 'com.ogaclejapan.smarttablayout:library:2.0.0@aar'
+    implementation 'com.ogaclejapan.smarttablayout:utils-v4:2.0.0@aar'
+
+    implementation 'com.vicmikhailau:MaskedEditText:3.0.1'
+
+    implementation 'com.github.mukeshsolanki:android-otpview-pinview:2.1.0'
+
+    implementation 'io.intercom.android:intercom-sdk-base:6.0.0'
+
+    ////////////////////// Play Services Stuff /////////////////////////
+////// Stable
+//    implementation 'com.github.WindSekirun:RxSocialLogin:1.2.5.3-androidx'
+//    implementation 'com.jaychang:simpleauth-google:2.1.4'
+
+//    implementation 'com.google.firebase:firebase-core:17.2.1'
+    implementation 'com.google.firebase:firebase-core:17.2.2'
+    implementation 'com.google.firebase:firebase-auth:19.2.0'
+    implementation 'com.google.firebase:firebase-messaging:20.1.0'
+    releaseImplementation 'com.google.firebase:firebase-crash:16.2.1'
+    // releaseImplementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+
+//    implementation('com.crashlytics.sdk.android:crashlytics:2.10.1@aar') {
+//        transitive = true;
+//    }
+
+
+    implementation('com.google.firebase:firebase-perf:19.0.4') {
+        exclude group: 'com.google.protobuf', module: 'protobuf-lite'
+    }
+
+    implementation 'com.google.android.gms:play-services-base:17.1.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'com.google.android.gms:play-services-places:17.0.0'
+    implementation 'com.google.android.gms:play-services-analytics:17.0.0'
+    implementation 'com.facebook.android:facebook-android-sdk:4.42.0'
+
+    implementation project(':RangeSeekBar')
+    implementation project(':weekViewCalender')
+
+    // implementation 'cards.pay:paycardsrecognizer:1.1.0'
+    implementation 'io.card:android-sdk:5.5.1'
+
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+    implementation 'com.google.firebase:firebase-crashlytics:17.0.0-beta01'
+    implementation 'com.txusballesteros:bubbles:1.2.1'
+    implementation 'se.aaro.gustav:passwordstrengthmeter:0.+'
+
+
+
+}
+apply plugin: 'com.google.gms.google-services'
