@@ -14,7 +14,7 @@ public class InitializeACActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_initialize_a_c);
-        InitAC(this);
+        //InitAC(this);
     }
     public void InitAC(Context context){
         startActivity(new Intent(context, HomeScreenActivity.class));
