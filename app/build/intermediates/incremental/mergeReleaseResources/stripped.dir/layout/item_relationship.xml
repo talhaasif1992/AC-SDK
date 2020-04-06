@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+<RelativeLayout
+
+    android:id="@+id/lytGenderback"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_button"
+    >
+<ImageView
+    android:id="@+id/ivIcon"
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/ic_male"
+    android:visibility="gone"
+
+    />
+<TextView
+    android:id="@+id/txtRelation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="MALE"
+    android:layout_weight="25"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/ivIcon"
+    android:gravity="center_vertical"
+    android:fontFamily="@font/lato_black"
+    android:textColor="@color/colorWhite"
+    android:minHeight="@dimen/minHeight"
+
+    />
+</RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">Search</string>
+    <string name="order_a_lab">Order A Lab</string>
+    <string name="_28_july_2018">28 July 2018</string>
+    <string name="done">Done</string>
+    <string name="sample_required">Sample Required:</string>
+    <string name="bed_rest_allowed_from">Bed Rest Allowed from</string>
+    <string name="pending_appointments">Pending Appointments</string>
+    <string name="upcoming_appointments">Upcoming Appointments</string>
+    <string name="prescription_details">%s %s , %s %s meal for %,.2f %s</string>
+    <string name="practice_locations">Practice Locations</string>
+    <string name="education">Education</string>
+    <string name="checkout">Checkout</string>
+    <string name="find_the_medicine_to_order_for_home_delivery">Find the medicines to order for home delivery</string>
+    <string name="pay_at_location">Pay at Location</string>
+    <string name="consult_with_our_doctors_from_the_comfort_of_your_home">Consult with our doctors from the comfort of \n your home</string>
+    <string name="will_be_available_after">Will be availableDoctor after</string>
+    <string name="you_can_expect_a_call_at">You can expect a call at</string>
+    <string name="start_video_appointment">Start Video Appointment</string>
+    <string name="or">OR</string>
+    <string name="book_for_later">Book for Later</string>
+    <string name="experience">Experience:</string>
+    <string name="pmdc_licence">PMDC LICENCE #</string>
+    <string name="fees">Fees:</string>
+    <string name="yes">Yes</string>
+    <string name="full_name">Full Name</string>
+    <string name="no_result_found">No Result Found</string>
+    <string name="hospital">Hospital</string>
+    <string name="delete">Delete</string>
+    <string name="free_for_subscribers">Free for Subscribers</string>
+    <string name="subscribed_plan">Subscribed Plan</string>
+    <string name="online">Online</string>
+    <string name="self">self</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/intercom_inbox_row_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:paddingBottom="@dimen/intercom_inbox_vertical_padding"
+    android:paddingRight="24dp"
+    android:paddingTop="@dimen/intercom_inbox_vertical_padding"
+    tools:background="#ddd">
+
+    <ImageView
+        android:id="@+id/intercom_unread_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:src="@drawable/intercom_unread_dot"
+        android:layout_gravity="center_vertical"/>
+
+    <!-- 34dp width allows for visual 32dp square with 1dp padding on each side-->
+    <io.intercom.android.sdk.views.AuthorAvatarView
+        android:id="@+id/intercom_author_avatar"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="24dp"
+        android:layout_gravity="center_vertical"
+        app:avatarSize="20dp"
+        app:activeStateSize="10dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="74dp">
+
+        <TextView
+            android:id="@+id/intercom_time_stamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:includeFontPadding="false"
+            android:textColor="@color/intercom_text_grey"
+            android:textSize="14sp"
+            tools:text="23h ago"/>
+
+        <TextView
+            android:id="@+id/intercom_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/intercom_time_stamp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:textColor="@color/intercom_text_grey"
+            android:textSize="14sp"
+            tools:text="Emily Contreras"/>
+
+        <TextView
+            android:id="@+id/intercom_message_summary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/intercom_user_name"
+            app:layout_constraintRight_toRightOf="parent"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textColor="@color/intercom_black"
+            android:textSize="14sp"
+            tools:text="I've added Martin on Skype the added Martin on Skype the"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="8dp"
+    android:focusable="false"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnPrescribedMedicine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/file_claim_button_bg"
+        android:text="Prescriptions"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/search_medicine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPrescribedMedicine"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/search_bar_border"
+        android:drawableEnd="@drawable/ic_search"
+        android:drawableRight="@drawable/ic_search"
+        android:fontFamily="@font/futura_book_font"
+        android:hint="@string/search"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="12sp"
+        tools:ignore="RtlSymmetry" />
+
+    <LinearLayout
+        android:id="@+id/categories_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_medicine"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylerViewLab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/categories_section"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="57dp"
+        android:divider="#fff"
+        android:dividerHeight="1dp" />
+
+    <LinearLayout
+        android:id="@+id/llCheckBtnCont"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="#225d73"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/mCheckout_TextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25"
+            android:gravity="end|center_vertical"
+            android:text="@string/checkout"
+            android:textColor="#fff"
+            android:textSize="@dimen/dimen_18sp" />
+
+        <LinearLayout
+            android:id="@+id/arrow_linearlayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.6">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/forward_arrow" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:visibility="visible"
+        android:id="@+id/layout_spin_kit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorLoadingLayer"
+        android:clickable="true"
+        >
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/spin_kit"
+            style="@style/SpinKitView.ThreeBounce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:SpinKit_Color="@color/colorWhite" />
+
+    </FrameLayout>
+
+</RelativeLayout>

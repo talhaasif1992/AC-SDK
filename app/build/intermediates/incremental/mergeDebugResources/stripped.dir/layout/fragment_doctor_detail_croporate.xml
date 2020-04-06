@@ -1,0 +1,303 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.augmentcare.patient.fragments.DoctorDetailCorporateFragment">
+
+
+    <ScrollView
+        android:id="@+id/contentFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+
+        android:scrollbarStyle="outsideOverlay"
+>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+
+                >
+                <ImageButton
+                    android:id="@+id/btnClose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/minHeight"
+                    android:minWidth="@dimen/minHeight"
+                    android:background="?selectableItemBackground"
+                    android:src="@drawable/ic_close_black"
+                    />
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/ivThumb"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_user"
+                    card_view:civ_border="true"
+                    card_view:civ_border_color="@color/colorWhite"
+                    card_view:civ_border_width="3dp"
+                    card_view:civ_shadow="true"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/minHeight"
+                    card_view:civ_shadow_color="@color/colorGrayDark"
+                    card_view:civ_shadow_radius="1" />
+
+                <LinearLayout
+                    android:id="@+id/lytNameContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_toEndOf="@+id/ivThumb"
+                    android:layout_toRightOf="@+id/ivThumb"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/minHeight"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tvName"
+                        style="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_regular"
+                        android:text="Dr Qamar Zaman Mughal"
+                        android:textColor="@color/colorTextLight" />
+
+                    <TextView
+                        android:id="@+id/tvSpecialization"
+                        style="@style/TextAppearance.AppCompat.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cardiologist"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/colorTextVeryLight" />
+
+                        <TextView
+                            android:id="@+id/txtConsultType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_camera_orange"
+                            android:text="ONLINE / VIDEO CONSULT"
+                            android:drawablePadding="10dp"
+                            android:layout_marginTop="5dp"
+                            />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_alignTop="@id/lytNameContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorLine"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="20dp"
+
+                    ></View>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NEXT AVAILABLE FREE"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textSize="@dimen/dimen_18sp"
+                android:visibility="visible"
+                android:fontFamily="@font/lato_black"
+                android:textColor="@color/colorText"
+                android:id="@+id/txtNextAvailable"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APPOINTMENT TIME FOR YOU"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textSize="@dimen/dimen_15sp"
+                android:visibility="visible"
+                android:id="@+id/txtFreeForYou"
+                android:fontFamily="@font/lato_regular"
+                android:textColor="@color/colorTextLight"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                >
+                <ImageButton
+
+                    android:id="@+id/btnPrevious"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_arrow_left"
+                    android:minWidth="@dimen/minHeight"
+                    android:visibility="visible"
+                    android:minHeight="@dimen/minHeight"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/button_circle_blue"
+                    />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="180dp"
+                    android:layout_weight="100"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    >
+                    <TextView
+                        android:id="@+id/txtNoSlotsAvailable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/dimen_18sp"
+                        android:textColor="@color/colorText"
+                        android:fontFamily="@font/lato_regular"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:visibility="gone"
+                        android:text="No slots availableDoctor for selected date"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+                        android:visibility="gone"
+                        android:id="@+id/lytNoSlots"
+                        >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Good choice! This doctor must be really good!!"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/dimen_18sp"
+                        android:textColor="@color/colorText"
+                        android:fontFamily="@font/lato_regular"
+
+
+                        />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+                            android:text="Sorry, no appointment slots availableDoctor."
+                            android:gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/dimen_18sp"
+                            android:textColor="@color/colorTextVeryLight"
+                            android:fontFamily="@font/lato_regular"
+
+                            />
+                        <TextView
+                            android:id="@+id/txtNextDoctor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_margin="10dp"
+                            android:text="Try next doctor >"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/dimen_18sp"
+                            android:textColor="@color/colorBlueButton"
+                            android:fontFamily="@font/lato_regular"
+                            android:background="?selectableItemBackground"
+
+                            />
+                        try next doctor >
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/lytTimeContainer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+                        android:visibility="visible"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tomorrow,
+Friday 28, 2018"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/dimen_18sp"
+                            android:textColor="@color/colorTextLight"
+                            android:fontFamily="@font/lato_regular"
+                            android:id="@+id/txtDate"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2:15 PM"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/dimen_22"
+                            android:textColor="@color/colorText"
+                            android:fontFamily="@font/lato_black"
+                            android:layout_marginTop="20dp"
+                            android:id="@+id/txtTime"
+                            />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <ImageButton
+
+                    android:id="@+id/btnNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_arrow_right"
+                    android:minWidth="@dimen/minHeight"
+                    android:minHeight="@dimen/minHeight"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:visibility="visible"
+                    android:background="@drawable/button_circle_blue"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/green_button"
+        android:minWidth="160dp"
+        android:text="CONFIRM > "
+        android:visibility="visible"
+        android:textSize="@dimen/dimen_15sp"
+        android:textColor="@color/colorGreenDark"
+        android:fontFamily="@font/lato_black"
+        />
+    <include layout="@layout/layout_progress" android:visibility="gone"></include>
+</RelativeLayout>

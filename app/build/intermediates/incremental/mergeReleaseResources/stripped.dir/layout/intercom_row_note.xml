@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/intercom_cell_horizontal_padding"
+                android:layout_marginRight="@dimen/intercom_cell_horizontal_padding"
+                android:background="@drawable/intercom_conversation_card_background"
+                android:paddingBottom="16dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp">
+
+    <ImageView
+        android:id="@+id/avatarView"
+        android:layout_width="@dimen/intercom_container_card_avatar_size"
+        android:layout_height="@dimen/intercom_container_card_avatar_size"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        tools:src="@drawable/intercom_circular_shadow"/>
+
+    <TextView
+        android:id="@+id/intercom_container_card_title"
+        style="@style/intercom_container_card_author_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/avatarView"
+        android:layout_alignTop="@+id/avatarView"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/avatarView"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:text=""
+        tools:text="Bruce Wayne"/>
+
+    <io.intercom.android.sdk.views.LockableScrollView
+        android:id="@+id/cell_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avatarView"
+        android:layout_gravity="left"
+        android:minHeight="90dp"
+        android:minWidth="312dp"
+        android:paddingTop="16dp"
+        android:scrollbars="none"
+        android:visibility="visible"
+        app:intercomExpanded="true"
+        app:intercomHeightLimit="96dp"
+        app:intercomInterceptTouch="false">
+
+        <LinearLayout
+            android:id="@+id/cellLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="vertical"/>
+    </io.intercom.android.sdk.views.LockableScrollView>
+
+    <View
+        android:id="@+id/intercom_container_fade_view"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_alignBottom="@+id/cell_content"
+        android:background="@drawable/intercom_part_fade_bottom"
+        android:visibility="gone"/>
+    <ImageView
+        android:id="@+id/expand_arrow"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/intercom_container_fade_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/intercom_expand_arrow"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+</RelativeLayout>

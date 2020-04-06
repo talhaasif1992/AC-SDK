@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="hhh">12</integer>
+
+
+    <!-- Weight without upcoming appointments-->
+    <integer name="curve_cont_weight_no_appt">32</integer>
+    <integer name="grid_cont_weight_no_appt">100</integer>
+    <integer name="all_grid_recycler_cont_weight_no_appt">68</integer>
+    <integer name="recycler_cont_weight_no_appt">0</integer>
+
+
+    <!-- Weight with 1  upcoming appointment-->
+    <integer name="curve_cont_weight_one_appt">0</integer>
+    <integer name="all_grid_recycler_cont_weight_one_appt">100</integer>
+    <integer name="grid_cont_weight_one_appt">70</integer>
+    <integer name="recycler_cont_weight_one_appt">30</integer>
+
+    <!-- Weight with 2 or more  upcoming appointment-->
+    <integer name="curve_cont_weight_two_appt">0</integer>
+    <integer name="all_grid_recycler_cont_weight_two_appt">100</integer>
+    <integer name="grid_cont_weight_two_appt">64</integer>
+    <integer name="recycler_cont_weight_two_appt">34</integer>
+
+</resources>

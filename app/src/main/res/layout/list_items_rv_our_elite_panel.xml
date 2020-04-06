@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvElitePanelDoctorProfile"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardElevation="@dimen/_5sdp"
+    app:cardMaxElevation="@dimen/_5sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cvlEliteDoctorDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_3sdp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civEliteDoctorProfilePic"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_50sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tvEliteDoctorName"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvEliteDoctorName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Doctor Name"
+            android:textColor="@color/colorSecondary"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintBottom_toTopOf="@id/tvEliteDogtorDegree"
+            app:layout_constraintStart_toEndOf="@id/civEliteDoctorProfilePic"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvEliteDogtorDegree"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/raleway"
+            android:text="Doctor Degree"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/_8ssp"
+            app:layout_constraintBottom_toTopOf="@id/clTvRatingIvRatingStar"
+            app:layout_constraintStart_toEndOf="@id/civEliteDoctorProfilePic"
+            app:layout_constraintTop_toBottomOf="@id/tvEliteDoctorName" />
+
+        <TextView
+            android:id="@+id/tvEliteDoctorSpeciality"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:fontFamily="@font/raleway"
+            android:text="Doctor Speciality"
+            android:textColor="@color/colorSecondary"
+            android:textSize="@dimen/_8ssp"
+            app:layout_constraintBottom_toBottomOf="@id/tvEliteDogtorDegree"
+            app:layout_constraintStart_toEndOf="@id/tvEliteDogtorDegree"
+            app:layout_constraintTop_toTopOf="@id/tvEliteDogtorDegree" />
+
+        <ImageView
+            android:id="@+id/ivArrowNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            app:layout_constraintBottom_toBottomOf="@id/tvReviews"
+            app:layout_constraintEnd_toEndOf="@id/ivHeart"
+            app:layout_constraintTop_toTopOf="@id/tvReviews"
+            app:srcCompat="@drawable/ic_arrow_right_blue" />
+
+        <ImageView
+            android:id="@+id/ivHeart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_heart_filled" />
+
+        <TextView
+            android:id="@+id/tvReviews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:fontFamily="@font/raleway"
+            android:text="No reviews yet"
+            android:textSize="@dimen/_8ssp"
+            app:layout_constraintBottom_toBottomOf="@id/clTvRatingIvRatingStar"
+            app:layout_constraintStart_toEndOf="@id/clTvRatingIvRatingStar"
+            app:layout_constraintTop_toTopOf="@id/clTvRatingIvRatingStar" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clTvRatingIvRatingStar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tvReviews"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@id/civEliteDoctorProfilePic"
+            app:layout_constraintStart_toStartOf="@id/tvEliteDogtorDegree"
+            app:layout_constraintTop_toBottomOf="@id/tvEliteDogtorDegree">
+
+            <TextView
+                android:id="@+id/tvItemRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway"
+                android:text="No ratings yet"
+                android:textColor="@color/colorSecondary"
+                android:textSize="@dimen/_8ssp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/ivRatingStar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@id/tvItemRating"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tvItemRating"
+                app:layout_constraintTop_toTopOf="@id/tvItemRating"
+                app:srcCompat="@drawable/ic_rating_star" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

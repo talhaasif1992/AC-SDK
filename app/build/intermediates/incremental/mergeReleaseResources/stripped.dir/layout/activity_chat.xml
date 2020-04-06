@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.augmentcare.patient.activities.ChatActivity">
+
+    <ProgressBar
+        android:id="@+id/progressContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+    <include layout="@layout/layout_no_connection"
+        android:visibility="gone"></include>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylerViewChat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_above="@+id/linearLayout">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/txtCurrentMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorRed" />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:id="@+id/linearLayout">
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnAttachment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_file"
+            android:background="?selectableItemBackground"
+            android:layout_gravity="center_vertical"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:visibility="gone"
+            />
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etxtMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+
+            />
+        <Button
+            android:id="@+id/btnSend"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:theme="@style/Button.Signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_send"
+            android:text="SEND"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/green_button"
+            android:fontFamily="@font/futura_light_bt" />
+    </LinearLayout>
+</RelativeLayout>

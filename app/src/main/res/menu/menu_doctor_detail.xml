@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_favorite"
+        android:title="@string/label_share"
+        android:icon="@drawable/ic_heart_blue"
+        app:showAsAction="always"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/label_help"
+        android:icon="@drawable/ic_help"
+        app:showAsAction="always"
+        android:visible="true"/>
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/label_share"
+        android:icon="@drawable/ic_share_black_24dp"
+        app:showAsAction="always"
+        android:visible="true"/>
+</menu>

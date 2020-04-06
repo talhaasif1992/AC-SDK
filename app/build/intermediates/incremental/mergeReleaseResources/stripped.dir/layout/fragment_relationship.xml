@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.augmentcare.patient.fragments.RelationshipFragment">
+
+    <TextView
+        android:id="@+id/txtProfileFor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lato_bold"
+        android:text="CREATING PROFILE FOR"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/dimen_18sp" />
+
+    <GridView
+        android:id="@+id/grdRelationships"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:numColumns="2"
+        android:layout_below="@+id/txtProfileFor">
+    </GridView>
+
+
+</RelativeLayout>

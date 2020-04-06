@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/intercom_post_gradient"
+    android:clipChildren="false">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/intercom_full_transparent_full_black"
+        app:elevation="4dp">
+
+        <io.intercom.android.sdk.views.IntercomToolbar
+            android:id="@+id/intercom_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/intercom_toolbar_height"
+            android:background="@color/intercom_full_transparent_full_black"
+            app:contentInsetEnd="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetStart="0dp"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/post_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/conversation_coordinator"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/app_bar_layout"
+        android:visibility="invisible">
+        <io.intercom.android.sdk.views.ContentAwareScrollView
+            android:id="@+id/post_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="32dp"
+            android:paddingTop="32dp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@id/conversation_coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/intercom_composer_height"
+        android:layout_alignParentBottom="true"
+        android:clipChildren="false"
+        android:visibility="gone">
+        <include layout="@layout/intercom_fake_composer"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha="0.1"
+            android:background="@color/intercom_white"/>
+        <io.intercom.android.sdk.conversation.ReactionInputView
+            android:id="@+id/reaction_input_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/intercom_composer_height"
+            android:clipChildren="false"
+            android:visibility="gone"/>
+        <View
+            android:id="@+id/post_touch_target"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/intercom_full_transparent_full_black"/>
+    </FrameLayout>
+</RelativeLayout>

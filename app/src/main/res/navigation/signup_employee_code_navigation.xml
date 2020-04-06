@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signup_employee_code_navigation"
+    app:startDestination="@id/emailCodeSignUpFragment">
+
+    <fragment
+        android:id="@+id/emailCodeSignUpFragment"
+        android:name="com.augmentcare.patient.signup.EmailCodeSignUpFragment"
+        android:label="fragment_emailcode_code_signup"
+        tools:layout="@layout/fragment_emailcode_code_signup" >
+        <action
+            android:id="@+id/action_emailCodeSignUpFragment_to_passwordCodeSignupFragment"
+            app:destination="@id/passwordCodeSignupFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/passwordCodeSignupFragment"
+        android:name="com.augmentcare.patient.signup.PasswordCodeSignupFragment"
+        android:label="fragment_password_code_signup"
+        tools:layout="@layout/fragment_password_code_signup" >
+        <argument
+            android:name="employeeCode"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_passwordCodeSignupFragment_to_OTPCodeSignupFragment"
+            app:destination="@id/OTPCodeSignupFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <argument
+            android:name="userLogin"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.UserLogin" />
+    </fragment>
+    <fragment
+        android:id="@+id/OTPCodeSignupFragment"
+        android:name="com.augmentcare.patient.signup.OTPCodeSignupFragment"
+        android:label="fragment_otp_code_signup"
+        tools:layout="@layout/fragment_otp_code_signup" >
+        <argument
+            android:name="password"
+            app:argType="string" />
+        <argument
+            android:name="phone"
+            app:argType="string" />
+        <argument
+            android:name="email"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_OTPCodeSignupFragment_to_thankYouCodeSignUpFragement"
+            app:destination="@id/thankYouCodeSignUpFragement"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@+id/thankYouCodeSignUpFragement" />
+    </fragment>
+    <fragment
+        android:id="@+id/thankYouCodeSignUpFragement"
+        android:name="com.augmentcare.patient.signup.ThankYouCodeSignUpFragment"
+        android:label="lyt_thanks_code_signup"
+        tools:layout="@layout/lyt_thanks_code_signup" >
+        <argument
+            android:name="fName"
+            app:argType="string" />
+        <argument
+            android:name="lName"
+            app:argType="string" />
+        <argument
+            android:name="email"
+            app:argType="string" />
+        <argument
+            android:name="password"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+</navigation>

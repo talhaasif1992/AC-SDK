@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="@android:color/white"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivThumb"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                app:srcCompat="@drawable/ic_user"
+                android:layout_gravity="center_vertical"
+                />
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:textSize="@dimen/_10ssp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/raleway_bold"
+                android:textColor="@color/colorSecondary"
+                android:text="Name"
+                style="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:id="@+id/txtRelation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:isIndicator="true"
+                android:fontFamily="@font/raleway"
+                android:textColor="@color/grey"
+                android:text="Relation"
+                android:theme="@style/AppTheme.RatingBar"
+                android:layout_below="@+id/txtName"
+                android:rating="2"
+                android:layout_alignLeft="@+id/txtName"
+                android:layout_alignStart="@+id/txtName" />
+
+            <ImageView
+                android:id="@+id/iv_delete_icon_visa"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/txtName"
+                android:layout_alignBottom="@id/txtRelation"
+                android:layout_weight=".5"
+                android:background="@drawable/delete_icon_background"
+                app:srcCompat="@drawable/ic_delete" />
+
+            <ImageView
+                android:id="@+id/iv_edit"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/iv_delete_icon_visa"
+                android:layout_alignTop="@id/iv_delete_icon_visa"
+                android:layout_alignBottom="@id/iv_delete_icon_visa"
+                android:background="@drawable/delete_icon_background"
+                app:srcCompat= "@drawable/ic_edit_black_24dp"
+                android:layout_marginRight="@dimen/_3sdp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1027171821875-t198idl9if7o6p3mo9gc76d5leqim839.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://augmentcaredev.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1027171821875</string>
+    <string name="google_api_key" translatable="false">AIzaSyD8XMruSdSrrH0UmXfhWQUPvFjpQ9Sn4iY</string>
+    <string name="google_app_id" translatable="false">1:1027171821875:android:bd49b9b87063158b8df646</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD8XMruSdSrrH0UmXfhWQUPvFjpQ9Sn4iY</string>
+    <string name="google_storage_bucket" translatable="false">augmentcaredev.appspot.com</string>
+    <string name="project_id" translatable="false">augmentcaredev</string>
+</resources>

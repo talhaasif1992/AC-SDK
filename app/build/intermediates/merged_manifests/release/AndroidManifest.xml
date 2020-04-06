@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.augmentcare.patient"
+    android:versionCode="97"
+    android:versionName="3.1.6" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <!--
+        <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+        <uses-permission android:name="android.permission.READ_PROFILE" />
+        <uses-permission android:name="android.permission.READ_CONTACTS" />
+        <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:name="com.augmentcare.patient.MyApp"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/web_cleartext_fix"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.augmentcare.patient.activities.AboutActivity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.augmentcare.patient.activities.HomeScreenActivity"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- <activity android:name=".activities.PdfViewerActivity" /> -->
+        <activity
+            android:name="com.augmentcare.patient.activities.BankAlfalahPaymentSuccessActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.augmentcare.patient.activities.TNCActivity"
+            android:label="@string/title_tnc"
+            android:theme="@style/AppTheme.TNC" />
+        <activity
+            android:name="com.augmentcare.patient.activities.ChatActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.augmentcare.patient.activities.VideoConsultationActivityOld"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.augmentcare.patient.activities.VideoConsultationActivity"
+            android:launchMode="singleTop"
+            android:noHistory="true"
+            android:showWhenLocked="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:turnScreenOn="true" />
+
+        <service
+            android:name="com.augmentcare.patient.notifications.ACFirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.augmentcare.patient.activities.PaymentActivity"
+            android:label="Payment" />
+        <!-- <activity -->
+        <!-- android:name=".activities.GoogleSigninActivity" -->
+        <!--  -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        <!-- android:windowSoftInputMode="adjustResize|adjustPan" /> -->
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.augmentcare.patient.activities.AddAddressActivity"
+            android:label="@string/label_add_address_title"
+            android:theme="@style/AppTheme.Orange" />
+        <activity
+            android:name="com.augmentcare.patient.activities.VideoPlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_video_player"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.augmentcare.patient.activities.LabOrderViewActivity"
+            android:windowSoftInputMode="adjustResize|adjustPan" />
+        <activity
+            android:name="com.augmentcare.patient.activities.UpdateActivity"
+            android:windowSoftInputMode="adjustResize|adjustPan" />
+        <activity android:name="com.augmentcare.patient.activities.AddCardActivity" />
+        <activity android:name="com.augmentcare.patient.activities.TermAndConditionActivity" />
+        <activity android:name="com.augmentcare.patient.activities.PmdcWebViewActivity" />
+        <activity android:name="com.augmentcare.patient.activities.WebViewActivity" />
+        <activity android:name="com.augmentcare.patient.bottomsheets.CardSelectionDialogue" />
+        <activity android:name="com.augmentcare.patient.activities.ViewClaimImageActivity" />
+        <activity
+            android:name="com.augmentcare.patient.fragments.AddDependentMemberFragment"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.augmentcare.patient.activities.AddressActivity" />
+
+        <!-- #TODO OLD Code for marketing -->
+        <!-- <receiver -->
+        <!-- android:name="com.google.android.gms.analytics.CampaignTrackingReceiver" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="true" -->
+        <!-- tools:ignore="ExportedReceiver"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.android.vending.INSTALL_REFERRER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <!-- <receiver -->
+        <!-- android:name="com.adjust.sdk.AdjustReferrerReceiver" -->
+        <!-- android:exported="true" -->
+        <!-- android:permission="android.permission.INSTALL_PACKAGES"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.android.vending.INSTALL_REFERRER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+
+        <!-- <service -->
+        <!-- android:name="com.google.android.gms.analytics.CampaignTrackingService" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="false" /> -->
+
+
+        <!-- <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver" -->
+        <!-- android:enabled="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <!-- <service android:name="com.google.android.gms.analytics.AnalyticsService" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="false"/> -->
+
+
+        <!-- #TODO NEW Code for marketing -->
+
+
+        <!-- Used for Google Play Store Campaign Measurement -->
+        <service
+            android:name="com.google.android.gms.analytics.CampaignTrackingService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.WAKE_LOCK" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.augmentcare.patient.UtmReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.adjust.sdk.AdjustReferrerReceiver"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <!-- <service android:name=".notifications.HeadsUpNotificationService" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="false"/> -->
+
+
+        <!-- <receiver android:name=".notifications.HeadsUpNotificationActionReceiver" -->
+        <!-- android:enabled="true"> -->
+
+
+        <!-- </receiver> -->
+
+        <activity
+            android:name="com.blankj.utilcode.util.Utils$TransActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:multiprocess="true"
+            android:theme="@style/ActivityTranslucent"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+
+        <provider
+            android:name="com.blankj.utilcode.util.Utils$FileProvider4UtilCode"
+            android:authorities="com.augmentcare.patient.utilcode.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            android:multiprocess="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/util_code_provider_paths" />
+        </provider>
+
+        <service android:name="com.blankj.utilcode.util.MessengerUtils$ServerService" >
+            <intent-filter>
+                <action android:name="com.augmentcare.patient.messenger" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@style/com_facebook_activity_theme" />
+        <activity android:name="com.facebook.CustomTabMainActivity" />
+        <activity android:name="com.facebook.CustomTabActivity" /> <!-- Autocomplete -->
+        <activity
+            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="@string/places_autocomplete_label"
+            android:theme="@style/PlacesAutocompleteThemeOverlay"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+        </activity>
+
+        <service android:name="io.intercom.android.sdk.fcm.IntercomFcmMessengerService" >
+            <intent-filter android:priority="-400" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="io.intercom.android.sdk.fcm.IntercomFcmInstanceIdService" >
+            <intent-filter android:priority="-400" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="io.intercom.android.sdk.activities.IntercomMessengerActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Intercom_PanelTheme"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="io.intercom.android.sdk.lightbox.LightBoxActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:theme="@style/Intercom_LightBoxTheme"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="io.intercom.android.sdk.activities.IntercomArticleActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Intercom_ModalActivityTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="io.intercom.android.sdk.activities.IntercomHelpCenterActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Intercom_ModalActivityTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="io.intercom.android.sdk.activities.IntercomPostActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:theme="@style/Intercom_PostTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="io.intercom.android.sdk.activities.IntercomNoteActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:theme="@style/Intercom_NoteTheme"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="io.intercom.android.sdk.activities.IntercomSheetActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Intercom_ModalActivityTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="io.intercom.android.sdk.activities.IntercomVideoActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Intercom_PanelTheme"
+            android:windowSoftInputMode="stateHidden" />
+
+        <receiver
+            android:name="io.intercom.android.sdk.push.IntercomPushBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="io.intercom.android.sdk.INTERCOM_PUSH_OPENED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="io.intercom.android.sdk.IntercomInitializeContentProvider"
+            android:authorities="com.augmentcare.patient.IntercomInitializeContentProvider"
+            android:exported="false" />
+
+        <activity
+            android:name="com.stripe.android.view.AddSourceActivity"
+            android:theme="@style/StripeDefaultTheme"
+            android:windowSoftInputMode="stateVisible" >
+        </activity>
+        <activity
+            android:name="com.stripe.android.view.PaymentMethodsActivity"
+            android:theme="@style/StripeDefaultTheme" >
+        </activity>
+        <activity
+            android:name="com.stripe.android.view.PaymentFlowActivity"
+            android:theme="@style/StripeDefaultTheme" >
+        </activity>
+        <activity
+            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/EasyPermissions.Transparent" />
+
+        <provider
+            android:name="pl.aprilapps.easyphotopicker.ExtendedFileProvider"
+            android:authorities="com.augmentcare.patient.easyphotopicker.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <service
+            android:name="com.novoda.merlin.MerlinService"
+            android:exported="false" />
+
+        <provider
+            android:name="com.google.firebase.perf.provider.FirebasePerfProvider"
+            android:authorities="com.augmentcare.patient.firebaseperfprovider"
+            android:exported="false"
+            android:initOrder="101" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crash.component.FirebaseCrashRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.augmentcare.patient.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!--
+         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+         with the application context. This config is merged in with the host app's manifest,
+         but there can only be one provider with the same authority activated at any given
+         point; so if the end user has two or more different apps that use Facebook SDK, only the
+         first one will be able to use the provider. To work around this problem, we use the
+         following placeholder in the authority to identify each host application as if it was
+         a completely different provider.
+        -->
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:authorities="com.augmentcare.patient.FacebookInitProvider"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+
+        <service
+            android:name="com.txusballesteros.bubbles.BubblesService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.augmentcare.patient.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+
+        <activity
+            android:name="com.intercom.input.gallery.GalleryInputFullScreenActivity"
+            android:theme="@style/intercom_composer_full_screen_theme" />
+        <activity
+            android:name="com.intercom.input.gallery.GalleryLightBoxActivity"
+            android:configChanges="orientation|screenLayout|density|screenSize"
+            android:theme="@style/intercom_composer_full_screen_theme" />
+    </application>
+
+</manifest>

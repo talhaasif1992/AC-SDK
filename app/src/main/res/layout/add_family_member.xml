@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".fragments.PersonalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:id="@id/upload_picture_layoutNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/circular_linear_layout"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/upload_arrow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_upload_arrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/upload_arrow"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/futura_book_font"
+            android:text="Upload Picture"
+            android:textSize="@dimen/dimen_13sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/upload_picture_layoutsNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_background"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/circular_linear_layout"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/ivProfileImageNew"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/ic_user"
+            app:civ_border="true"
+            app:civ_border_color="@color/colorBlueButton"
+            app:civ_border_width="2dp" />
+    </RelativeLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_doctor_profile_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/profile_pic"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_user_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginEnd="@dimen/_18sdp"
+        android:background="@drawable/border_gray"
+        android:ems="10"
+        android:fontFamily="@font/raleway"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_user_name" />
+
+
+    <EditText
+        android:id="@+id/et_user_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border_gray"
+        android:ems="10"
+        android:fontFamily="@font/raleway"
+        android:inputType="none"
+        android:padding="10dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@id/et_user_name"
+        app:layout_constraintStart_toStartOf="@id/et_user_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_relations" />
+
+
+    <EditText
+        android:id="@+id/et_user_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:background="@drawable/border_gray"
+        android:fontFamily="@font/raleway"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@id/et_user_address"
+        app:layout_constraintStart_toStartOf="@id/et_user_address"
+        app:layout_constraintTop_toBottomOf="@id/tv_email" />
+
+    <EditText
+        android:id="@+id/et_user_mobile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:background="@drawable/border_gray"
+        android:ems="10"
+        android:fontFamily="@font/raleway"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@id/et_user_email"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/et_user_email"
+        app:layout_constraintTop_toBottomOf="@id/tv_phone_number" />
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_19sdp"
+        android:layout_marginTop="@dimen/_18sdp"
+        android:background="@android:color/white"
+        android:fontFamily="@font/raleway_bold"
+        android:text="Family Member's Name"
+        android:textColor="@color/colorSecondary"
+        app:layout_constraintBottom_toTopOf="@+id/et_user_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/civ_doctor_profile_pic" />
+
+    <TextView
+        android:id="@+id/tv_relations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@android:color/white"
+        android:fontFamily="@font/raleway_bold"
+        android:text="Relationship"
+        android:textColor="@color/colorSecondary"
+        app:layout_constraintBottom_toTopOf="@id/et_user_address"
+        app:layout_constraintStart_toStartOf="@id/tv_user_name"
+        app:layout_constraintTop_toBottomOf="@id/et_user_name" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@android:color/white"
+        android:fontFamily="@font/raleway_bold"
+        android:includeFontPadding="true"
+        android:text="@string/email_address"
+        android:textColor="@color/colorSecondary"
+        app:layout_constraintBottom_toTopOf="@id/et_user_email"
+        app:layout_constraintStart_toStartOf="@id/tv_relations"
+        app:layout_constraintTop_toBottomOf="@id/et_user_address" />
+
+    <TextView
+        android:id="@+id/tv_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@android:color/white"
+        android:fontFamily="@font/raleway_bold"
+        android:includeFontPadding="true"
+        android:text="Phone Number"
+        android:textColor="@color/colorSecondary"
+        app:layout_constraintBottom_toTopOf="@+id/et_user_mobile"
+        app:layout_constraintStart_toStartOf="@+id/tv_email"
+        app:layout_constraintTop_toBottomOf="@+id/et_user_email" />
+
+    <TextView
+        android:id="@+id/tv_dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@android:color/white"
+        android:fontFamily="@font/raleway_bold"
+        android:includeFontPadding="true"
+        android:text="Date of Birth"
+        android:textColor="@color/colorSecondary"
+        app:layout_constraintBottom_toTopOf="@+id/daySpinner"
+        app:layout_constraintStart_toStartOf="@+id/tv_phone_number"
+        app:layout_constraintTop_toBottomOf="@+id/et_user_mobile" />
+
+    <Spinner
+        android:id="@+id/daySpinner"
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:foreground="@drawable/spinner_grey_border"
+        android:paddingVertical="@dimen/_10sdp"
+        app:layout_constraintEnd_toStartOf="@+id/monthSpinner"
+        app:layout_constraintStart_toStartOf="@+id/et_user_mobile"
+        app:layout_constraintTop_toBottomOf="@id/tv_dob" />
+
+    <Spinner
+        android:id="@+id/monthSpinner"
+        android:layout_width="@dimen/_112sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:foreground="@drawable/spinner_grey_border"
+        android:paddingVertical="@dimen/_10sdp"
+        app:layout_constraintEnd_toStartOf="@+id/yearSpinner"
+        app:layout_constraintStart_toEndOf="@id/daySpinner"
+        app:layout_constraintTop_toTopOf="@id/daySpinner" />
+
+    <Spinner
+        android:id="@+id/yearSpinner"
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:foreground="@drawable/spinner_grey_border"
+        android:paddingVertical="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="@+id/et_user_mobile"
+        app:layout_constraintStart_toEndOf="@+id/monthSpinner"
+        app:layout_constraintTop_toTopOf="@+id/monthSpinner" />
+
+    <RadioGroup
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="@id/yearSpinner"
+        app:layout_constraintTop_toBottomOf="@id/daySpinner"
+        app:layout_constraintStart_toStartOf="@id/daySpinner">
+
+        <RadioButton
+            android:id="@+id/btn_male"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_28sdp"
+            android:fontFamily="@font/raleway"
+            android:padding="@dimen/_8sdp"
+            android:text="Male"
+            android:textAllCaps="false"
+            android:textColor="@color/colorGrayDark" />
+
+        <RadioButton
+            android:id="@+id/btn_female"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:fontFamily="@font/raleway"
+            android:padding="@dimen/_8sdp"
+            android:text="Female"
+            android:textAllCaps="false"
+            android:textColor="@color/colorGrayDark" />
+    </RadioGroup>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_upload_picture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/white"
+        android:backgroundTint="@android:color/white"
+        android:cropToPadding="true"
+        android:foreground="@drawable/ic_camera_scan2"
+        android:foregroundGravity="center"
+        app:borderWidth="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/civ_doctor_profile_pic"
+        app:layout_constraintStart_toStartOf="@+id/civ_doctor_profile_pic"
+        app:layout_constraintTop_toTopOf="@+id/civ_doctor_profile_pic" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_btn_save_information_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:elevation="@dimen/_40sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_save_information"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_green_gradient_round_cornered_background"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:elevation="10dp"
+            android:fontFamily="@font/raleway_bold"
+            android:paddingStart="30dp"
+            android:text="Save Information"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

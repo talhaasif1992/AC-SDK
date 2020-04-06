@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sign_up_navigation"
+    app:startDestination="@id/signupNamesFragment">
+
+    <fragment
+        android:id="@+id/signupNamesFragment"
+        android:name="com.augmentcare.patient.fragments.SignupNamesFragment"
+        android:label="fragment_signup_names"
+        tools:layout="@layout/fragment_signup_names" >
+        <action
+            android:id="@+id/action_signupNamesFragment_to_signupEmailFragment"
+            app:destination="@id/signupEmailFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupEmailFragment"
+        android:name="com.augmentcare.patient.fragments.SignupEmailFragment"
+        android:label="fragment_signup_email"
+        tools:layout="@layout/fragment_signup_email" >
+        <argument
+            android:name="fName"
+            app:argType="string" />
+        <argument android:name="lName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_signupEmailFragment_to_signupPasswordFragment"
+            app:destination="@id/signupPasswordFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <argument
+            android:name="from_signup_flow"
+            app:argType="boolean"
+            android:defaultValue="true" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="phone"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupPasswordFragment"
+        android:name="com.augmentcare.patient.fragments.SignupPasswordFragment"
+        android:label="fragment_password_signup"
+        tools:layout="@layout/fragment_password_signup" >
+        <argument
+            android:name="phone"
+            app:argType="string" />
+        <argument
+            android:name="email"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_signupPasswordFragment_to_OTPFragment"
+            app:destination="@id/OTPFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <argument
+            android:name="is_google_sign_up"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="fName"
+            app:argType="string" />
+        <argument
+            android:name="lName"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/OTPFragment"
+        android:name="com.augmentcare.patient.fragments.OTPFragment"
+        android:label="fragment_otp_signup"
+        tools:layout="@layout/fragment_otp_signup" >
+        <argument
+            android:name="password"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="isForgotPassword"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="email"
+            app:argType="string" />
+        <argument
+            android:name="is_google_sign_up"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="phone"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_OTPFragment_to_thankYouFragement"
+            app:destination="@id/thankYouFragement"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@+id/thankYouFragement" />
+        <argument
+            android:name="from_sign_up_flow"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/thankYouFragement"
+        android:name="com.augmentcare.patient.fragments.ThankYouFragement"
+        android:label="fragment_thank_you_fragement"
+        tools:layout="@layout/fragment_thank_you_fragement" >
+        <argument
+            android:name="fname"
+            app:argType="string" />
+        <argument
+            android:name="lname"
+            app:argType="string" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="password"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+</navigation>

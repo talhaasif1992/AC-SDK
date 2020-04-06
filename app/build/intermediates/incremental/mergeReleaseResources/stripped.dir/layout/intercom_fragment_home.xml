@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/home_coordinator_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/intercom_white">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/intercom_full_transparent_full_black"
+        app:elevation="0dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <io.intercom.android.sdk.views.HomeToolbar
+            android:id="@+id/intercom_toolbar"
+            style="@style/intercom_toolbar_style"
+            android:minHeight="@dimen/intercom_toolbar_height"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <View android:id="@+id/toolbar_shadow"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/intercom_app_bar_shadow_height"
+          android:background="@drawable/intercom_top_shadow"
+          app:layout_constraintTop_toBottomOf="@id/app_bar_layout"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/card_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:layoutAnimation="@anim/intercom_home_layout_animator"
+        android:paddingBottom="4dp"
+        android:scrollbarStyle="outsideOverlay"
+        tools:listitem="@layout/intercom_new_conversation_card"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <View
+            android:id="@+id/intercom_home_link_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/intercom_app_bar_shadow_height"
+            android:background="@drawable/intercom_link_shadow"/>
+
+        <FrameLayout
+            android:id="@+id/intercom_home_link_container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/intercom_link_height"
+            android:background="@color/intercom_white_alpha_97">
+
+            <io.intercom.android.sdk.views.IntercomLinkView
+                android:id="@+id/intercom_link"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="?android:attr/selectableItemBackground"
+                android:drawableLeft="@drawable/intercom_logo"
+                android:drawablePadding="8dp"
+                android:gravity="center"
+                android:lineSpacingExtra="2sp"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/intercom_we_run_on_intercom"
+                android:textColor="@color/intercom_link_text"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:fontFamily="sans-serif"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/intercom_home_close_container"
+        android:layout_width="@dimen/intercom_home_close_container"
+        android:layout_height="@dimen/intercom_home_close_container"
+        android:background="@color/intercom_full_transparent_full_black"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/intercom_close_background"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:alpha="0"
+            android:background="@drawable/intercom_transparent_dark_circle"
+            app:layout_constraintBottom_toBottomOf="@+id/intercom_toolbar_close"
+            app:layout_constraintLeft_toLeftOf="@+id/intercom_toolbar_close"
+            app:layout_constraintRight_toRightOf="@+id/intercom_toolbar_close"
+            app:layout_constraintTop_toTopOf="@+id/intercom_toolbar_close"/>
+
+        <ImageButton
+            android:id="@+id/intercom_toolbar_close"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/intercom_toolbar_height"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="false"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:src="@drawable/intercom_close"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include layout="@layout/intercom_error_home_screen"
+             android:visibility="gone"/>
+    <include layout="@layout/intercom_empty_screen"
+             android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

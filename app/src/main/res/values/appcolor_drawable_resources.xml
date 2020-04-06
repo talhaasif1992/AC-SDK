@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="transparentColorDrawable">#00000000</drawable>
+    <drawable name="appColorDrawable">#228CA9</drawable>
+</resources>

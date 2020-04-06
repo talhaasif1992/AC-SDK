@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:id="@+id/chathead_text_body"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ellipsize="end"
+    android:includeFontPadding="false"
+    android:lineSpacingExtra="2sp"
+    android:maxLines="2"
+    android:paddingBottom="16dp"
+    android:paddingTop="4dp"
+    android:textColor="@color/intercom_grey_600"
+    android:textSize="14sp"/>

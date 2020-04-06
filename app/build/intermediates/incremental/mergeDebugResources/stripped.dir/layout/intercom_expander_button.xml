@@ -1,0 +1,14 @@
+<ImageButton
+    android:id="@+id/gallery_expand_button"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:layout_gravity="bottom|end|right"
+    android:layout_marginBottom="@dimen/intercom_composer_activity_margin"
+    android:layout_marginEnd="@dimen/intercom_composer_activity_margin"
+    android:layout_marginRight="@dimen/intercom_composer_activity_margin"
+    android:background="@drawable/intercom_composer_circular_ripple"
+    android:elevation="2dp"
+    android:padding="14dp"
+    android:scaleType="fitCenter"
+    android:src="@drawable/intercom_composer_gallery_expand"/>

@@ -1,0 +1,30 @@
+<resources>
+
+    <dimen name="instant_appointment_doc_name">20sp</dimen>
+    <dimen name="instant_book_appointment">18sp</dimen>
+    <dimen name="inclined_doc_cont_height">190dp</dimen>
+    <dimen name="negative_inclined_doc_cont_height">-230dp</dimen>
+    <dimen name="home_card_min_height">170dp</dimen>
+    <dimen name="home_curve_background_height">160dp</dimen>
+    <dimen name="ic_height_width_dashbord_card">34dp</dimen>
+    <dimen name="textsize_dashbord_card_colored_title">16sp</dimen>
+    <dimen name="textsize_dashbord_card_colored_description">11sp</dimen>
+    <dimen name="text_size_login_description">17dp</dimen>
+    <dimen name="otp_linearlayout_margin_left">4dp</dimen>
+    <dimen name="otp_linearlayout_margin_right">4dp</dimen>
+    <dimen name="profile_image_view_width">87dp</dimen>
+    <dimen name="profile_image_view_height">87dp</dimen>
+    <dimen name="place_order_text_size">18sp</dimen>
+    <dimen name="dimen_17sp">17sp</dimen>
+    <dimen name="counter_margin_right">19dp</dimen>
+    <dimen name="cancel_icon_button_margin_left">-60dp</dimen>
+    <dimen name="video_doctor_profile_image_margin_top">90dp</dimen>
+    <dimen name="doctor_search_field_margin">18dp</dimen>
+    <dimen name="instant_text_padding_top">7dp</dimen>
+    <dimen name="slot_cell_text_size">11sp</dimen>
+    <dimen name="upload_image_layout_height">105dp</dimen>
+    <dimen name="switch_margin_bottom">38dp</dimen>
+    <dimen name="order_id_text_size">17sp</dimen>
+    <dimen name="order_date_text_size">14sp</dimen>
+    <dimen name="med_for_text_size">14sp</dimen>
+</resources>

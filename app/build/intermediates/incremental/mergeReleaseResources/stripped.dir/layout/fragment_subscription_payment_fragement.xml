@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.SubscriptionPaymentFragment"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_10sdp">
+        <LinearLayout
+            android:id="@+id/visaView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="5"
+            android:padding="@dimen/_10sdp"
+            android:gravity="center_vertical"
+            android:background="@drawable/btn_green_gradient_background"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Package Selected"
+                    android:fontFamily="@font/raleway"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:id="@+id/packageNameTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/raleway_bold"
+                    android:text="Family"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_20ssp"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/currencyTV"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".75"
+                android:text=" - PKR "
+                android:fontFamily="@font/raleway"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/white"
+                android:gravity="right|center_vertical"/>
+            <TextView
+                android:id="@+id/priceTV"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="1500"
+                android:fontFamily="@font/raleway"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"/>
+
+            <ImageView
+                android:id="@+id/editBtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:tint="@color/white"
+                android:padding="@dimen/_20ssp"
+                android:src="@drawable/ic_dependent_edit_button" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/line_gray"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Method"
+        android:textColor="@color/colorSecondary"
+        android:layout_marginTop="@dimen/_20sdp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/_5sdp"
+        android:weightSum="2">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/creditCardBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:cardElevation="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            app:cardCornerRadius="@dimen/_5sdp">
+            <LinearLayout
+                android:id="@+id/lyt_creditCard_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@drawable/plans_bg_border"
+                android:gravity="center"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Credit Card"
+                    android:layout_weight=".5"
+                    android:gravity="right"
+                    android:textColor="@color/colorSecondary"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".4"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_credit_card"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/jazzCashBtn"
+            android:layout_width="0dp"
+            android:padding="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            app:cardElevation="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_5sdp">
+            <LinearLayout
+                android:id="@+id/lyt_jazzCash_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Jazz Cash"
+                    android:layout_weight=".5"
+                    android:gravity="right"
+                    android:textColor="@color/colorSecondary"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jazzcash"
+                    android:layout_weight=".4"
+                    android:padding="5dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <!--    <LinearLayout-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:visibility="gone">-->
+    <!--        <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:fontFamily="@font/raleway_bold"-->
+    <!--            android:padding="5dp"-->
+    <!--            android:layout_marginTop="20dp"-->
+    <!--            android:textColor="@color/colorSecondary"-->
+    <!--            android:text="Card Number" />-->
+    <!--        <LinearLayout-->
+    <!--            android:id="@+id/expendableView"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:visibility="gone"-->
+    <!--            android:layout_marginTop="@dimen/_20ssp"-->
+    <!--            >-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/tv_card_number"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:fontFamily="@font/raleway_bold"-->
+    <!--                android:padding="5dp"-->
+    <!--                android:textColor="@color/colorSecondary"-->
+    <!--                android:text="Card Number" />-->
+    <!--            <LinearLayout-->
+    <!--                android:id="@+id/cl_card_number"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="@dimen/_40sdp"-->
+    <!--                android:paddingEnd="10dp"-->
+    <!--                android:weightSum="5"-->
+    <!--                android:foreground="@drawable/spinner_grey_border"-->
+    <!--                android:orientation="horizontal">-->
+    <!--                <ImageView-->
+    <!--                    android:id="@+id/cardInnerLogo"-->
+    <!--                    android:layout_width="0dp"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    app:srcCompat="@drawable/ic_visa_image"-->
+    <!--                    android:layout_weight="1"/>-->
+
+
+
+    <!--                <com.vicmikhailau.maskededittext.MaskedEditText-->
+    <!--                    android:id="@+id/et_card_number"-->
+    <!--                    android:layout_width="0dp"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    app:mask="**** - **** - **** - ****"-->
+    <!--                    android:layout_weight="3"-->
+    <!--                    android:gravity="center_vertical"-->
+    <!--                    android:inputType="number"-->
+    <!--                    android:hint="xxxx - xxxx - xxxx - xxxx"-->
+    <!--                    android:background="@null"-->
+    <!--                    />-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/tv_scan_card"-->
+    <!--                    android:layout_width="0dp"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:drawableEnd="@drawable/ic_camera_scan"-->
+    <!--                    android:drawablePadding="10dp"-->
+    <!--                    android:padding="10dp"-->
+    <!--                    android:layout_weight="1"-->
+    <!--                    />-->
+    <!--            </LinearLayout>-->
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:orientation="horizontal"-->
+    <!--                android:weightSum="4">-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/tv_expiry_month"-->
+    <!--                    android:layout_width="0dp"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:fontFamily="@font/raleway_bold"-->
+    <!--                    android:textColor="@color/colorSecondary"-->
+    <!--                    android:padding="5dp"-->
+    <!--                    android:layout_weight="1.5"-->
+    <!--                    android:text="Expiry Month" />-->
+
+    <!--                <View-->
+    <!--                    android:layout_width="0dp"-->
+    <!--                    android:layout_height="0dp"-->
+    <!--                    android:layout_weight="1.5"/>-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/tv_cvv_code"-->
+    <!--                    android:layout_width="0dp"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:textColor="@color/colorSecondary"-->
+    <!--                    android:fontFamily="@font/raleway_bold"-->
+    <!--                    android:padding="5dp"-->
+    <!--                    android:layout_weight="1"-->
+    <!--                    android:text="CVV Code" />-->
+    <!--            </LinearLayout>-->
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="40dp"-->
+    <!--                android:orientation="horizontal"-->
+    <!--                android:weightSum="7">-->
+
+    <!--                <Spinner-->
+    <!--                    android:id="@+id/spinner_month"-->
+    <!--                    android:layout_width="0dp"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:foreground="@drawable/spinner_grey_border"-->
+    <!--                    android:gravity="bottom"-->
+    <!--                    android:padding="5dp"-->
+    <!--                    android:entries="@array/months_date"-->
+    <!--                    android:layout_weight="2"/>-->
+
+    <!--                <Spinner-->
+    <!--                    android:id="@+id/spinner_year"-->
+    <!--                    android:layout_width="0dp"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:layout_marginStart="10dp"-->
+    <!--                    android:foreground="@drawable/spinner_grey_border"-->
+    <!--                    android:padding="5dp"-->
+    <!--                    android:entries="@array/years"-->
+    <!--                    android:layout_weight="3"/>-->
+
+    <!--                <EditText-->
+    <!--                    android:id="@+id/et_cvv_code"-->
+    <!--                    android:layout_width="0dp"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:layout_marginStart="10dp"-->
+    <!--                    android:background="@drawable/border_gray"-->
+    <!--                    android:ems="10"-->
+    <!--                    android:maxLength="3"-->
+    <!--                    android:fontFamily="@font/raleway"-->
+    <!--                    android:hint="CVV"-->
+    <!--                    android:drawableEnd="@drawable/ic_info"-->
+    <!--                    android:inputType="number"-->
+    <!--                    android:padding="5dp"-->
+    <!--                    android:textSize="12sp"-->
+    <!--                    android:layout_weight="2"/>-->
+
+    <!--            </LinearLayout>-->
+    <!--            <CheckBox-->
+    <!--                android:id="@+id/cb_save_credit_card_information_for_future_payment"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginBottom="20dp"-->
+    <!--                android:fontFamily="@font/raleway"-->
+    <!--                android:padding="5dp"-->
+    <!--                android:layout_marginTop="@dimen/_20sdp"-->
+    <!--                android:text="Save credit card information for future payments" />-->
+    <!--        </LinearLayout>-->
+
+
+    <!--        <com.stripe.android.view.CardInputWidget-->
+    <!--            android:id="@+id/card_input_widget"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="10dp"-->
+    <!--            android:orientation="vertical"-->
+    <!--            stripe:cardTextErrorColor="@color/colorRed"-->
+    <!--            stripe:cardTint="@color/colorGreen" />-->
+
+
+    <!--    </LinearLayout>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cards_list_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="visible"/>
+
+    <View
+        android:id="@+id/empty_space1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/payment_method_visa"-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:visibility="gone">-->
+    <!--        <androidx.cardview.widget.CardView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            app:cardElevation="@dimen/_10sdp"-->
+    <!--            app:cardCornerRadius="@dimen/_5sdp"-->
+    <!--            android:layout_margin="10dp"-->
+    <!--            android:layout_marginTop="@dimen/_10sdp">-->
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="@dimen/_40sdp"-->
+    <!--                android:weightSum="5"-->
+    <!--                android:gravity="center_vertical">-->
+    <!--                <ImageView-->
+    <!--                    android:id="@+id/iv_card_logo"-->
+    <!--                    android:layout_width="0dp"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:layout_weight="1"-->
+    <!--                    app:srcCompat="@drawable/ic_visa_image" />-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:id="@+id/cl_visa_card_number_and_expiry_date"-->
+    <!--                    android:layout_width="0dp"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:gravity="center_vertical"-->
+    <!--                    android:orientation="vertical"-->
+    <!--                    android:layout_weight="3.5"-->
+    <!--                    >-->
+
+
+    <!--                    <TextView-->
+    <!--                        android:id="@+id/tv_card_number_visa"-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:fontFamily="@font/raleway_bold"-->
+    <!--                        android:textSize="15sp"-->
+    <!--                        android:textColor="@android:color/black"-->
+    <!--                        android:text="@string/_123456789123"-->
+    <!--                        />-->
+    <!--                    <TextView-->
+    <!--                        android:id="@+id/tv_expiry_date_visa"-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:fontFamily="@font/raleway"-->
+    <!--                        android:text="EXP 08/2020"-->
+    <!--                        android:textSize="@dimen/dimen_13sp"-->
+    <!--                        android:textColor="@android:color/darker_gray"-->
+    <!--                        />-->
+    <!--                </LinearLayout>-->
+    <!--            </LinearLayout>-->
+    <!--        </androidx.cardview.widget.CardView>-->
+
+    <!--    </LinearLayout>-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <Button
+                android:id="@+id/cl_btn_add_a_payment_method"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_green_gradient_round_cornered_background"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:textSize="12sp"
+                android:text="Add a Payment Method"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/ic_add_payment"
+                android:drawableTint="@color/white"
+                android:textColor="@color/white">
+
+            </Button>
+            <Button
+                android:id="@+id/buttonPrice"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/_35sdp"
+                android:text="Pay PKR 500"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_green_gradient_round_cornered_background"
+                android:drawableRight="@drawable/ic_arrow_back_white"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

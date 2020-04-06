@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40ssp"
+        android:text="Change Password"
+        android:background="@color/colorPrimaryNew"
+        android:textSize="@dimen/_18ssp"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lytPasswordFields"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/_5sdp"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <se.aaro.gustav.passwordstrengthmeter.PasswordStrengthMeter
+            android:id="@+id/passwordInputMeter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:visibility="invisible"
+            app:animateChanges="true"
+            app:animationDuration="300"
+            app:labelTextSize="12sp"
+            app:showStrengthBar="true"
+            app:showStrengthLabel="true"
+            app:strengthBarHeight="5dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            >
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_eye_show"
+                android:drawablePadding="@dimen/_10sdp"
+                android:hint="Password (min 8 characters)"
+                android:inputType="textPassword"
+                android:textColorHint="@color/color_light_gray_background"
+                android:textSize="@dimen/dimen_15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/confirm_password_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password_layout"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_eye_show"
+                android:drawablePadding="@dimen/_10sdp"
+                android:hint="Confirm Password (min 8 characters)"
+                android:inputType="textPassword"
+                android:textSize="@dimen/dimen_15sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lytPasswordFields"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:background="@color/colorSecondary"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+</LinearLayout>

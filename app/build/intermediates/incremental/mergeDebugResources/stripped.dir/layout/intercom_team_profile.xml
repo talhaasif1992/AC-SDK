@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/intercom_team_profile"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:minHeight="@dimen/intercom_toolbar_height"
+    tools:background="#3F51B5"
+    tools:layout_height="@dimen/intercom_home_screen_height">
+
+    <ImageView
+        android:id="@+id/team_wallpaper_image"
+        style="@style/intercom_wallpaper_image_style"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <RelativeLayout android:id="@+id/toolbar_content_container"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:minHeight="@dimen/intercom_toolbar_height"
+                    tools:background="@android:color/holo_red_light">
+
+        <TextView
+            android:id="@+id/intercom_collapsing_team_bio"
+            style="@style/intercom_profile_team_bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/intercom_collapsing_title"
+            android:layout_marginTop="-12dp"
+            android:layout_marginBottom="8dp"
+            android:alpha="@dimen/intercom_header_text_alpha"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lineSpacingExtra="3sp"
+            android:maxLines="5"
+            android:paddingLeft="48dp"
+            android:paddingRight="48dp"
+            tools:text="Biography of this team is a longer piece of text"/>
+
+        <LinearLayout
+            android:id="@+id/intercom_team_profiles_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/intercom_collapsing_team_bio"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/intercom_collapsing_team_avatar1"
+                    style="@style/intercom_profile_team_avatar"
+                    android:visibility="gone"
+                    tools:src="@android:drawable/sym_def_app_icon"/>
+
+                <TextView
+                    android:id="@+id/intercom_collapsing_team_name_1"
+                    style="@style/intercom_profile_team_member_style"
+                    android:visibility="gone"
+                    tools:text="Admin"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/intercom_collapsing_team_avatar2"
+                    style="@style/intercom_profile_team_avatar"
+                    android:visibility="gone"
+                    tools:src="@android:drawable/sym_def_app_icon"/>
+
+                <TextView
+                    android:id="@+id/intercom_collapsing_team_name_2"
+                    style="@style/intercom_profile_team_member_style"
+                    android:visibility="gone"
+                    tools:text="Admin"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/intercom_collapsing_team_avatar3"
+                    style="@style/intercom_profile_team_avatar"
+                    android:visibility="gone"
+                    tools:src="@android:drawable/sym_def_app_icon"/>
+
+                <TextView
+                    android:id="@+id/intercom_collapsing_team_name_3"
+                    style="@style/intercom_profile_team_member_style"
+                    android:visibility="gone"
+                    tools:text="Admin"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/intercom_collapsing_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/intercom_toolbar_height"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lines="1"
+            android:paddingLeft="64dp"
+            android:paddingRight="64dp"
+            android:textColor="@color/intercom_white"
+            android:textSize="18sp"
+            tools:text="DummyApp team"/>
+
+        <io.intercom.android.sdk.views.OfficeHoursTextView
+            android:id="@+id/intercom_collapsing_office_hours"
+            style="@style/intercom_toolbar_subtitle_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/intercom_team_profiles_layout"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:paddingLeft="64dp"
+            android:paddingRight="64dp"
+            android:paddingTop="24dp"
+            tools:text="Replies as soon as they can"/>
+
+        <Space android:layout_width="wrap_content"
+               android:layout_height="16dp"
+               android:layout_below="@id/intercom_collapsing_office_hours"/>
+
+    </RelativeLayout>
+</FrameLayout>

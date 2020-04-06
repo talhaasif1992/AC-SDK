@@ -1,0 +1,22 @@
+<RelativeLayout
+    android:id="@+id/conversation_fragment_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/intercom_white"
+    android:clipChildren="false">
+
+    <include layout="@layout/intercom_conversation_coordinator"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_above="@+id/composer_holder"
+             android:layout_alignParentTop="true"/>
+
+    <include layout="@layout/intercom_composer_holder"
+        android:id="@+id/composer_holder" />
+
+    <io.intercom.android.sdk.views.IntercomToolbar
+        android:id="@+id/intercom_toolbar"
+        style="@style/intercom_toolbar_style" />
+
+</RelativeLayout>

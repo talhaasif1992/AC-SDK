@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "1027171821875",
+    "firebase_url": "https://augmentcaredev.firebaseio.com",
+    "project_id": "augmentcaredev",
+    "storage_bucket": "augmentcaredev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027171821875:android:076bb03a00a839a08df646",
+        "android_client_info": {
+          "package_name": "com.augmentcare.isleepclinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027171821875-t198idl9if7o6p3mo9gc76d5leqim839.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8XMruSdSrrH0UmXfhWQUPvFjpQ9Sn4iY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027171821875-t198idl9if7o6p3mo9gc76d5leqim839.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027171821875:android:bd49b9b87063158b8df646",
+        "android_client_info": {
+          "package_name": "com.augmentcare.patient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027171821875-ojidip7ub4lrpr0hksscu5tdkre345il.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.augmentcare.patient",
+            "certificate_hash": "608b195d5cd972f92f3e39c20b8a0cda0555955e"
+          }
+        },
+        {
+          "client_id": "1027171821875-bsbt8m5m7p5c8hku58d20r38epfk2cqd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.augmentcare.patient",
+            "certificate_hash": "f03ff15ccda05640beea947a546e6722052d915e"
+          }
+        },
+        {
+          "client_id": "1027171821875-r5d44vfoi8u0hm5ha0q0qg2pb10scq0g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.augmentcare.patient",
+            "certificate_hash": "510b55a2e96b30740c514b31572708a7139b78b1"
+          }
+        },
+        {
+          "client_id": "1027171821875-h9cjt1eli4c6k3qq4bhtb5rdb9v26hpi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.augmentcare.patient",
+            "certificate_hash": "c283a281d6c454771e0a982c353146a074631c00"
+          }
+        },
+        {
+          "client_id": "1027171821875-88495skauekdest5c0hkigj4kp70fum4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.augmentcare.patient",
+            "certificate_hash": "284a21d32bf4917f7515e87a97023c6600c9fefe"
+          }
+        },
+        {
+          "client_id": "1027171821875-l66g49cb2i9krhdrusg742hvrthduahq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.augmentcare.patient",
+            "certificate_hash": "988172795b96c08dc672b95841dc7da1f1a775ac"
+          }
+        },
+        {
+          "client_id": "1027171821875-t198idl9if7o6p3mo9gc76d5leqim839.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8XMruSdSrrH0UmXfhWQUPvFjpQ9Sn4iY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027171821875-t198idl9if7o6p3mo9gc76d5leqim839.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

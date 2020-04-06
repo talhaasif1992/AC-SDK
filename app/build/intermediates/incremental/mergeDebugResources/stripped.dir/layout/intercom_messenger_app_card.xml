@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/messenger_card_layout"
+    style="@style/intercom_card_with_border_and_shadow"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/intercom_home_card_margin"
+    android:layout_marginRight="@dimen/intercom_home_card_margin"
+    android:animateLayoutChanges="true">
+
+    <ProgressBar
+        android:id="@+id/loading_view"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/intercom_progress_wheel"
+        tools:visibility="visible"/>
+
+</FrameLayout>

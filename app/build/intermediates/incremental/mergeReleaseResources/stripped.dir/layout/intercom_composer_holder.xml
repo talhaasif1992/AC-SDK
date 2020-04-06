@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:clipChildren="false">
+
+    <View android:id="@+id/composer_holder_divider"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/intercom_composer_divider_height"
+          android:layout_alignParentTop="true"
+          android:alpha="0.2"
+          android:background="@color/intercom_grey_composer_divider"/>
+
+    <FrameLayout
+        android:id="@+id/composer_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/composer_holder_divider"
+        android:layout_gravity="bottom"
+        android:background="@color/intercom_white"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+    <io.intercom.android.sdk.conversation.ReactionInputView
+        android:id="@+id/reaction_input_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/intercom_composer_height"
+        android:background="@color/intercom_white"
+        android:clipChildren="false"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/disabled_view"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignBottom="@+id/composer_container"
+        android:layout_alignTop="@+id/composer_container"
+        android:background="@color/intercom_transparent_white"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"/>
+</RelativeLayout>

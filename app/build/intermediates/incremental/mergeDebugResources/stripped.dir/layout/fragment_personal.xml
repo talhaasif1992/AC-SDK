@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".fragments.PersonalFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/upload_picture_layoutNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/circular_linear_layout"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/upload_arrow"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_upload_arrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/upload_arrow"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/futura_book_font"
+                android:text="Upload Picture"
+                android:textSize="@dimen/dimen_13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/upload_picture_layoutsNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_background"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/circular_linear_layout"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/ivProfileImageNew"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@drawable/ic_user"
+                app:civ_border="true"
+                app:civ_border_color="@color/colorBlueButton"
+                app:civ_border_width="2dp" />
+        </RelativeLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_doctor_profile_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:src="@drawable/profile_pic"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/et_user_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginEnd="@dimen/_18sdp"
+            android:background="@drawable/border_gray"
+            android:ems="10"
+            android:fontFamily="@font/raleway"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@id/tv_address"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_user_name" />
+
+        <EditText
+            android:id="@+id/relationSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border_gray"
+            android:ems="10"
+            android:fontFamily="@font/raleway"
+            android:inputType="textPostalAddress"
+            android:padding="10dp"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@id/tv_email"
+            app:layout_constraintEnd_toEndOf="@id/et_user_name"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@id/et_user_name"
+            app:layout_constraintTop_toBottomOf="@id/tv_address" />
+
+
+        <EditText
+            android:id="@+id/et_user_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@drawable/border_gray"
+            android:fontFamily="@font/raleway"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@id/tv_phone_number"
+            app:layout_constraintEnd_toEndOf="@id/relationSpinner"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@id/relationSpinner"
+            app:layout_constraintTop_toBottomOf="@id/tv_email" />
+
+        <com.augmentcare.patient.customviews.PhoneEditTextNew
+            android:id="@+id/et_user_mobile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:ems="10"
+            android:fontFamily="@font/raleway"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@id/et_user_email"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@id/et_user_email"
+            app:layout_constraintTop_toBottomOf="@id/tv_phone_number" />
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_19sdp"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:background="@android:color/white"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Family Member's Name"
+            android:textColor="@color/colorSecondary"
+            app:layout_constraintBottom_toTopOf="@id/et_user_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/civ_doctor_profile_pic" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@android:color/white"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Address"
+            android:textColor="@color/colorSecondary"
+            app:layout_constraintBottom_toTopOf="@id/relationSpinner"
+            app:layout_constraintStart_toStartOf="@id/tv_user_name"
+            app:layout_constraintTop_toBottomOf="@id/et_user_name" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@android:color/white"
+            android:fontFamily="@font/raleway_bold"
+            android:includeFontPadding="true"
+            android:text="@string/email_address"
+            android:textColor="@color/colorSecondary"
+            app:layout_constraintBottom_toTopOf="@id/et_user_email"
+            app:layout_constraintStart_toStartOf="@id/tv_address"
+            app:layout_constraintTop_toBottomOf="@id/relationSpinner" />
+
+        <TextView
+            android:id="@+id/tv_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@android:color/white"
+            android:fontFamily="@font/raleway_bold"
+            android:includeFontPadding="true"
+            android:text="Phone Number"
+            android:textColor="@color/colorSecondary"
+            app:layout_constraintBottom_toTopOf="@id/et_user_mobile"
+            app:layout_constraintStart_toStartOf="@id/tv_email"
+            app:layout_constraintTop_toBottomOf="@id/et_user_email" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/changePhoneSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway"
+            android:text="Change Phone Number "
+            android:textColor="@color/accent"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintBottom_toBottomOf="@id/tv_phone_number"
+            app:layout_constraintEnd_toEndOf="@id/et_user_email"
+            app:layout_constraintTop_toTopOf="@id/tv_phone_number" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_upload_picture"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/white"
+            android:backgroundTint="@android:color/white"
+            android:cropToPadding="true"
+            android:foreground="@drawable/ic_camera_scan2"
+            android:foregroundGravity="center"
+            app:borderWidth="2dp"
+            app:layout_constraintBottom_toBottomOf="@id/civ_doctor_profile_pic"
+            app:layout_constraintStart_toStartOf="@id/civ_doctor_profile_pic"
+            app:layout_constraintTop_toTopOf="@id/civ_doctor_profile_pic" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_btn_update_profile_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@android:color/white"
+            android:elevation="@dimen/_40sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/et_user_mobile"
+            app:layout_constraintVertical_bias="1.0">
+
+            <Button
+                android:id="@+id/btn_update_profile"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_34sdp"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:background="@drawable/btn_green_gradient_round_cornered_background"
+                android:drawableEnd="@drawable/ic_arrow_right"
+                android:elevation="10dp"
+                android:fontFamily="@font/raleway_bold"
+                android:paddingStart="30dp"
+                android:text="Update Profile"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".fragments.PaymentSuccessfullFragment">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/btn_ring_check"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:background="@drawable/green_gradient_ring_background"
+        android:elevation="@dimen/_20sdp"
+        android:drawableTint="@color/white"
+        android:foreground="@drawable/ic_subscription_big"
+        android:foregroundGravity="center_vertical|center_horizontal"
+     />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subscription Successful."
+        android:gravity="center"
+        android:textSize="@dimen/_20ssp"
+        android:layout_marginTop="30sp"
+        android:textColor="@color/colorSecondary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank you and congratulations. \n Have a nice day."
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/back_to_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_green_gradient_round_cornered_background"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:textSize="15sp"
+        android:fontFamily="@font/raleway"
+        android:text="Back To Home"
+        android:textColor="@color/white"/>
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

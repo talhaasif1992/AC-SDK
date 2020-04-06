@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/haadnadeem/Android Projects/AugmentCare SDK/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v19/values-v19.xml",
+            "map": [
+                {
+                    "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/1ac7d32276191098e24a04f0b80c1f83/jetified-android-composer-gallery-2.1.0/res/values-v19/values-v19.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,127",
+                        "endColumns": "71,79",
+                        "endOffsets": "122,202"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,172",
+                        "endColumns": "71,79",
+                        "endOffsets": "167,247"
+                    }
+                },
+                {
+                    "source": "/Users/haadnadeem/.gradle/caches/transforms-2/files-2.1/eeb3b49fd9019d60b5bbf3b690f10f28/jetified-intercom-sdk-base-6.0.0/res/values-v19/values-v19.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "857"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "252",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "1009"
+                    }
+                }
+            ]
+        }
+    ]
+}

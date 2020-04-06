@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="main_button_height">60dp</dimen>
+    <dimen name="minHeight">45dp</dimen>
+    <dimen name="minWidthOfGradientButton">220dp</dimen>
+    <dimen name="bottomButtonsHeight">80dp</dimen>
+    <dimen name="translation_0">0</dimen>
+    <dimen name="translation_1">1</dimen>
+    <dimen name="translation_2">2</dimen>
+    <dimen name="translation_3">3</dimen>
+    <dimen name="translation_4">4</dimen>
+    <dimen name="dimen_15sp">15sp</dimen>
+    <dimen name="dimen_18sp">18sp</dimen>
+    <dimen name="dimen_14sp">14sp</dimen>
+    <dimen name="dimen_13sp">13sp</dimen>
+    <dimen name="dimen_11sp">11sp</dimen>
+    <dimen name="dimen_8sp">8sp</dimen>
+
+    <dimen name="dimen_26">26sp</dimen>
+    <dimen name="dimen_22">22sp</dimen>
+    <dimen name="dimen_20">20sp</dimen>
+    <dimen name="dimen_16">16sp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="signup_fragments_margin_left_right">30dp</dimen>
+    <dimen name="signup_fragments_margin_top">40dp</dimen>
+    <dimen name="text_size_login_description">16dp</dimen>
+    <dimen name="profile_image_view_width">68dp</dimen>
+    <dimen name="profile_image_view_height">68dp</dimen>
+    <dimen name="place_order_text_size">18sp</dimen>
+    <dimen name="dimen_17sp">17sp</dimen>
+    <dimen name="counter_margin_right">19dp</dimen>
+    <dimen name="video_doctor_profile_image_margin_top">90dp</dimen>
+    <dimen name="doctor_search_field_margin">18dp</dimen>
+    <dimen name="instant_text_padding_top">7dp</dimen>
+    <dimen name="slot_cell_text_size">9sp</dimen>
+    <dimen name="upload_image_layout_height">90dp</dimen>
+    <dimen name="switch_margin_bottom">68dp</dimen>
+    <dimen name="order_id_text_size">17sp</dimen>
+    <dimen name="order_date_text_size">13sp</dimen>
+    <dimen name="med_for_text_size">12sp</dimen>
+    <!--<dimen name="design_fab_size_normal" >120dp</dimen>
+    <dimen name="design_fab_content_size" >64dp</dimen>-->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="otp_linearlayout_margin_left">4dp</dimen>
+    <dimen name="otp_linearlayout_margin_right">4dp</dimen>
+    <dimen name="cancel_icon_button_margin_left">-60dp</dimen>
+</resources>

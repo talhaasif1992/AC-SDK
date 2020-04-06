@@ -1,0 +1,594 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AugmentCare</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_reset_password">RESET PASSWORD</string>
+    <string name="title_signup">REGISTER</string>
+    <!-- Strings related to login -->
+    <string name="placeholder_email_optional">Email (Optional)</string>
+    <string name="placeholder_email_mobile">Email / Mobile</string>
+    <string name="prompt_password">Password*</string>
+    <string name="action_sign_in">SIGN IN</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_email_not_found">Unable to find user with this email </string>
+    <string name="message_email_sent">An email is sent to you about instructions How to reset Password</string>
+    <string name="error_message_failed_to_login">Invalid login credentials. Please try again.</string>
+    <string name="error_message_failed_to_fetch">Failed to fetch details from server</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string-array name="depenents_array">
+        <item>Dependent Type</item>
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Wife</item>
+        <item>Husband</item>
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Sibling</item>
+    </string-array>
+    <string-array name="depenents_array1">
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Wife</item>
+        <item>Husband</item>
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Sibling</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_have_account">Don\'t have an account?</string>
+    <string name="label_create_one">CREATE ONE NOW</string>
+    <string name="label_forgot">Forgot Password?</string>
+    <string name="label_reset_password">Reset Password</string>
+    <string name="label_already_have_account">Already have an account?</string>
+    <string name="label_signin_now">SIGN IN NOW</string>
+    <string name="label_email">Email</string>
+    <string name="provide_email_number">Please provide email / number to continue</string>
+    <string name="provide_password">Please provide password to continue</string>
+    <string name="password_length_short">Password should contain 8 characters at least</string>
+    <string name="label_first_name">First Name*</string>
+    <string name="label_last_name">Last Name*</string>
+    <string name="label_phone_number">Phone Number</string>
+    <string name="label_i_agree">I agree to the</string>
+    <string name="label_signup">Register</string>
+    <string name="label_search">Search</string>
+    <string name="label_profile">Profile</string>
+    <string name="label_settings">Settings</string>
+    <string name="label_terms_conditions">By clicking on Register I agree with AugmentCare\'s Terms of Use</string>
+    <string name="label_terms_link">Terms of Use</string>
+
+    <string name="title_activity_splash">  </string>
+    <string name="dummy_button">Dummy Button</string>
+
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="error_enter_valid_name">Enter a valid Name</string>
+    <string name="error_enter_valid_email">Enter a valid Email</string>
+    <string name="error_enter_valid_phone">Enter a valid Phone Number</string>
+    <string name="message_agree_terms">You must agree to terms and conditions!</string>
+    <string name="message_free_appointment">You will not be charged for this appointment. Please click OK to confirm.</string>
+    <string name="message_signup_successful">Thanks, You can Login now</string>
+    <string name="title_dashboard">Dash Board</string>
+
+    <string name="message_tnc">Terms &amp; Conditions
+Use of the Site. AugmentCare Pte. Ltd. (“AugmentCare”, “we”, “us”, or “our”) operates the website located at www.augmentcare.com and other related websites with links to these Terms &amp; Conditions (collectively, the “Site”). We currently offer online telehealth services (the “Services”) enabling our members (“Members”, “Users” or “you”) to report their health history and engage healthcare professionals (“Treating Providers”, “Practitioners” or “Counsellors”) to obtain medical, healthcare and counselling services (“Services”). By accessing and using the Site, you agree to be bound by these Terms &amp; Conditions and all other terms and policies that appear on the Site. If you do not wish to be bound by any of these Terms &amp; Conditions, you may not use the Site or the Services.
+Healthcare Services. All of the Treating Providers or Counsellors who deliver Services through AugmentCare are independent professionals solely responsible for the services each provides to you. AugmentCare does not practice medicine or any other licensed profession, and does not interfere with the practice of medicine or any other licensed profession by Treating Providers, each of whom is responsible for his or her services and compliance with the requirements applicable to his or her profession and license. Neither AugmentCare nor any third parties who promote the Services or provide you with a link to the Service shall be liable for any professional advice you obtain from a Treating Provider via the Services.
+No Doctor Patient Relationship. No medical professional/patient relationship is created between AugmentCare and you through the use of the Site and/or Services.
+Site Content. None of the Site content (other than information you receive from Treating Providers or Counsellors) should be considered medical advice or an endorsement, representation or warranty that any particular medication or treatment is safe, appropriate, or effective for you.
+No Guarantee of Services. We have no control over, and cannot guarantee the availability of any Treating Provider at any particular time. We will not be liable for any cancelled or otherwise unfulfilled appointments, or any injury resulting therefrom, or any other injury resulting or arising from or related to the use of the Site or Services whatsoever. The Site and Services are susceptible to errors therefore their performance is not guaranteed.
+Informed Consent.</string>
+    <string name="title_tnc">Terms and Conditions</string>
+    <string name="label_find_doctor">Find Doctors</string>
+    <string name="label_my_consultations">Appointments</string>
+    <string name="label_reports">Reports</string>
+    <string name="message_exit">EXIT</string>
+    <string name="message_are_you_sure">Are you sure ?</string>
+    <string name="error_no_data">Unable to find data</string>
+    <string name="label_name">Name</string>
+    <string name="label_speciality">Speciality</string>
+    <string name="label_condition">Condition</string>
+    <string name="label_education">Education</string>
+    <string name="label_book_online_consult">Book Online Consult</string>
+    <string name="speclabel_ializes_in">Specializes In</string>
+    <string name="label_ask_a_question">Ask a Question</string>
+    <string name="error_check_internet">Please check your Internet connection</string>
+    <string name="label_logout">Logout</string>
+    <string-array name="days">
+        <item>Su</item>
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>Th</item>
+        <item>F</item>
+        <item>S</item>
+    </string-array>
+    <string-array name="string_array_name">
+        <item>text_string</item>
+    </string-array>
+    <string name="title_activity_tutorial">TutorialActivity</string>
+    <string name="error_no_internet">Please check your Internet connection</string>
+    <string name="label_retry">Retry</string>
+    <string name="label_ask_question">ASK QUESTION</string>
+    <string name="label_book_appointment">BOOK APPOINTMENT</string>
+    <string name="label_verify">Verify</string>
+    <string name="label_sign_in_with_google">Sign in with Google</string>
+    <string name="label_my_doctors">MY DOCTORS</string>
+    <string name="label_show_all">Show All</string>
+    <string name="error_no_doctors_connected">You have not booked an appointment at AugmentCare before</string>
+    <string name="label_find_doctors_by_speciality">By Specialization</string>
+    <string name="label_find_doctors_by_condition">By Condition</string>
+    <string name="label_upcoming_appointments">Upcoming Appointments</string>
+    <string name="error_no_scheduled_appointments">No scheduled appointments. Find a doctor below to get started.</string>
+    <string name="label_search_results">Search Results</string>
+    <string name="label_my_previous_consultations">My Previous Consultations</string>
+    <string name="label_phone_hint">300XXXXXXX</string>
+    <!--<string name="facebook_app_id">551296908650974</string>-->
+    <string name="facebook_app_id">885619624947590</string>
+    <string name="TNC"><![CDATA[<div class="terms_page">
+<ol class="terms-conditions">
+<li><strong>Use of the Site.</strong>&nbsp;AugmentCare Pte. Ltd. (“AugmentCare”, “we”, “us”, or “our”) operates the website located at www.augmentcare.com and other related websites with links to these Terms &amp; Conditions (collectively, the “Site”). We currently offer online telehealth services (the “Services”) enabling our members (“Members”, “Users” or “you”) to report their health history and engage healthcare professionals (“Treating Providers”, “Practitioners” or “Counsellors”) to obtain medical, healthcare and counselling services (“Services”). By accessing and using the Site, you agree to be bound by these Terms &amp; Conditions and all other terms and policies that appear on the Site. If you do not wish to be bound by any of these Terms &amp; Conditions, you may not use the Site or the Services.</li>
+<li><strong>Healthcare Services.</strong>&nbsp;All of the Treating Providers or Counsellors who deliver Services through AugmentCare are independent professionals solely responsible for the services each provides to you. AugmentCare does not practice medicine or any other licensed profession, and does not interfere with the practice of medicine or any other licensed profession by Treating Providers, each of whom is responsible for his or her services and compliance with the requirements applicable to his or her profession and license. Neither AugmentCare nor any third parties who promote the Services or provide you with a link to the Service shall be liable for any professional advice you obtain from a Treating Provider via the Services.</li>
+<li><strong>No Doctor Patient Relationship.</strong>&nbsp;No medical professional/patient relationship is created between AugmentCare and you through the use of the Site and/or Services.</li>
+<li><strong>Site Content.</strong>&nbsp;None of the Site content (other than information you receive from Treating Providers or Counsellors) should be considered medical advice or an endorsement, representation or warranty that any particular medication or treatment is safe, appropriate, or effective for you.</li>
+<li><strong>No Guarantee of Services.</strong>&nbsp;We have no control over, and cannot guarantee the availability of any Treating Provider at any particular time. We will not be liable for any cancelled or otherwise unfulfilled appointments, or any injury resulting therefrom, or any other injury resulting or arising from or related to the use of the Site or Services whatsoever. The Site and Services are susceptible to errors therefore their performance is not guaranteed.</li>
+<li><strong>Informed Consent.</strong>
+<ol type="A">
+<li>Telehealth is the delivery of health care services using interactive audio and video technology, where the patient and the health care professional are not in the same physical location. During your telehealth consultation with a Treating Provider, details of your health history and personal health information may be discussed with you through the use of interactive video, audio and other telecommunications technology, and your Treating Provider may perform a physical examination through these technologies.</li>
+<li>The telehealth Services you receive from Treating Providers or Counsellors are not intended to replace a primary care physician relationship or be your permanent medical home. You may form an ongoing treatment relationship with some Treating Providers or Counsellors. However, your initial visit with a Treating Provider will begin as a consultation (e.g. to determine the most appropriate treatment setting for you to receive care) and will not necessarily give rise to an ongoing treatment relationship. You should seek emergency help or follow-up care when recommended by a Treating Provider or when otherwise needed, and continue to consult with your primary care physician and other healthcare professionals as recommended. Among the benefits of our Services are improved access to healthcare professionals and convenience. However, as with any health service, there are potential risks associated with the use of telehealth. These risks include, but may not be limited to:
+<ul class="bullet-list">
+<li>In rare cases, information transmitted may not be sufficient (e.g. poor resolution of images) to allow for appropriate health care decision making by the Treating Provider;</li>
+<li>Delays in evaluation or treatment could occur due to failures of the electronic equipment. If this happens, you may be contacted by phone or other means of communication.</li>
+<li>In rare cases, a lack of access to all of your health records may result in adverse drug interactions or allergic reactions or other judgment errors;</li>
+<li>Although the electronic systems we use will incorporate network and software security protocols to protect the privacy and security of health information, in rare instances, security protocols could fail, causing a breach of privacy of personal health information.</li>
+</ul>
+<p>THE SERVICES PROVIDED BY AUGMENTCARE OR THE TELEHEALTH SERVICE PROVIDED BY THE TREATING PROVIDER IS NOT INTENDED TO BE A SUBSTITUTE FOR, NOR DOES IT REPLACE, PROFESSIONAL MEDICAL ADVICE, DIAGNOSIS, OR TREATMENT. DO NOT DISREGARD, AVOID OR DELAY OBTAINING MEDICAL ADVICE FROM A QUALIFIED HEALTHCARE PROVIDER BECAUSE OF SOMETHING YOU MAY HAVE READ ON THE SITE. DO NOT USE THE SERVICES FOR EMERGENCY MEDICAL NEEDS. IF YOU EXPERIENCE A MEDICAL EMERGENCY, IMMEDIATELY CALL A HEALTHCARE PROFESSIONAL AND/OR 1122. USE OF THE SERVICES IS SOLELY AT YOUR OWN RISK. NOTHING STATED OR POSTED ON THE SITE OR AVAILABLE THROUGH ANY SERVICES IS INTENDED TO BE, AND MUST NOT BE TAKEN TO BE, THE PRACTICE OF MEDICINE, DENTISTRY, NURSING, OR OTHER PROFESSIONAL HEALTHCARE ADVICE, OR THE PROVISION OF MEDICAL CARE.</p>
+<p>We do not recommend or endorse any specific tests, Treating Providers or Counsellors, procedures, opinions, or other information that may appear through the Services. If you rely on any content provided through the Services, you do so solely at your own risk.</p></li>
+<li>By accepting these Terms &amp; Conditions, you acknowledge that you understand and agree with the following:
+<ul class="bullet-list">
+<li>You understand that you may expect the anticipated benefits from the use of telehealth in your care, but that no results can be guaranteed or assured.</li>
+<li>You understand that the laws that protect the privacy and security of health information apply to telehealth. Electronic communications are directed to your Treating Provider(s) and their supervisees through a secure, encrypted video interface and electronic health record.</li>
+<li>The Services that are currently being provided are free of cost; however, any medicine prescribed by the Treating Provider will be purchased by you at your own cost.</li>
+<li>Your Treating Provider may determine that the Services are not appropriate for some or all of your treatment needs, and accordingly may elect not to provide telehealth services to you through the Site.</li>
+<li>With respect to psychotherapy or counselling, you are entitled to receive information from your Treating Provider about the methods of therapy, the techniques used, the duration of your therapy (if known), and the fee structure. You can seek a second opinion from another therapist or terminate therapy at any time.</li>
+</ul>
+</li>
+<li>With respect to psychotherapy, if you and your Treating Provider decide to engage in group or couples therapy (collectively “Group Therapy”), you understand that information discussed in Group Therapy is for therapeutic purposes and is not intended for use in any legal proceedings involving Group Therapy participants. You agree not to summon the Treating Provider to testify for or against other Group Therapy participants or provide records in court actions against other Group Therapy participants. You understand that anything any Group Therapy participant tells the Treating Provider individually, whether on the phone or otherwise, may at the therapist’s discretion be shared with the other Group Therapy participants. You agree to share responsibility with the Treating Provider for the therapy process, including goal setting and termination.</li>
+<li>You can send messages to your Treating Provider by contacting AugmentCare Customer Support at info@augmentcare.com. Emails or electronic messages to Customer Support or your Treating Provider may not be returned immediately. If you are experiencing a medical emergency, you should call your local emergency number, i.e. 1122 or go to the nearest emergency room.</li>
+<li>You may also be able to send written notes to therapists or other Treating Providers or Counsellors or to Customer Support using a secure messaging portal within the Site (the “Messaging Portal”). Messages you send over the Messaging Portal may be viewed by more than one Treating Provider or Customer Support agent and will typically be answered within 48 hours. You should not rely on the Messaging Portal if you need immediate attention from a Treating Provider or other health care professional. If you are experiencing a medical emergency, you should call your local emergency number, i.e. 1122 or go to the nearest emergency room. You understand and agree that messaging with Treating Providers or Counsellors over the Messaging Portal does not give rise to a provider-patient relationship, and does not by itself constitute treatment, diagnosis, therapy, or medical advice.</li>
+</ol>
+</li>
+<li><strong>Privacy.</strong>&nbsp;AugmentCare is required to comply with the all health care privacy and security laws and maintain safeguards to protect the security of your health information. Additionally, the information you provide to your Treating Provider during a medical consultation or therapy session is legally confidential, except for certain legal exceptions as required by law. We devote considerable effort toward ensuring that your personal information is secure. As part of providing you the Services, we may need to provide you with certain communications, such as appointment reminders, service announcements and administrative messages. These communications are considered part of the Services and your Account. While secure electronic messaging is always preferred to insecure email, under certain circumstances, insecure email communication containing personal health information may take place between you and AugmentCare. AugmentCare cannot ensure the security or confidentiality of messages sent by email. Information relating to your care, including clinical notes and medical records, are stored on secure, encrypted servers maintained by AugmentCare.</li>
+<li><strong>User Accounts.</strong>&nbsp;When you register on the Site, you are required to create an account (“Account”) by entering your name, LUMS email address, password and certain other information collected by AugmentCare (collectively “Account Information”). To create an Account, you must be a student enrolled in LUMS and of legal age to form a binding contract. If you are not a student enrolled in LUMS or not of legal age to form a binding contract, you may not register to use our Services. You agree that the Account Information that you provide to us at all times, including during registration and in any information you upload to the Site will be true, accurate, current, and complete. You may not transfer or share your Account password with anyone, or create more than one Account. You are responsible for maintaining the confidentiality of your Account password and for all activities that occur under your Account. AugmentCare reserves the right to take any and all action, as it deems necessary or reasonable, regarding the security of the Site and your Account Information. In no event and under no circumstances shall AugmentCare be held liable to you for any liabilities or damages resulting from or arising out of your use of the Site, your use of the Account Information or your release of the Account Information to a third party. You may not use anyone else’s account at any time.</li>
+<li><strong>Access Rights.</strong>&nbsp;We hereby grant to you a limited, non-exclusive, nontransferable right to access the Site and use the Services solely for your personal non-commercial use and only as permitted under these Terms &amp; Conditions and any separate agreements you may have entered into with us (“Access Rights”). We reserve the right, in our sole discretion, to deny or suspend use of the Site or Services to anyone for any reason. You agree that you will not, and will not attempt to: (a) impersonate any person or entity, or otherwise misrepresent your affiliation with a person or entity; (b) use the Site or Services to violate any local, provincial, national or international law; (c) reverse engineer, disassemble, decompile, or translate any software or other components of the Site or Services; (d) distribute viruses or other harmful computer code through the Site or (e) otherwise use the Services or Site in any manner that exceeds the scope of use granted above. In addition, you agree to refrain from abusive language and behavior which could be regarded as inappropriate, or conduct that is unlawful or illegal, when communicating with Treating Providers or Counsellors through the Site and to refrain from contacting Treating Providers or Counsellors for telehealth services outside of the Site. AugmentCare is not responsible for any interactions with Treating Providers or Counsellors that are not conducted through the Site. We strongly recommend that you do not use the Services on public computers. We also recommend that you do not store your Account password through your web browser or other software.</li>
+<li><strong>Fees and Purchase Terms.</strong>&nbsp;Currently regsitering and using the Platform as a patient is free of charge to the patients. However, any consultation charges being charged by Treating Providers shall be paid by you at your own cost and expense. Similarly, any lab test, medicine or drug prescribed by a Treating Provider shall be purchased by you at your own cost and expense.</li>
+<li><strong>Website Links.</strong>&nbsp;WE WILL NOT BE LIABLE FOR ANY INFORMATION, SOFTWARE, OR LINKS FOUND AT ANY OTHER WEBSITE, INTERNET LOCATION, OR SOURCE OF INFORMATION, NOR FOR YOUR USE OF SUCH INFORMATION, SOFTWARE OR LINKS, NOR FOR THE ACTS OR OMISSIONS OF ANY SUCH WEBSITES OR THEIR RESPECTIVE OPERATORS.</li>
+<li><strong>Ownership.</strong>&nbsp;The Site and its entire contents, features and functionality (including but not limited to all information, software, text, displays, images, video and audio, and the design, selection and arrangement thereof), are owned by AugmentCare, its licensors or other providers of such material and are protected by United States and international copyright, trademark, patent, trade secret and other intellectual property or proprietary rights laws. These Terms &amp; Conditions permit you to use the Site for your personal, non-commercial use only. You must not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store or transmit any of the material on our Site except as generally and ordinarily permitted through the Site according to these Terms &amp; Conditions. You must not access or use for any commercial purposes any part of the Site or any services or materials availableDoctor through the Site.</li>
+<li><strong>Trademarks.</strong>&nbsp;Certain of the names, logos, and other materials displayed on the Site or in the Services may constitute trademarks, trade names, service marks or logos (“Marks”) of AugmentCare or other entities. You are not authorized to use any such Marks without the express written permission of AugmentCare. Ownership of all such Marks and the goodwill associated therewith remains with us or those other entities.</li>
+<li><strong>Termination.</strong>&nbsp;You may deactivate your Account and end your registration at any time, for any reason by sending an email to info@augmentcare.com. AugmentCare may suspend or terminate your use of the Site, your Account and/or registration for any reason at any time. Subject to applicable law, AugmentCare reserves the right to maintain, delete or destroy all communications and materials posted or uploaded to the Site pursuant to its internal record retention and/or content destruction policies. After such termination, AugmentCare will have no further obligation to provide the Services, except to the extent we are obligated to provide you access to your health records or Treating Providers or Counsellors are required to provide you with continuing care under their applicable legal, ethical and professional obligations to you.</li>
+<li><strong>Right to modify.</strong>&nbsp;We may at our sole discretion change, add, or delete portions of these Terms &amp; Conditions at any time on a going-forward basis. Continued use of the Site and/or Services following notice of any such changes will indicate your acknowledgement of such changes and agreement to be bound by the revised Terms &amp; Conditions, inclusive of such changes.</li>
+<li><strong>DISCLAIMER OF WARRANTIES.</strong>&nbsp;YOU EXPRESSLY AGREE THAT USE OF THE SITE OR SERVICES IS AT YOUR SOLE RISK. BOTH THE SITE AND SERVICES ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. AUGMENTCARE EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR USE OR PURPOSE, NON-INFRINGEMENT, TITLE, OPERABILITY, CONDITION, QUIET ENJOYMENT, VALUE, ACCURACY OF DATA AND SYSTEM INTEGRATION.You acknowledge and agree that AugmentCare&nbsp;does not provide medical advice, diagnosis, or treatment, and is strictly a technology platform and infrastructure for connecting patients with independent third party Treating Providers or Counsellors, including physicians and other Treating Providers or Counsellors in the AugmentCare network. You acknowledges and agree that the Treating Providers or Counsellors using the Site are solely responsible for and will have complete authority, responsibility, supervision, and control over the provision of all medical services, advice, instructions, treatment decisions, and other professional health care services performed, and that all diagnoses, treatments, procedures, and other professional health care services will be provided and performed exclusively by or under the supervision of Treating Providers or Counsellors, in their sole discretion, as they deem appropriate.</li>
+<li><strong>LIMITATION OF LIABILITY.</strong>&nbsp;YOU UNDERSTAND THAT TO THE EXTENT PERMITTED UNDER APPLICABLE LAW, IN NO EVENT WILL AUGMENTCARE OR ITS OFFICERS, EMPLOYEES, DIRECTORS, PARENTS, SUBSIDIARIES, AFFILIATES, AGENTS OR LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES, INCLUDING BUT NOT LIMITED TO, DAMAGES FOR LOSS OF REVENUES, PROFITS, GOODWILL, USE, DATA OR OTHER INTANGIBLE LOSSES ARISING OUT OF OR RELATED TO YOUR USE OF THE SITE OR THE SERVICES, REGARDLESS OF WHETHER SUCH DAMAGES ARE BASED ON CONTRACT, TORT (INCLUDING NEGLIGENCE AND STRICT LIABILITY), WARRANTY, STATUTE OR OTHERWISE. To the extent that we may not, as a matter of applicable law, disclaim any implied warranty or limit its liabilities, the scope and duration of such warranty and the extent of our liability will be the minimum permitted under such applicable law.</li>
+<li><strong>Indemnification.</strong>&nbsp;You agree to indemnify, defend and hold harmless AugmentCare, its officers, directors, employees, agents, subsidiaries, affiliates, licensors, and suppliers, harmless from and against any claim, actions, demands, liabilities and settlements, including without limitation reasonable legal and accounting fees (“Claims”), resulting from, or alleged to result from, your violation of these terms and conditions. In addition, you agree to indemnify, defend and hold harmless your Treating Provider(s) from and against any third party Claims resulting from your lack of adherence with the advice or recommendation(s) of such Treating Provider.</li>
+<li><strong>Geographical Restrictions.</strong>&nbsp;AugmentCare makes no representation that all products, services and/or material described on the Site, or the Services availableDoctor through the Site, are appropriate or availableDoctor for use in locations outside Pakistan or all locations within Pakistan.</li>
+<li><strong>Disclosures.</strong>&nbsp;All physicians and psychologists on the Site hold professional licenses issued by the Pakistan Medical and Dental Council (PMDC), hold doctoral degrees in either medicine or psychology, have undergone post-doctoral training and have a minimum of two years of professional experience in their relative field. You can report a complaint relating to the Treating Provider to AugmentCare by either sending an e-mail to info@augmentcare.com. It is important to note that by accepting this complaint, AugmentCare does not admit any liability on its part in regards to the Treating Provider or any services provided by him/her. Any clinical records created as a result of your use of the Site will be securely maintained by AugmentCare on behalf of your Treating Provider(s) for a period that is no less than the minimum number of years such records are required to be maintained under the relevant law. In a situation, where a user of AugmentCare, in the opinion of the Treating Providers or Counsellors, is experiencing a medical emergency, where his/her health, safety or life is in imminent danger or he/she is believed to be a threat to himself/herself or others, the Treating Providers or Counsellors may alert a designated emergency contact to inform them of such a situation. For the purpose of clarification, this Clause only allows the Treating Provider or Counsellor to inform the aforementioned designated contact of the development of a situation and does not allow the Treating Provider or Counsellor to provide medical records of the patient, or any other confidential medical information of the patient, relating to non-emergency situations to the aforementioned designated contact, unless the Counsellor is specifically allowed to do so by the patient or his or her authorized legal representative.</li>
+<li><strong>Miscellaneous.</strong>&nbsp;These Terms &amp; Conditions and your use of the Site shall be governed by the laws of the Islamic Republic of Pakistan. The parties agree to the personal and subject matter jurisdiction and venue of the courts located in Lahore for any action related to these Terms &amp; Conditions. You understand that by checking the “agree” box for these Terms &amp; Conditions and/or any other forms presented to you on the Site you are agreeing to these Terms &amp; Conditions and that such action constitutes a legal signature. You agree that we may send to you any privacy or other notices, disclosures, or communications regarding the Services (collectively, “Communications”) through electronic means including but not limited to: (1) by e-mail, using the address that you provided to us during registration, (2) short messaging service (“SMS”) text message to the mobile number you provided us during registration, (3) push notifications on your mobile device or (4) by posting the Communications on the Site. The delivery of any Communications from us is effective when sent by us, regardless of whether you read the Communication when you receive it or whether you actually receive the delivery. You can withdraw your consent to receive Communications by email by canceling or discontinuing your use of the Service. No waiver by AugmentCare of any term or condition set forth in these Terms &amp; Conditions shall be deemed a further or continuing waiver of such term or condition or a waiver of any other term or condition, and any failure of AugmentCare to assert a right or provision under these Terms &amp; Conditions shall not constitute a waiver of such right or provision. If any provision of these Terms &amp; Conditions is held by a court or other tribunal of competent jurisdiction to be invalid, illegal or unenforceable for any reason, such provision shall be eliminated or limited to the minimum extent such that the remaining provisions of the Terms &amp; Conditions will continue in full force and effect. AugmentCare devotes considerable effort to optimizing signal strength and diagnosis deficiencies but is not responsible for the internet or data bandwidth and signal of your mobile device. Please report any violations of these Terms &amp; Conditions to info@augmentcare.com.</li>
+</ol>
+</div>]]></string>
+    <string name="label_refresh">Refresh</string>
+    <string name="label_google_signin">Sign in with Google</string>
+    <string name="label_help">Help?</string>
+    <string name="label_cart_title">Cart</string>
+    <string name="label_address_title">Address</string>
+    <string name="label_add_address_title">New Address</string>
+    <string name="label_add_address">ADD NEW ADDRESS</string>
+    <string name="label_deliver">DELIVER</string>
+    <string name="label_total">Total</string>
+    <string name="label_proceed_to_checkout">PROCEED TO CHECKOUT</string>
+    <string name="lebel_deliver_to_this_address">DELIVER TO THIS ADDRESS</string>
+    <string name="label_select">SELECT</string>
+
+    <string name="email_already_taken">Email Already taken</string>
+    <string name="no_consultations">No consultations</string>
+    <string name="only_for_doctors">This app is for Doctors only!</string>
+    <string name="only_for_patients">This app is for patients only!</string>
+    <string name="enter_valid_address">Please enter a valid address</string>
+    <string name="enter_valid_email">Please enter a valid email address</string>
+    <string name="thanks_for_payment">Thanks for Payment!</string>
+    <string name="wait_for_approval">Your request is being forwarded, Please wait for approval!</string>
+    <string name="error_sending_notification">Error while sending notification to doctor</string>
+    <string name="request_failed">Request Failed</string>
+    <string name="invalid_otp">Invalid Code</string>
+    <string name="code_sent_please_wait">Code Sent, Please Wait</string>
+    <string name="otp_verification_failed">OTP Verification Failed, Try again</string>
+    <string name="invalid_card_credentials">Invalid Card Credentials!</string>
+    <string name="payment_request_failed">Payment failed</string>
+    <string name="failed_to_fetch_order_details">Failed to fetch order details</string>
+    <string name="error_making_order">Error making Order</string>
+    <string name="order_placed_wait_for_delivery">Your Order is placed wait for Delivery</string>
+    <string name="no_chat_messages">No previous messages</string>
+    <string name="please_wait_while_loading">Please Wait while loading.</string>
+    <string name="failed_to_get_areas">Failed to get Areas</string>
+    <string name="password_too_short">Password too short!</string>
+    <string name="enter_same_password">Please enter same password</string>
+    <string name="user_missed_your_call">User Missed Your Call!</string>
+    <string name="call_ended">Call Ended!</string>
+    <string name="caller_dropped_call">The doctor has ended the call. Everything\'s OK otherwise! Do give feedback for the doctor. Make them happy </string>
+    <string name="respondent_did_not_answer">Oops! the %s did not answer your call. Maybe they are a little busy!? Please try again after a few seconds. </string>
+    <string name="respondent_rejected">Oops! the %s rejected your call. Maybe they are a little busy!? Please try again after a few seconds. </string>
+    <string name="internet_disconnected_try_again">Disconnected, trying again</string>
+    <string name="error_min_amount">Order can only be place for amount of more than PKR 500</string>
+    <string name="error_retreiving_consultation">Error retreiving consultations</string>
+
+    <string name="lebel_pending_appointments">Pending Appointments</string>
+    <string name="label_confirm">Confirm</string>
+    <string name="label_reject">Reject</string>
+    <string name="detail">Detail</string>
+    <string name="label_feets">Feets</string>
+    <string name="label_inches">Inches</string>
+    <string name="label_save">Save</string>
+    <string name="promo_code">Promo Code</string>
+    <string name="label_all_doctors">ALL DOCTORS</string>
+    <string name="label_experience">Experience</string>
+    <string name="thanks_phone">Thanks for updating your phone number</string>
+    <string name="label_share">Share</string>
+    <string name="label_currency">PKR</string>
+    <string name="lebel_confirm_appt">CONFIRM APPOINTMENT</string>
+    <string name="singup_name_title">Hello, Lets get to know you</string>
+    <string name="label_signin">SIGN IN</string>
+    <string name="lable_email_frag_message">We need a little more information so that we can send you appointment reminders &amp; more</string>
+    <string name="label_medicine_not_found">Oops!, Your requested medicines are not availableDoctor in any of your nearest Branch</string>
+    <string name="error_vacationing">Doctor is vacationing this day!</string>
+
+    <string name="title_activity_video_player">VideoPlayerActivity</string>
+    <string name="title_activity_doctor_detail_corporate">DoctorDetailCorporateActivity</string>
+    <string name="welcome_hassan_please_set_n_your_password">Welcome Hassan, please set  your password</string>
+    <string name="login">Already have an account? Login</string>
+    <string name="medicne_screen_description">Order Lab Tests from your mobile and  find all your reports in one place</string>
+    <string name="available_allowance">Allowance</string>
+    <string name="limit">Limit</string>
+    <string name="availableDoctor">Available</string>
+    <string name="file_a_calim">File a Claim</string>
+    <string name="date_time"><![CDATA[Date & Time:]]></string>
+    <string name="_2018_10_01_01_36_am"><![CDATA[2018-10-01 & 01:36 AM]]></string>
+    <string name="submit">Submit</string>
+    <string name="prescribed_labs">Prescribed labs</string>
+    <string name="search">Search</string>
+    <string name="order_a_lab">Order A Lab</string>
+    <string name="_28_july_2018">28 July 2018</string>
+    <string name="done">Done</string>
+    <string name="cash_on_delivery">Cash on Delivery</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="sample_required">Sample Required:</string>
+    <string name="bed_rest_allowed_from">Bed Rest Allowed from</string>
+    <string name="pending_appointments">Pending Appointments</string>
+    <string name="all_appointments">My Appointments</string>
+    <string name="upcoming_appointments">Upcoming Appointments</string>
+    <string name="prescription_details">%s %s , %s %s meal for %,.2f %s</string>
+    <!--    <string name="prescription_details">%s %s , %s %s meal for ,.2f %s</string>-->
+    <string name="practice_locations">Practice Locations</string>
+    <string name="education">Education</string>
+    <string name="checkout">Checkout</string>
+    <string name="find_the_medicine_to_order_for_home_delivery">Find the medicines to order for home delivery</string>
+    <string name="pay_at_location">Pay at Location</string>
+    <string name="consult_with_our_doctors_from_the_comfort_of_your_home">Consult with our doctors from the comfort \n of your home</string>
+    <string name="will_be_available_after">Will be availableDoctor after </string>
+    <string name="you_can_expect_a_call_at">You can expect a call at</string>
+    <string name="start_video_appointment">Start Video Appointment</string>
+    <string name="or">OR</string>
+    <string name="book_for_later">Book for Later</string>
+    <string name="experience">Experience:</string>
+    <string name="pmdc_licence">PMDC LICENCE #</string>
+    <string name="fees">Fees:</string>
+    <string name="yes">Yes</string>
+    <string name="full_name">Full Name</string>
+    <string name="no_result_found">No Result Found</string>
+    <string name="hospital">Hospital</string>
+    <string name="delete">Delete</string>
+    <string name="free_for_subscribers">Free for Subscribers</string>
+    <string name="subscribed_plan">Subscribed Plan</string>
+    <string name="online">Online</string>
+    <string name="self">self</string>
+    <string name="email_phone_required">Please insert Email / Mobile to register.</string>
+    <string name="toast_type_warning">WARNING</string>
+    <string name="reset_by_email">Reset by email</string>
+    <string name="reset_by_phone_number">Reset by phone number</string>
+    <string name="adjust_sdk_app_token">e5q68gz5jjeo</string>
+    <string name="adjust_signup_success">bq11cr</string>
+    <string name="adjust_signin_success">pqlp59</string>
+    <string name="adjust_subscription_purchased">73mcv0</string>
+    <string name="no_instructions_available">No Instructions Available</string>
+    <string name="error_try_again">Error! Please try again later.</string>
+    <string name="server_error_try_again">Something went wrong! Please try again later.</string>
+    <string name="completed">Completed</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="rejected">Rejected</string>
+    <string name="approved">Approved</string>
+    <string name="pending">Pending</string>
+    <string name="lab_order_created">Lab Order Created</string>
+    <string name="lab_sample_collected">Lab Test Samples collected</string>
+    <string name="lab_reports_available">Lab Test Reports are Available</string>
+    <string name="claim_accepted_amount">Accepted Amount</string>
+    <string name="claim_insufficient_balance">Insufficient Balance</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="free_for_subscriber">Free for Subscriber</string>
+    <string name="bank_alfalah_promo_code">BALFALAH2019_20</string>
+
+    <string name="title_activity_main_screen">MainScreenActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="online_instructions">Thank you. Your request has been received - A confirmation email is on its way!\n
+While you wait, here’s how we value time:\n
+     ∙ Our reminders will help you stay on schedule\n
+     ∙ Your doctor will always be on time\n
+     ∙ If you’re going to miss your appointment, let your doctor know by clicking ‘Cancel’\n
+     ∙ Pro Tip: Test your internet connection before your appointment!\n\n
+
+</string>
+
+    <string name="offline_instructions">Thank you. Your request has been received - A confirmation email is on its way!\n\n
+While you wait, here are a few tips:\n
+        ∙ Arrive 10-15 mins before time\n
+     ∙ Your doctor will be able to view your files online, you don’t have to carry them!\n
+     ∙ After your appointment, your prescription will be availableDoctor in your app to order online\n
+     ∙ If you’re going to miss your appointment, let your doctor know by clicking ‘Cancel’ \n
+     ∙ Rate your experience to help the doctor improve! \n
+
+</string>
+    <string name="stay_happy">Stay healthy. Stay happy!</string>
+    <string name="appointment_message_online">Your appointment has been booked. Watch out for a confirmation email soon!</string>
+    <string name="label_have_promo">I have a promo code</string>
+
+    <string name="font_futura_bt">futura_medium_bt.ttf</string>
+    <string name="font_futura_light_bt">futura_light_bt.ttf</string>
+
+    <string name="intercom_gcm_sender_id">216332780262</string>
+    <string name="lets_get_you_started1">Lets get you started!</string>
+    <string name="welcome_to_augmentcare">Welcome to AugmentCare.\nWe have got your health covered.\nLets Go!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="you_are_just_one_step_away_from_a_better_health">You are just one step away \nfrom better health.</string>
+    <string name="google">Google</string>
+    <string name="password">Password</string>
+    <string name="choose_a_suitable_password_for_your_account">Choose a suitable password \n for your account</string>
+    <string name="password_field">Password*</string>
+    <string name="confirm_password">Confirm Password*</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign in</string>
+    <string name="create_free_account">Create free account</string>
+    <string name="segment_api_key">pL2ZWQ5bnLGtZEqvRiZpYuTVe62W0meE</string>
+    <string name="dr_m_shafiq_awan">Dr. M. Shafiq Awan</string>
+    <string name="mon_tue_fri">Mon - Tue - Fri</string>
+    <string name="todo">todo</string>
+    <string name="doctor_awan">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="email_mobile">Email &amp; Mobile</string>
+    <string name="mobile_email">Mobile &amp; Email</string>
+    <string name="next_step_tell_us_about_email_mobile">Next step is to tell us about your\nEmail and Mobile Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="email_address_opt">Email Address (Optional)</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="next">Next</string>
+    <string name="please_insert_password">Please Insert Password</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="we_have_sent_you_an_sms_code_at">We have sent you an SMS code</string>
+    <string name="not_your_number">Not your number?</string>
+    <string name="change_it">Change it</string>
+    <string name="finally_lets_go">Finally Lets Go</string>
+    <string name="sign_up_and_get_started_with_a_better_and_healthy_life">Sign up and get started with a \n better and healthy life</string>
+    <string name="email">Email</string>
+    <string name="employee_code">Employee Code</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="payment_methods">Payment Method</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="settings2">Settings</string>
+    <string name="about_augment_care">About Augment Care</string>
+    <string name="help_and_support">Help and Support</string>
+    <string name="faqs">FAQs</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="account">Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="_123456789123">123456789123</string>
+    <string name="MM">MM</string>
+    <string name="YYYY">YYYY</string>
+    <string name="PleaseEnableEditMode">Please enable the edit mode</string>
+    <string name="gcm_places_api_key">AIzaSyD8XMruSdSrrH0UmXfhWQUPvFjpQ9Sn4iY</string>
+    <string name="enter_otp_change_password"><![CDATA[Enter OTP & Change Password]]></string>
+
+
+    <string-array name="months_full_names">
+        <item>January</item>
+        <item>Febraury</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="months_date">
+        <item>Month</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="years">
+        <item>Year</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="feeArrayForSeekBar">
+        <item>500</item>
+        <item>1500</item>
+        <item>2500</item>
+        <item>3500</item>
+    </string-array>
+
+    <string-array name="years_numeric_array">
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+        <item>1994</item>
+        <item>1993</item>
+        <item>1992</item>
+        <item>1991</item>
+        <item>1990</item>
+        <item>1989</item>
+        <item>1988</item>
+        <item>1987</item>
+        <item>1986</item>
+        <item>1985</item>
+        <item>1984</item>
+        <item>1983</item>
+        <item>1982</item>
+        <item>1981</item>
+        <item>1980</item>
+        <item>1979</item>
+        <item>1978</item>
+        <item>1977</item>
+        <item>1976</item>
+        <item>1975</item>
+        <item>1974</item>
+        <item>1973</item>
+        <item>1972</item>
+        <item>1971</item>
+        <item>1970</item>
+        <item>1969</item>
+        <item>1968</item>
+        <item>1967</item>
+        <item>1966</item>
+        <item>1965</item>
+        <item>1964</item>
+        <item>1963</item>
+        <item>1962</item>
+        <item>1961</item>
+        <item>1960</item>
+        <item>1959</item>
+        <item>1958</item>
+        <item>1957</item>
+        <item>1956</item>
+        <item>1955</item>
+        <item>1954</item>
+        <item>1953</item>
+        <item>1952</item>
+        <item>1951</item>
+        <item>1950</item>
+        <item>1949</item>
+        <item>1948</item>
+        <item>1947</item>
+        <item>1946</item>
+        <item>1945</item>
+        <item>1944</item>
+        <item>1943</item>
+        <item>1942</item>
+        <item>1941</item>
+        <item>1940</item>
+    </string-array>
+
+    <string-array name="days_numeric_array">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="experienceArrayForSeekBar">
+        <item>1 Year</item>
+        <item>10 Years</item>
+        <item>20 Years</item>
+        <item>30 Years</item>
+    </string-array>
+
+    <string-array name="distanceArrayForSeekBar">
+        <item>0 Km</item>
+        <item>5 Km</item>
+        <item>10 Km</item>
+        <item>15 Km</item>
+    </string-array>
+
+    <!--GCP API Key
+    AIzaSyAi1q_f0HiZcBI2QytDMyZUtKDxydMAu48-->
+</resources>

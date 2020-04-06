@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white"
+        android:title="@string/label_search"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/label_help"
+
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:title="@string/label_refresh"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/ic_account"
+        android:title="@string/label_profile"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_exit"
+        android:title="@string/label_logout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_filters"
+        android:icon="@drawable/ic_filter"
+        android:title="Filters"
+        android:visible="false"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_all"
+                android:title="All"></item>
+            <item
+                android:id="@+id/action_pending"
+                android:title="Pending"></item>
+            <item
+                android:id="@+id/action_approved"
+                android:title="Approved"></item>
+            <item
+                android:id="@+id/action_completed"
+                android:title="Completed"></item>
+            <item
+                android:id="@+id/action_ongoing"
+                android:title="OnGoing"></item>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/label_settings"
+        app:showAsAction="never" />
+</menu>

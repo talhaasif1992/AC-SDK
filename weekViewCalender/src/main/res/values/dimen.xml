@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="monthTextSize">12sp</dimen>
+    <dimen name="dateTextSize">20sp</dimen>
+    <dimen name="dayTextSize">12sp</dimen>
+</resources>

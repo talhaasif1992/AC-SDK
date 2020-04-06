@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/intercom_teammate_profile_container_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/intercom_toolbar_height"
+    tools:background="@color/intercom_main_blue"
+    tools:layout_height="@dimen/intercom_home_screen_height">
+
+    <ImageView
+        android:id="@+id/teammate_wallpaper_image"
+        style="@style/intercom_wallpaper_image_style"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <RelativeLayout
+        android:id="@+id/toolbar_content_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/intercom_toolbar_height"
+        tools:background="@android:color/holo_red_light"
+        tools:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/intercom_collapsing_teammate_avatar3"
+            android:layout_width="@dimen/intercom_teammate_avatar_size_with_boarder"
+            android:layout_height="@dimen/intercom_teammate_avatar_size_with_boarder"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="104dp"
+            android:layout_marginTop="12dp"
+            tools:src="@drawable/intercom_solid_circle"
+            tools:tint="@color/intercom_main_blue"/>
+
+        <ImageView
+            android:id="@+id/intercom_collapsing_teammate_avatar2"
+            android:layout_width="@dimen/intercom_teammate_avatar_size_with_boarder"
+            android:layout_height="@dimen/intercom_teammate_avatar_size_with_boarder"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="88dp"
+            android:layout_marginTop="12dp"
+            tools:src="@drawable/intercom_solid_circle"
+            tools:tint="@color/intercom_main_blue"/>
+
+        <ImageView
+            android:id="@+id/intercom_collapsing_teammate_avatar1"
+            android:layout_width="@dimen/intercom_teammate_avatar_size_with_boarder"
+            android:layout_height="@dimen/intercom_teammate_avatar_size_with_boarder"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="72dp"
+            android:layout_marginTop="12dp"
+            tools:src="@drawable/intercom_solid_circle"
+            tools:tint="@color/intercom_main_blue"/>
+
+        <View
+            android:id="@+id/intercom_collapsing_teammate_active_state"
+            android:layout_width="@dimen/intercom_teammate_active_state_size"
+            android:layout_height="@dimen/intercom_teammate_active_state_size"
+            android:layout_marginLeft="94dp"
+            android:layout_marginTop="34dp"
+            android:visibility="gone"
+            tools:background="@drawable/intercom_solid_circle"
+            tools:backgroundTint="@color/intercom_active_state"
+            tools:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/intercom_collapsing_title"
+            style="@style/intercom_toolbar_title_style"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/intercom_toolbar_height"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="142dp"
+            android:layout_marginRight="64dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lines="1"
+            tools:text="Martha and 7 others"/>
+
+        <TextView
+            android:id="@+id/intercom_collapsing_title_name_only"
+            style="@style/intercom_toolbar_title_style"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/intercom_toolbar_height"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="142dp"
+            android:layout_marginRight="64dp"
+            android:alpha="0"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lines="1"
+            tools:text="Martha"/>
+
+        <TextView
+            android:id="@+id/intercom_collapsing_subtitle"
+            style="@style/intercom_toolbar_subtitle_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="142dp"
+            android:layout_marginRight="64dp"
+            android:layout_marginTop="26dp"
+            android:alpha="0.7"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:lines="1"
+            tools:text="Active 20m ago"/>
+
+        <Space android:id="@+id/intercom_avatar_spacer"
+               android:layout_width="0dp"
+               android:layout_height="32dp"
+               android:layout_below="@id/intercom_collapsing_teammate_avatar1"
+               android:visibility="gone"
+               tools:visibility="visible"/>
+
+        <LinearLayout
+            android:id="@+id/intercom_collapsing_role_layout"
+            style="@style/intercom_teammate_profile_text_layout_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/intercom_avatar_spacer"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/intercom_role_icon"
+                android:layout_width="@dimen/intercom_teammate_profile_icon_dimen"
+                android:layout_height="@dimen/intercom_teammate_profile_icon_dimen"
+                android:src="@drawable/intercom_role"/>
+
+            <TextView
+                android:id="@+id/intercom_collapsing_role"
+                style="@style/intercom_teammate_profile_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:lines="1"
+                tools:text="Bruce's Mother"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/intercom_collapsing_location_layout"
+            style="@style/intercom_teammate_profile_text_layout_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/intercom_collapsing_role_layout"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/intercom_location_icon"
+                android:layout_width="@dimen/intercom_teammate_profile_icon_dimen"
+                android:layout_height="@dimen/intercom_teammate_profile_icon_dimen"
+                android:src="@drawable/intercom_location"/>
+
+            <TextView
+                android:id="@+id/intercom_collapsing_location"
+                style="@style/intercom_teammate_profile_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:lines="1"
+                tools:text="2:30pm in Gotham City, USA"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/intercom_collapsing_bio_layout"
+            style="@style/intercom_teammate_profile_text_layout_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/intercom_collapsing_location_layout"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/intercom_bio_icon"
+                android:layout_width="@dimen/intercom_teammate_profile_icon_dimen"
+                android:layout_height="@dimen/intercom_teammate_profile_icon_dimen"
+                android:src="@drawable/intercom_bio"/>
+
+            <TextView
+                android:id="@+id/intercom_collapsing_bio"
+                style="@style/intercom_teammate_profile_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                tools:text="I do stuff for company"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/social_button_layout"
+                      android:layout_width="wrap_content"
+                      android:layout_height="@dimen/intercom_social_button_dimen"
+                      android:layout_below="@id/intercom_collapsing_bio_layout"
+                      android:layout_marginLeft="72dp"
+                      android:layout_marginTop="16dp"
+                      android:paddingLeft="26dp"
+                      android:visibility="gone"
+                      tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/twitter_button"
+                android:layout_width="@dimen/intercom_social_button_dimen"
+                android:layout_height="@dimen/intercom_social_button_dimen"
+                android:layout_marginRight="16dp"
+                android:alpha="@dimen/intercom_header_text_alpha"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/intercom_twitter"
+                android:visibility="gone"
+                tools:visibility="visible"/>
+
+            <ImageView
+                android:id="@+id/linkedin_button"
+                android:layout_width="@dimen/intercom_social_button_dimen"
+                android:layout_height="@dimen/intercom_social_button_dimen"
+                android:alpha="@dimen/intercom_header_text_alpha"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/intercom_linkedin"
+                android:visibility="gone"
+                tools:visibility="visible"/>
+
+        </LinearLayout>
+
+        <Space android:id="@+id/intercom_bottom_spacer"
+               android:layout_width="0dp"
+               android:layout_height="42dp"
+               android:layout_below="@id/social_button_layout"
+               tools:visibility="visible"/>
+
+        <LinearLayout
+            android:id="@+id/intercom_group_conversations_banner"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@id/intercom_bottom_spacer"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <View
+                android:id="@+id/intercom_teammate_group_separator"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="64dp"
+                android:layout_marginRight="32dp"
+                android:alpha="0.3"
+                android:background="@color/intercom_white"/>
+
+            <TextView
+                android:id="@+id/intercom_group_conversations_banner_title"
+                style="@style/intercom_toolbar_subtitle_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingLeft="64dp"
+                android:paddingRight="64dp"
+                android:text="@string/intercom_also_in_this_conversation"/>
+
+            <LinearLayout
+                android:id="@+id/intercom_group_avatar_holder"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/intercom_teammate_avatar_size"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:paddingLeft="64dp"
+                android:paddingRight="64dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

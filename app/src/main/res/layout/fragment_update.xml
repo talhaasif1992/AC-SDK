@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.augmentcare.patient.fragments.UpdateFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/raleway_bold"
+            android:text="App Update"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center"
+            android:background="@color/colorPrimaryNew"/>
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_ac_logo2"
+            android:layout_marginTop="50dp"/>
+        <TextView
+            android:id="@+id/txtMessage"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/_16ssp"
+            android:fontFamily="@font/raleway"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorSecondary" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginRight="16dp"
+            android:text="UPDATE"
+            android:textColor="@color/white"
+            android:fontFamily="@font/raleway_bold"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_green_gradient_round_cornered_background"
+            android:theme="@style/Button.Signin"
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

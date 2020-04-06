@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl_payment_method_visa"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:background="@drawable/plans_bg_border">
+
+    <LinearLayout
+        android:id="@+id/visaView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:weightSum="5"
+        android:paddingEnd="10dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/tv_index"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:textSize="18sp"
+            android:text="1."
+            android:textColor="@color/colorSecondary"
+            android:gravity="center"
+            app:srcCompat="@drawable/ic_visa_image" />
+
+        <LinearLayout
+            android:id="@+id/cl_visa_card_number_and_expiry_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            >
+
+
+            <TextView
+                android:id="@+id/TV_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/raleway"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorSecondary"
+                android:text="Individial"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/codeTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs."
+                android:textColor="@color/colorSecondary"
+                android:fontFamily="@font/raleway"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/TV_price"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/_22sdp"
+                android:layout_height="wrap_content"
+                android:text="500"
+                android:textColor="@color/colorSecondary"
+                android:fontFamily="@font/raleway_bold"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/typeTV"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/colorSecondary"
+                android:fontFamily="@font/raleway"
+                android:layout_height="wrap_content"
+                android:text="//Mo"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_gravity="bottom"/>
+        </LinearLayout>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/expendableView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/description_RV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_20ssp"
+            android:background="@color/colorLightGray"/>
+        <Button
+            android:id="@+id/chooseBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_34ssp"
+            android:layout_margin="@dimen/_20sdp"
+            android:text="Choose Subcription"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:background="@drawable/btn_green_gradient_round_cornered_background"/>
+
+
+    <TextView
+        android:id="@+id/promoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have a Promo?"
+        android:layout_gravity="right"
+        android:visibility="visible"
+        android:padding="@dimen/_10sdp"
+        android:textSize="@dimen/_15sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:fontFamily="@font/raleway"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/colorBlueButton" />
+            <corners android:radius="10dp"></corners>
+        </shape>
+    </item>
+
+    <item android:state_enabled="false">
+        <shape android:shape="oval">
+            <solid android:color="@color/colorGray" />
+            <corners android:radius="10dp"></corners>
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/colorBlueButtonSelected" />
+            <corners android:radius="10dp"></corners>
+        </shape>
+    </item>
+
+</selector>

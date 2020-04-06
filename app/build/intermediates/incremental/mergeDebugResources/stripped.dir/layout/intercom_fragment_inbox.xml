@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/conversations_list_root"
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/intercom_white">
+
+    <io.intercom.android.sdk.views.IntercomToolbar
+        android:id="@+id/intercom_toolbar"
+        style="@style/intercom_toolbar_style"/>
+
+    <FrameLayout
+        android:id="@+id/intercom_inbox_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/intercom_toolbar_height">
+
+        <include layout="@layout/intercom_error_inbox"
+                 android:visibility="gone"/>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/intercom_progress_wheel"
+            android:visibility="gone"
+            tools:visibility="visible"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/inbox_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/intercom_full_transparent_full_black"
+            android:layoutAnimation="@anim/intercom_inbox_layout_animator"
+            android:visibility="gone"
+            tools:listitem="@layout/intercom_row_inbox"
+            tools:visibility="visible"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/compose_action_button"
+            style="@style/intercom_floating_action_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right|end"
+            android:src="@drawable/intercom_compose"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/intercom_app_bar_shadow_height"
+            android:background="@drawable/intercom_top_shadow"/>
+
+    </FrameLayout>
+
+</FrameLayout>

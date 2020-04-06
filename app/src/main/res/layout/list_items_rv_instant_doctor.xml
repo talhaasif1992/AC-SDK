@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvInstantDoctorDetails"
+    android:layout_width="@dimen/_125sdp"
+    android:layout_height="@dimen/_125sdp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardElevation="@dimen/_5sdp"
+            app:cardMaxElevation="@dimen/_5sdp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cvlInstantDoctorDetails"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/_3sdp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civInstantDoctorProfilePic"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    app:layout_constraintBottom_toTopOf="@id/tvInstantDoctorName"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvInstantDoctorName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/raleway_bold"
+                    android:text="Instant Doctor Name"
+                    android:textColor="@color/colorSecondary"
+                    android:textSize="@dimen/_10ssp"
+                    app:layout_constraintBottom_toTopOf="@id/tvInstantDoctorSpeciality"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/civInstantDoctorProfilePic" />
+
+                <TextView
+                    android:id="@+id/tvInstantDoctorSpeciality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/raleway"
+                    android:text="Instant Doctor Speciality"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/_8ssp"
+                    app:layout_constraintBottom_toTopOf="@id/rbInstantDoctor"
+                    app:layout_constraintStart_toStartOf="@id/tvInstantDoctorName"
+                    app:layout_constraintTop_toBottomOf="@id/tvInstantDoctorName" />
+
+                <RatingBar
+                    android:id="@+id/rbInstantDoctor"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:scaleX="01"
+                    android:scaleY="01"
+                    android:theme="@style/RatingBar"
+                    app:layout_constraintBottom_toTopOf="@id/tvInstantDoctorReviews"
+                    app:layout_constraintStart_toStartOf="@id/tvInstantDoctorSpeciality"
+                    app:layout_constraintTop_toBottomOf="@id/tvInstantDoctorSpeciality" />
+
+                <ImageView
+                    android:id="@+id/ivInstantDoctorHeart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    app:layout_constraintBottom_toBottomOf="@id/rbInstantDoctor"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/rbInstantDoctor"
+                    app:srcCompat="@drawable/ic_heart_filled" />
+
+                <TextView
+                    android:id="@+id/tvInstantDoctorReviews"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:fontFamily="@font/raleway"
+                    android:text="121 Reviews"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/_8ssp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@id/tvInstantDoctorSpeciality"
+                    app:layout_constraintTop_toBottomOf="@id/rbInstantDoctor" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/badge_freeCall"
+        android:layout_width="@dimen/_14sdp"
+        android:layout_height="@dimen/_14sdp"
+        android:layout_gravity="end"
+        android:background="@drawable/badge"
+        android:backgroundTint="@color/colorRed"
+        android:gravity="center"
+        android:padding="2dp"
+        android:fontFamily="@font/raleway_bold"
+        android:visibility="invisible"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_8ssp"
+        />
+</FrameLayout>

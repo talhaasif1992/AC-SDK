@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.augmentcare.patient.fragments.DashboardFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_findDoctorFragment"
+            app:destination="@id/findDoctorFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_instantAppointmentFragment"
+            app:destination="@id/instantAppointmentFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@+id/dashboardFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_NotificationsFragment"
+            app:destination="@id/NotificationsFragment"
+            app:popUpTo="@id/dashboardFragment" />
+ <!--       <action -->
+<!--        <action-->
+<!--            android:id="@+id/action_dashboardFragment_to_appointmentsFragment"-->
+<!--            app:destination="@id/appointmentFragment" />-->
+        <action
+            android:id="@+id/action_dashboardFragment_to_medicinesInfoFragment"
+            app:destination="@id/medicinesInfoFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_planSelectionFragment"
+            app:destination="@id/planSelectionFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_dependentFragment"
+            app:destination="@id/dependentFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_appSettingsFragment"
+            app:destination="@id/appSettingsFragment"
+            app:popUpTo="@+id/dashboardFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_videoConsultationActivity"
+            app:destination="@id/videoConsultationActivity" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_chatActivity"
+            app:destination="@id/chatActivity" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+           <action
+               android:id="@+id/action_dashboardFragment_to_myAppointmentsFragment"
+               app:destination="@id/myAppointmentsFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_consultationPreviewFragment"
+            app:destination="@id/consultationPreviewDialogFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@+id/dashboardFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_myClaimsFragment"
+            app:destination="@id/myClaimsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popUpTo="@id/loginFragment"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/findDoctorFragment"
+        android:name="com.augmentcare.patient.fragments.FindDoctorFragment"
+        android:label="Find Doctors"
+        tools:layout="@layout/fragment_find_doctor">
+        <action
+            android:id="@+id/action_findDoctorFragment_to_refineSearchFragment"
+            app:destination="@id/refineSearchFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action
+            android:id="@+id/action_findDoctorFragment_to_instantAppointmentFragment"
+            app:destination="@+id/instantAppointmentFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_findDoctorFragment_to_doctorProfileFragment"
+            app:destination="@id/doctorProfileFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <argument
+            android:name="noOfFreeCalls"
+            app:argType="integer"
+            android:defaultValue="-1" />
+        <argument
+            android:name="showBadge"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/refineSearchFragment"
+        android:name="com.augmentcare.patient.fragments.RefineSearchFragment"
+        android:label="Refine Search"
+        tools:layout="@layout/fragment_refine_search" />
+
+    <fragment
+        android:id="@+id/instantAppointmentFragment"
+        android:name="com.augmentcare.patient.fragments.InstantAppointmentFragment"
+        android:label="Instant Appointment"
+        tools:layout="@layout/fragment_instant_appointment">
+        <action
+            android:id="@+id/action_instantAppointmentFragment_to_instantAppointmentReachedBF"
+            app:destination="@id/instantAppointmentReachedBF"
+            app:popUpTo="@+id/instantAppointmentFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_instantAppointmentFragment_to_doctorProfileFragment2"
+            app:destination="@id/doctorProfileFragment"
+            app:enterAnim="@anim/right_in"
+            app:exitAnim="@anim/left_out" />
+        <argument
+            android:name="doctorID"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="orderID"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_instantAppointmentFragment_to_bookAppointmentFragment"
+            app:destination="@+id/bookAppointmentFragment" />
+        <action
+            android:id="@+id/action_instantAppointmentFragment_to_planSelectionFragment"
+            app:destination="@id/planSelectionFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_instantAppointmentFragment_to_freeCallCongratsDialogFragment"
+            app:destination="@id/freeCallCongratsDialogFragment" />
+        <argument
+            android:name="doContinue"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+    <dialog
+        android:id="@+id/instantAppointmentReachedBF"
+        android:name="com.augmentcare.patient.fragments.instantAppointmentReachedBF"
+        android:label="Appointment Booked"
+        tools:layout="@layout/fragment_instant_appoitment_resched_b">
+        <argument
+            android:name="doctorAvailableTime"
+            app:argType="string" />
+        <argument
+            android:name="doctorAvailableDate"
+            app:argType="string" />
+        <argument
+            android:name="bookedDoctorSlot"
+            android:defaultValue="@null"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.Slot"
+            app:nullable="true" />
+    </dialog>
+
+    <fragment
+        android:id="@+id/NotificationsFragment"
+        android:name="com.augmentcare.patient.fragments.NotificationsFragment"
+        android:label="activity_notifications"
+        tools:layout="@layout/activity_notifications" >
+        <action
+            android:id="@+id/action_NotificationsFragment_to_sickNotesFragment2"
+            app:destination="@id/sickNotesFragment2" />
+        <action
+            android:id="@+id/action_NotificationsFragment_to_consultationPreviewDialogFragment"
+            app:destination="@id/consultationPreviewDialogFragment"
+            app:popUpTo="@+id/NotificationsFragment" />
+        <action
+            android:id="@+id/action_NotificationsFragment_to_chatActivity"
+            app:destination="@id/chatActivity" />
+        <action
+            android:id="@+id/action_NotificationsFragment_to_appointmentDetailsFragment"
+            app:destination="@id/appointmentDetailsFragment" />
+        <action
+            android:id="@+id/action_NotificationsFragment_to_myClaimsFragment"
+            app:destination="@id/myClaimsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_NotificationsFragment_to_dependentFragment"
+            app:destination="@id/dependentFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicinesInfoFragment"
+        android:name="com.augmentcare.patient.fragments.MedicinesInfoFragment"
+        android:label="fragment_medicines"
+        tools:layout="@layout/fragment_medicines" >
+        <argument
+            android:name="isFromLab"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="Condition"
+            app:argType="string"
+            app:nullable="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/planSelectionFragment"
+        android:name="com.augmentcare.patient.fragments.PlanSelectionFragment"
+        android:label="activity_plan_selection"
+        tools:layout="@layout/activity_plan_selection" >
+        <action
+            android:id="@+id/action_planSelectionFragment_to_findDoctorFragment"
+            app:destination="@id/findDoctorFragment" />
+        <action
+            android:id="@+id/action_planSelectionFragment_to_subscriptionPaymentFragement"
+            app:destination="@id/subscriptionPaymentFragment" />
+        <action
+            android:id="@+id/action_planSelectionFragment_to_addCardFragment"
+            app:destination="@id/addCardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dependentFragment"
+        android:name="com.augmentcare.patient.fragments.DependentFragment"
+        android:label="activity_manage_family_list"
+        tools:layout="@layout/fragment_manage_family_list" >
+        <action
+            android:id="@+id/action_dependentFragment_to_addDependentMemberFragment"
+            app:destination="@id/addDependentMemberFragment" />
+        <action
+            android:id="@+id/action_dependentFragment_to_updateDependentMemberFragment"
+            app:destination="@id/updateDependentMemberFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookAppointmentFragment"
+        android:name="com.augmentcare.patient.fragments.BookAppointmentFragment"
+        android:label="fragment_book_appointment"
+        tools:layout="@layout/fragment_book_appointment" >
+        <action
+            android:id="@+id/action_bookAppointmentFragment_to_appointmentApprovedFragment"
+            app:destination="@id/appointmentApprovedFragment"
+            app:popUpTo="@+id/dashboardFragment" />
+        <argument
+            android:name="doctor"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.DoctorInfoLimited"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="doctorId"
+            app:argType="string"
+            android:defaultValue="@null"
+            app:nullable="true" />
+        <argument
+            android:name="type"
+            app:argType="string"
+            android:defaultValue="@null"
+            app:nullable="true" />
+        <argument
+            android:name="medicalPracticeName"
+            app:argType="string"
+            android:defaultValue="@null"
+            app:nullable="true" />
+        <argument
+            android:name="medicalPracticeId"
+            app:argType="string"
+            android:defaultValue="@null"
+            app:nullable="true" />
+        <argument
+            android:name="instantDoctor"
+            app:argType="string"
+            android:defaultValue="yes" />
+        <argument
+            android:name="appointmentType"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="doctorDetailId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_bookAppointmentFragment_to_explorePaymentFragment"
+            app:destination="@id/explorePaymentFragment" />
+        <argument
+            android:name="dependentId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="exploreDoctorSuccessResponseObj"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.EliteDoctorSuccess"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="exploreInstantModelResponseObj"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.BookedInstantAppointmentSlot"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="pateintName"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="selectedDate"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="time"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="isFromReschedule"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="cardId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="startTime"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="endTime"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="paymentMethodType"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="bookByUser"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="pateintId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+    <fragment
+        android:id="@+id/appointmentApprovedFragment"
+        android:name="com.augmentcare.patient.fragments.AppointmentApprovedFragment"
+        android:label="fragment_appointment_approved"
+        tools:layout="@layout/fragment_appointment_approved" >
+        <action
+            android:id="@+id/action_appointmentApprovedFragment_to_cancelAppointmentDialogFragment"
+            app:destination="@id/cancelAppointmentDialogFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action
+            android:id="@+id/action_appointmentApprovedFragment_to_bookAppointmentFragment"
+            app:destination="@id/bookAppointmentFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <argument
+            android:name="doctor"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.DoctorInfoLimited"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="selectedDate"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="time"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="null" />
+        <argument
+            android:name="pateintName"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="null" />
+        <argument
+            android:name="type"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="dependentId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="appointmentType"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="doctorDetailId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="medicalPracticeId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="medicalPracticeName"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="instantDoctor"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="exporeInstantModelResponseObj"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.BookedInstantAppointmentSlot"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="exploreDoctorSuccessResponseObj"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.EliteDoctorSuccess"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="isFromExplorePayment"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="startTime"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="endTime"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="paymentMethodType"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="cardId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="bookByUser"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="pateintId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+    <dialog
+        android:id="@+id/cancelAppointmentDialogFragment"
+        android:name="com.augmentcare.patient.fragments.CancelAppointmentDialogFragment"
+        android:label="fragment_cancel_appointment_dialog"
+        tools:layout="@layout/fragment_cancel_appointment_dialog" >
+        <argument
+            android:name="pateintId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="doctorId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="slotId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="btnPressed"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </dialog>
+    <fragment
+        android:id="@+id/doctorProfileFragment"
+        android:name="com.augmentcare.patient.fragments.DoctorProfileFragment"
+        android:label="Doctor Profile"
+        tools:layout="@layout/fragment_doctor_profile">
+        <argument
+            android:name="doctorID"
+            app:argType="string" />
+        <argument
+            android:name="show_book_appointment_btn"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="doctor"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.DoctorInfoLimited"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="instantDoctor"
+            app:argType="string"
+            android:defaultValue="yes" />
+        <action
+            android:id="@+id/action_doctorProfileFragment_to_appointmentTypesBottomSheet"
+            app:destination="@id/appointmentTypesBottomSheet"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action
+            android:id="@+id/action_doctorProfileFragment_to_bookAppointmentFragment"
+            app:destination="@id/bookAppointmentFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action
+            android:id="@+id/action_doctorProfileFragment_to_planSelectionFragment"
+            app:destination="@id/planSelectionFragment" />
+        <action
+            android:id="@+id/action_doctorProfileFragment_to_freeCallCongratsDialogFragment"
+            app:destination="@id/freeCallCongratsDialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myAppointmentsFragment"
+        android:name="com.augmentcare.patient.fragments.MyAppointmentsFragment"
+        android:label="fragment_my_appointments"
+        tools:layout="@layout/fragment_my_appointments" >
+        <action
+            android:id="@+id/action_myAppointmentsFragment_to_appointmentDetailsFragment"
+            app:destination="@id/appointmentDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/action_myAppointmentsFragment_to_bookAppointmentFragment"
+            app:destination="@id/bookAppointmentFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_myAppointmentsFragment_to_consultationPreviewDialogFragment"
+            app:destination="@id/consultationPreviewDialogFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popUpTo="@id/myAppointmentsFragment"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/appointmentDetailsFragment"
+        android:name="com.augmentcare.patient.fragments.AppointmentDetailsFragment"
+        android:label="fragment_appointment_details"
+        tools:layout="@layout/fragment_appointment_details" >
+        <action
+            android:id="@+id/action_appointmentDetailsFragment_to_doctorRatingDialogFrag"
+            app:destination="@id/doctorRatingDialogFrag"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <argument
+            android:name="slotID"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_appointmentDetailsFragment_to_sickNotesFragment2"
+            app:destination="@id/sickNotesFragment2"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <dialog
+        android:id="@+id/doctorRatingDialogFrag"
+        android:name="com.augmentcare.patient.fragments.DoctorRatingDialogFrag"
+        android:label="fragment_doctor_rating_dialog"
+        tools:layout="@layout/fragment_doctor_rating_dialog" >
+        <argument
+            android:name="appointmentDateTime"
+            app:argType="string" />
+        <argument
+            android:name="slotID"
+            app:argType="string" />
+        <argument
+            android:name="doctorName"
+            app:argType="string" />
+        <argument
+            android:name="doctorPic"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_doctorRatingDialogFrag_to_appointmentDetailsFragment"
+            app:destination="@id/appointmentDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@+id/myAppointmentsFragment"
+            app:popUpToInclusive="false" />
+    </dialog>
+    <fragment
+        android:id="@+id/appSettingsFragment"
+        android:name="com.augmentcare.patient.fragments.AppSettingsFragment"
+        android:label="fragment_app_settings"
+        tools:layout="@layout/fragment_app_settings" >
+        <action
+            android:id="@+id/action_appSettingsFragment_to_paymentMethodActivity"
+            app:destination="@id/paymentMethodActivity" />
+        <action
+            android:id="@+id/action_appSettingsFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_appSettingsFragment_to_changePasswordBottomSheet"
+            app:destination="@id/changePasswordBottomSheet"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_appSettingsFragment_to_creditCardFragment"
+            app:destination="@id/creditCardFragment" />
+
+    </fragment>
+
+
+    <dialog
+        android:id="@+id/appointmentTypesBottomSheet"
+        android:name="com.augmentcare.patient.bottomsheets.AppointmentTypesBottomSheet"
+        android:label="dialog_practice_locations"
+        tools:layout="@layout/dialog_practice_locations" >
+        <action
+            android:id="@+id/action_appointmentTypesBottomSheet_to_bookAppointmentFragment"
+            app:destination="@id/bookAppointmentFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <argument
+            android:name="doctor"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.DoctorInfoLimited" />
+        <argument
+            android:name="doctorId"
+            app:argType="string" />
+        <argument
+            android:name="instantDoctor"
+            app:argType="string" />
+        <argument
+            android:name="doctorDetail"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.DoctorDetail" />
+        <argument
+            android:name="onlineButtonFlag"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </dialog>
+    <fragment
+        android:id="@+id/explorePaymentFragment"
+        android:name="com.augmentcare.patient.ExplorePaymentFragment"
+        android:label="fragment_explore_payment"
+        tools:layout="@layout/fragment_explore_payment" >
+        <action
+            android:id="@+id/action_explorePaymentFragment_to_appointmentApprovedFragment"
+            app:destination="@id/appointmentApprovedFragment"
+            app:popUpTo="@+id/dashboardFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <argument
+            android:name="doctor"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.DoctorInfoLimited"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="pateintName"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="selectedDate"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="timeSlot"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="dependentId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="cardId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="endTime"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="exploreDoctorSuccessResponseObj"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.EliteDoctorSuccess"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="appointmentType"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="doctorDetailId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="medicalPracticeId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="medicalPracticeName"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="type"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="instantDoctor"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+    <activity
+        android:id="@+id/videoConsultationActivity"
+        android:name="com.augmentcare.patient.activities.VideoConsultationActivityOld"
+        android:label="lyt_video_cons"
+        tools:layout="@layout/lyt_video_cons" />
+    <activity
+        android:id="@+id/chatActivity"
+        android:name="com.augmentcare.patient.activities.ChatActivity"
+        android:label="activity_chat"
+        tools:layout="@layout/activity_chat" />
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.augmentcare.patient.fragments.EditProfileFragment"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" >
+        <action
+            android:id="@+id/action_editProfileFragment_to_verifyOTPPhoneFragment2"
+            app:destination="@id/verifyOTPPhoneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentMethodActivity"
+        android:name="com.augmentcare.patient.activities.PaymentMethodFragment"
+        android:label="activity_payment_method_new"
+        tools:layout="@layout/fragment_payment_method_new" >
+        <action
+            android:id="@+id/action_paymentMethodActivity_to_cardSelectionDialogue"
+            app:destination="@id/cardSelectionDialogue" />
+    </fragment>
+    <dialog
+        android:id="@+id/cardSelectionDialogue"
+        android:name="com.augmentcare.patient.bottomsheets.CardSelectionDialogue"
+        android:label="activity_card_selection_dialogue"
+        tools:layout="@layout/activity_card_selection_dialogue" >
+        <action
+            android:id="@+id/action_cardSelectionDialogue_to_addCardFragment"
+            app:destination="@id/addCardFragment" />
+        <action
+            android:id="@+id/action_cardSelectionDialogue_to_enterJazzCashNumberFragment"
+            app:destination="@id/enterJazzCashNumberFragment" />
+        <argument
+            android:name="planId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </dialog>
+    <dialog
+        android:id="@+id/changePasswordBottomSheet"
+        android:name="com.augmentcare.patient.bottomsheets.ChangePasswordBottomSheet"
+        android:label="bottom_sheet_change_pass"
+        tools:layout="@layout/bottom_sheet_change_pass" />
+    <fragment
+        android:id="@+id/sickNotesFragment2"
+        android:name="com.augmentcare.patient.fragments.SickNotesFragment"
+        android:label="fragment_sick_notes"
+        tools:layout="@layout/fragment_sick_notes" >
+        <argument
+            android:name="sickNotes"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.Sicknotes" />
+    </fragment>
+    <fragment
+        android:id="@+id/creditCardFragment"
+        android:name="com.augmentcare.patient.fragments.CreditCardFragment"
+        android:label="fragment_credit_card"
+        tools:layout="@layout/fragment_credit_card" >
+        <argument
+            android:name="isFromSettings"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/consultationPreviewDialogFragment"
+        android:name="com.augmentcare.patient.bottomsheets.ConsultationPreviewDialogFragment"
+        android:label="dialog_fragment_consultation_preview"
+        tools:layout="@layout/dialog_fragment_consultation_preview">
+        <argument
+            android:name="consultation"
+            android:defaultValue="@null"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.Consultation"
+            app:nullable="true" />
+        <argument
+            android:name="slotID"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_consultationPreviewFragment_to_doctorProfileFragment"
+            app:destination="@id/doctorProfileFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <argument
+            android:name="isFromNotificationFragment"
+            android:defaultValue="false"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/myClaimsFragment"
+        android:name="com.augmentcare.patient.fragments.MyClaimsFragment"
+        android:label="fragment_claims_dashboard"
+        tools:layout="@layout/fragment_claims_dashboard" >
+        <action
+            android:id="@+id/action_myClaimsFragment_to_fileAClaimFragment"
+            app:destination="@id/fileAClaimFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/fileAClaimFragment"
+        android:name="com.augmentcare.patient.claim.FileAClaimFragment"
+        android:label="layout_file_a_claim_new"
+        tools:layout="@layout/layout_file_a_claim_new">
+        <action
+            android:id="@+id/action_fileAClaimFragment_to_confirmClaimFragment"
+            app:destination="@id/confirmClaimFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <argument
+            android:name="availableLimit"
+            app:argType="float" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmClaimFragment"
+        android:name="com.augmentcare.patient.claim.ConfirmClaimFragment"
+        android:label="fragment_claim_confirm_summary"
+        tools:layout="@layout/fragment_claim_confirm_summary" >
+        <argument
+            android:name="amount"
+            app:argType="string"
+            android:defaultValue="0" />
+        <argument
+            android:name="consultation_with"
+            app:argType="string" />
+        <argument
+            android:name="speciality"
+            app:argType="string"
+            android:defaultValue="Nothing" />
+        <argument
+            android:name="location"
+            app:argType="string" />
+        <argument
+            android:name="time"
+            app:argType="string" />
+        <argument
+            android:name="timeChoose"
+            app:argType="string" />
+        <argument
+            android:name="date"
+            app:argType="string" />
+        <argument
+            android:name="organization_id"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="transaction_type"
+            app:argType="string" />
+        <argument
+            android:name="transaction_for"
+            app:argType="string" />
+        <argument
+            android:name="dependent_id"
+            app:argType="string" />
+        <argument
+            android:name="dependent_name"
+            app:argType="string" />
+        <argument
+            android:name="claim_type"
+            app:argType="string"
+            android:defaultValue="reimbursement" />
+        <argument
+            android:name="user_id"
+            app:argType="integer" />
+        <argument
+            android:name="images_list"
+            app:argType="string[]" />
+        <argument
+            android:name="details"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_confirmClaimFragment_to_claimSuccessFragment"
+            app:destination="@id/claimSuccessFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@+id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/claimSuccessFragment"
+        android:name="com.augmentcare.patient.claim.ClaimSuccessFragment"
+        android:label="fragment_claim_success_new"
+        tools:layout="@layout/fragment_claim_success_new" >
+        <argument
+            android:name="amount"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="claim_type"
+            app:argType="string" />
+        <argument
+            android:name="claim_for"
+            app:argType="string" />
+        <argument
+            android:name="claim_details"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.augmentcare.patient.fragments.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_tutorialFragment"
+            app:destination="@id/tutorialFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_splashFragment_to_updateFragment"
+            app:destination="@id/updateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/letsGetYouStartedFragment"
+        android:name="com.augmentcare.patient.fragments.LetsGetYouStartedFragment"
+        android:label="fragment_lets_get_you_started"
+        tools:layout="@layout/fragment_lets_get_you_started" >
+        <action
+            android:id="@+id/action_letsGetYouStartedFragment_to_signInSignUpActivity"
+            app:destination="@id/signInSignUpActivity"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/tutorialFragment"
+        android:name="com.augmentcare.patient.fragments.TutorialFragment"
+        android:label="fragment_tutorial"
+        tools:layout="@layout/fragment_tutorial" >
+        <action
+            android:id="@+id/action_tutorialFragment_to_letsGetYouStartedFragment"
+            app:destination="@id/letsGetYouStartedFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <argument
+            android:name="isEnd"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_tutorialFragment_to_updateFragment"
+            app:destination="@id/updateFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInSignUpActivity"
+        android:name="com.augmentcare.patient.fragments.SignInSignUpFragment"
+        android:label="fragment_sign_in_sign_up"
+        tools:layout="@layout/fragment_sign_in_sign_up" >
+        <action
+            android:id="@+id/action_signInSignUpActivity_to_updateFragment"
+            app:destination="@id/updateFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_signInSignUpActivity_to_signUpFragment"
+            app:destination="@id/signUpFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateFragment"
+        android:name="com.augmentcare.patient.fragments.UpdateFragment"
+        android:label="fragment_update"
+        tools:layout="@layout/fragment_update" >
+        <argument
+            android:name="htmltext"
+            app:argType="string" />
+        <argument
+            android:name="enforced"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.augmentcare.patient.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@+id/signUpFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_loginFragment_to_login_otp_verification_navigation"
+            app:destination="@id/login_otp_verification_navigation"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_loginFragment_to_resetPasswordFragmentByPhone"
+            app:destination="@id/resetPasswordFragmentByPhone" />
+    </fragment>
+    <fragment
+        android:id="@+id/resetPasswordFragment"
+        android:name="com.augmentcare.patient.fragments.ResetPasswordFragment"
+        android:label="fragment_reset_password_by_phone"
+        tools:layout="@layout/fragment_reset_password_by_phone" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.augmentcare.patient.fragments.SignUpFragment"
+        android:label="fragment_sign_up_new"
+        tools:layout="@layout/fragment_sign_up_new" >
+        <action
+            android:id="@+id/action_signUpFragment_to_sign_up_navigation"
+            app:destination="@id/sign_up_navigation"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_signUpFragment_to_signup_employee_code_navigation"
+            app:destination="@id/signup_employee_code_navigation"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_signUpFragment_to_login_otp_verification_navigation"
+            app:destination="@id/login_otp_verification_navigation" />
+    </fragment>
+    <include app:graph="@navigation/login_otp_verification_navigation" />
+    <action
+        android:id="@+id/action_global_dashboardFragment2"
+        app:destination="@id/dashboardFragment"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim"
+        app:launchSingleTop="true"
+        app:popUpTo="@+id/dashboardFragment"
+        app:popUpToInclusive="true"/>
+    <include app:graph="@navigation/sign_up_email_navigation" />
+    <include app:graph="@navigation/signup_employee_code_navigation" />
+    <action
+        android:id="@+id/action_global_loginFragment"
+        app:destination="@id/loginFragment"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim"
+        app:launchSingleTop="true"
+        app:popUpTo="@+id/loginFragment"
+        app:popUpToInclusive="true"/>
+    <action
+        android:id="@+id/action_global_signUpFragment"
+        app:destination="@id/signUpFragment"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim"
+        app:launchSingleTop="true"
+        app:popUpTo="@+id/signUpFragment"
+        app:popUpToInclusive="true"/>
+    <fragment
+        android:id="@+id/addDependentMemberFragment"
+        android:name="com.augmentcare.patient.fragments.AddDependentMemberFragment"
+        android:label="fragment_add_dependent"
+        tools:layout="@layout/fragment_add_dependent" />
+    <fragment
+        android:id="@+id/updateDependentMemberFragment"
+        android:name="com.augmentcare.patient.fragments.UpdateDependentMemberFragment"
+        android:label="update_dependent_fragment"
+        tools:layout="@layout/fragment_add_dependent" >
+        <argument
+            android:name="dependent"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.Dependent"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_updateDependentMemberFragment_to_fragmentOTPUpdateDependent"
+            app:destination="@id/fragmentOTPUpdateDependent" />
+    </fragment>
+    <fragment
+        android:id="@+id/subscriptionPaymentFragment"
+        android:name="com.augmentcare.patient.fragments.SubscriptionPaymentFragment"
+        android:label="fragment_subscription_payment_fragement"
+        tools:layout="@layout/fragment_subscription_payment_fragement" >
+        <action
+            android:id="@+id/action_subscriptionPaymentFragment_to_paymentSuccessfullFragment"
+            app:destination="@id/paymentSuccessfullFragment"
+            />
+        <action
+            android:id="@+id/action_subscriptionPaymentFragment_to_cardSelectionDialogue"
+            app:destination="@id/cardSelectionDialogue" />
+        <action
+            android:id="@+id/action_subscriptionPaymentFragment_to_bankAlfalahPaymentSuccessFragment"
+            app:destination="@id/bankAlfalahPaymentSuccessFragment" />
+        <action
+            android:id="@+id/action_subscriptionPaymentFragment_to_enterJazzCashNumberFragment"
+            app:destination="@id/enterJazzCashNumberFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCardFragment"
+        android:name="com.augmentcare.patient.fragments.AddCardFragment"
+        android:label="fragment_add_card"
+        tools:layout="@layout/fragment_add_card" >
+        <action
+            android:id="@+id/action_addCardFragment_to_paymentMethodActivity"
+            app:destination="@id/paymentMethodActivity" />
+        <action
+            android:id="@+id/action_addCardFragment_to_paymentSuccessfullFragment"
+            app:destination="@id/paymentSuccessfullFragment" />
+        <argument
+            android:name="AddCardFlagToggle"
+            app:argType="boolean"
+            android:defaultValue="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentSuccessfullFragment"
+        android:name="com.augmentcare.patient.fragments.PaymentSuccessfullFragment"
+        android:label="fragment_payment_successfull"
+        tools:layout="@layout/fragment_payment_successfull" />
+    <fragment
+        android:id="@+id/bankAlfalahPaymentSuccessFragment"
+        android:name="com.augmentcare.patient.fragments.BankAlfalahPaymentSuccessFragment"
+        android:label="fragment_bank_alfalah_payment_success"
+        tools:layout="@layout/fragment_bank_alfalah_payment_success" />
+    <fragment
+        android:id="@+id/resetPasswordFragmentByPhone"
+        android:name="com.augmentcare.patient.fragments.ResetPasswordFragmentByPhone"
+        android:label="ResetPasswordFragmentByPhone"
+        tools:layout="@layout/fragment_reset_password_by_phone">
+        <action
+            android:id="@+id/action_resetPasswordFragmentByPhone_to_resetPasswordFragment"
+            app:destination="@id/resetPasswordFragment" />
+        <action
+            android:id="@+id/action_resetPasswordFragmentByPhone_to_resetPasswordOTPFragment"
+            app:destination="@+id/resetPasswordOTPFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resetPasswordOTPFragment"
+        android:name="com.augmentcare.patient.fragments.ResetPasswordOTPFragment"
+        android:label="fragment_reset_password_otp"
+        tools:layout="@layout/fragment_reset_password_otp" >
+        <argument
+            android:name="phone"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="code"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+    <dialog
+        android:id="@+id/freeCallCongratsDialogFragment"
+        android:name="com.augmentcare.patient.fragments.FreeCallCongratsDialogFragment"
+        android:label="fragment_free_call_congrats_dialog"
+        tools:layout="@layout/fragment_free_call_congrats_dialog" >
+        <argument
+            android:name="callType"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_freeCallCongratsDialogFragment_to_instantAppointmentFragment"
+            app:destination="@id/instantAppointmentFragment" />
+        <action
+            android:id="@+id/action_freeCallCongratsDialogFragment_to_doctorProfileFragment"
+            app:destination="@id/doctorProfileFragment" />
+    </dialog>
+    <dialog
+        android:id="@+id/enterJazzCashNumberFragment"
+        android:name="com.augmentcare.patient.fragments.EnterJazzCashNumberFragment"
+        android:label="fragment_enter_jazz_cash_number"
+        tools:layout="@layout/fragment_enter_jazz_cash_number" >
+        <argument
+            android:name="planId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </dialog>
+    <fragment
+        android:id="@+id/claimDetailsFragment"
+        android:name="com.augmentcare.patient.fragments.claimDetailsFragment"
+        android:label="fragment_claim_details"
+        tools:layout="@layout/fragment_claim_details" >
+        <action
+            android:id="@+id/action_claimDetailsFragment_to_uploadClaimsImages"
+            app:destination="@id/uploadClaimsImages" />
+    </fragment>
+    <fragment
+        android:id="@+id/uploadClaimsImages"
+        android:name="com.augmentcare.patient.fragments.UploadClaimsImages"
+        android:label="activity_uploaded_claims"
+        tools:layout="@layout/activity_uploaded_claims" />
+    <fragment
+        android:id="@+id/fragmentOTPUpdateDependent"
+        android:name="com.augmentcare.patient.fragments.FragmentOTPUpdateDependent"
+        android:label="fragment_fragment_otpupdate_dependent"
+        tools:layout="@layout/fragment_fragment_otpupdate_dependent" >
+        <argument
+            android:name="phone"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+    <fragment
+        android:id="@+id/verifyOTPPhoneFragment"
+        android:name="com.augmentcare.patient.VerifyOTPPhoneFragment"
+        android:label="fragment_verify_otp_phone"
+        tools:layout="@layout/fragment_verify_otp_phone" >
+        <argument
+            android:name="phone"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="userInfo"
+            app:argType="com.augmentcare.patient.network.restApi.apimodels.UserDataLogin"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_verifyOTPPhoneFragment_to_thankYouFragmentVerifyPhone"
+            app:destination="@id/thankYouFragmentVerifyPhone" />
+    </fragment>
+    <fragment
+        android:id="@+id/thankYouFragmentVerifyPhone"
+        android:name="com.augmentcare.patient.ThankYouFragmentVerifyPhone"
+        android:label="fragment_thank_you_verify_phone"
+        tools:layout="@layout/fragment_thank_you_verify_phone" >
+        <argument
+            android:name="fName"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="lName"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="phone"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+</navigation>
