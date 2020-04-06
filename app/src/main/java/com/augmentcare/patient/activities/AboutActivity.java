@@ -23,6 +23,8 @@ public class AboutActivity extends AppCompatActivity {
     WebView webView;
     ProgressBar progressBar;
 
+    
+
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
