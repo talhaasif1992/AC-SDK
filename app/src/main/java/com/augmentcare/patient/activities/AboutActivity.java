@@ -15,6 +15,7 @@ import com.augmentcare.patient.R;
 
 public class AboutActivity extends AppCompatActivity {
 
+    
 
     String url = "";
     String title = "";

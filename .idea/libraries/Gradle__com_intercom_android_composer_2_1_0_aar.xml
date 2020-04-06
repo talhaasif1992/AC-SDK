@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.intercom:android-composer:2.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/38758880cef147a7f85d488b8fcda385/jetified-android-composer-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/38758880cef147a7f85d488b8fcda385/jetified-android-composer-2.1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.intercom/android-composer/2.1.0/3635ba47829a84eccff93cc0363f48981309e928/android-composer-2.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.intercom/android-composer/2.1.0/8dd51270679f1aa9e002e95cc7db97da13e67b00/android-composer-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

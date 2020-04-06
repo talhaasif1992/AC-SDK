@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.segment.analytics.android.integrations:intercom:1.1.0-beta@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eef71b4744612334c59b4505907fe954/jetified-intercom-1.1.0-beta/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eef71b4744612334c59b4505907fe954/jetified-intercom-1.1.0-beta/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.segment.analytics.android.integrations/intercom/1.1.0-beta/b74a40071bfa786a5848bd14db5eeac7407b56be/intercom-1.1.0-beta-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.segment.analytics.android.integrations/intercom/1.1.0-beta/9a42a577d1168d74f6b52e1b47f2c39a30829f92/intercom-1.1.0-beta-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AC SDK.iml" filepath="$PROJECT_DIR$/AC SDK.iml" group="AC SDK" />
+      <module fileurl="file://$PROJECT_DIR$/RangeSeekBar/RangeSeekBar.iml" filepath="$PROJECT_DIR$/RangeSeekBar/RangeSeekBar.iml" group="AC SDK/RangeSeekBar" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AC SDK/app" />
+      <module fileurl="file://$PROJECT_DIR$/weekViewCalender/weekViewCalender.iml" filepath="$PROJECT_DIR$/weekViewCalender/weekViewCalender.iml" group="AC SDK/weekViewCalender" />
+    </modules>
+  </component>
+</project>
